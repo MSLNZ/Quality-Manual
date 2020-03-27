@@ -1,0 +1,196 @@
+/*
+To create an image for "file.gv":
+
+    > dot -Tpng MSL_org_full.gv -o MSL_org_full.png
+    
+    or 
+    
+    > dot -Tpdf MSL_org_full.gv -o MSL_org_full.pdf
+    
+*/
+digraph {
+    font=Times;
+    subgraph cluster_box {
+    
+        node [  
+                fontsize = 10,
+                shape=record, 
+                fixedsize=shape     /* Don't want different widths */
+                width=1.7           /* inches */ 
+        ];
+//        style=invis;
+        labeljust="l";
+        ranksep = 0.7;              /* minimum vertical distance */
+        nodesep = "0.1 equally"     /* minimum horizontal distance */
+//        label="Administration"; 
+            
+        // Top row
+        B1 [style=invis];
+        D [label="{Director|Fleur Francois}"];
+        B2 [style=invis]; 
+        
+        {rank=same; B2, D, B1 ; }
+        
+        // Second row
+        QM [label="{Quality Manager|Blair Hall}" ];   
+        SSC[label="{Science Support\n& Administration|Cynthia Lendrum\nCheree Walker}" ];    
+        CM [label="{Chief Metrologist|Eleanor Howick}" ];
+        
+        {rank=same; QM, SSC, CM; }
+
+        // Third row
+//        MQC [style=invis];
+//            label="{Quality Council |" 
+//            +   "Jeremy Lovell-Smith\l"
+//            +   "Tim Lawson\l"
+//            +   "Chris Young\l"
+//            +   "}" 
+//        ];
+
+//        B3[ style=invis];
+        
+//        CM_signatories [ style=invis];
+//            label="{Chief Metrologist\nSignatories|" 
+//            +   "Blair Hall\l"
+//            +   "Jeremy Lovell-Smith\l"
+//            +   "Tim Lawson\l"
+//            +   "Chris Young\l"
+//            +   "}" 
+//        ];
+        
+//        {rank=same; MQC, B3, CM_signatories; }
+
+        B2 -> CM  [style=invis];
+        D -> SSC   [style=invis];  
+        B1 -> QM [style=invis];
+//        B2 -> CM -> CM_signatories [style=invis];
+//        D -> SSC -> B3  [style=invis];  
+//        B1 -> QM -> MQC  [style=invis];
+    }
+    
+    subgraph cluster_3 { 
+        fontsize = 14;
+        style="dashed";
+        labelstyle=bold;
+        labeljust="l";
+        label="Technical Areas"; 
+        
+        node [
+            fontsize = 10
+            shape = "record"
+            fixedsize=shape     /* Don't want different widths */
+            width=1.8           /* inches */
+        ]; 
+
+        TeamLengthMass[ 
+            label="{Team Manager|"
+            +   "Kevin Gudmundsson\n"
+            +   "}" 
+        ];
+
+//        TeamTemperatureLight[ style=invis];
+        
+        TeamTemperatureLight[ 
+            label="{Team Manager|" 
+            +   "Mackenzie Nicol\n"
+            +   "}" 
+        ]; 
+
+        TeamElectricalTime[ 
+            label="{Team Manager|"
+            +   "Cliff Hastings\n"
+            +   "}" 
+        ];
+        
+        {rank=same; TeamLengthMass, TeamTemperatureLight, TeamElectricalTime; }
+
+        S_length [label = "{ Length| " 
+        +   "Eleanor Howick\l"
+        +   "Lucy Forde\l"
+        +   "Chris Young\l"
+        +   "Lenice Evergreen\l"
+        +   "Nina Wronski\l"
+        +	"Johan Grand (shared T&F)\l"
+        +   "}"
+        ];
+        
+        S_mass_pressure [label = "{ Mass & Pressure| "
+        +	"Mark Clarkson\l"
+        +	"Greg Reid\l"
+        +	"Darrin Jack\l"
+        +	"Yin Hsien Fung\l"
+        +	"Rebecca Hawke\l" // Sutton-Hawke
+        +	"Peter Mcdowall\l"
+        +   "}"
+        ];
+
+        S_electrical [label = "{ Electrical| "
+        +   "Murray Early\l"
+        +	"Laurie Christian\l"
+        +	"Keith Jones\l"
+        +	"Tom Stewart\l"
+        +	"Tim Lawson\l"
+        +	"Cheng Yang (shared T&F)\l"
+        +	"Vladmir Bubanja\l" 
+         +	"Adam Knight\l" 
+        +	"Minyu Zhang\l"
+       +   "}"
+        ];
+
+        S_photometry_radiometry [label = "{Photometry & Radiometry| "
+        +   "Annette Koo\l"
+        +	"Francois Shindo\l"
+        +	"Neil Swift\l"
+        +	"Yang Yenn Tan\l"
+        +	"Joseph Borbely\l"
+        +   "}"
+        ];
+        
+//        S_chemistry [label = "{ Chemistry| Laly Samuel\l |"
+//        +	"(vacancy)\l"
+//        +   "}"
+//        ];
+        
+        S_temperature_humidity [label = "{Temperature & Humidity|  "
+        +	"Rod White\l"
+        +   "Peter Saunders\l"
+        +	"Emile Webster\l"
+        +	"Jeremy Lovell-Smith\l"
+        + 	"Farzana Masouleh\l"
+        +	"Hamish Edgar\l"
+        +	"Ben Sherson\l"
+        +   "}"
+        ];
+
+        S_time_frequency [label = "{Time & Frequency|"
+        +	"Adam Dunford\l"
+        +	"Cheng Yang (shared E)\l"
+        +	"Johan Grand (shared L)\l"
+        +   "}"
+        ];
+        
+//        S_rf [label = "{Radio Frequency|"
+//        +	"Blair Hall\l"
+//        +   "}"
+//        ];
+                
+//        B4 [style=invis];
+
+//        B5 [style=invis];
+
+//        {rank=same; S_mass_pressure, S_rf; }
+        
+    } 
+    CM -> TeamElectricalTime [style=invis];
+    SSC -> TeamTemperatureLight [style=invis];
+    QM -> TeamLengthMass  [style=invis];
+    TeamElectricalTime -> S_electrical ; 
+    S_electrical -> S_time_frequency [arrowsize=0] ; 
+//    S_electrical -> S_time_frequency ->  S_temperature_humidity; 
+//    TeamTemperatureLight
+    TeamTemperatureLight -> S_photometry_radiometry ;
+    S_photometry_radiometry ->  S_temperature_humidity[arrowsize=0] ;
+    TeamLengthMass -> S_length ;
+    S_length  ->  S_mass_pressure [arrowsize=0] ;
+//    S_length  ->  S_mass_pressure -> S_photometry_radiometry[arrowsize=0] ;
+}
