@@ -1,0 +1,186 @@
+% --------------------------------------------------------------------
+% Preamble
+% --------------------------------------------------------------------
+\documentclass[a4paper]{article}	
+
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+
+% 'microtype' can only be used with pdflatex
+\usepackage[protrusion=true,expansion=true]{microtype}
+	
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+% Spacing between lines 
+\usepackage{setspace}
+\onehalfspacing
+
+% ----- page layout 
+\usepackage[
+	a4paper,
+	top=1in, bottom=1.25in, left=1.25in, right=1.25in
+]{geometry}	
+
+\setlength{\oddsidemargin}{5mm}			% Remove 'twosided' indentation
+\setlength{\evensidemargin}{5mm}
+
+\usepackage[
+	colorlinks=true,
+	urlcolor=magenta,
+	linkcolor=blue, 	% [red]
+%	anchorcolor 	 % [black]
+	citecolor=black, 		% [green]
+	filecolor=black, 	% [cyan]
+	menucolor=black		% [red]
+]{hyperref}
+
+% Header and footer control
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+
+% ----- Table of contents 
+\usepackage{titletoc}
+\usepackage{tocloft}
+
+\renewcommand\cftsecfont{\normalfont}
+\renewcommand\cftsecpagefont{\normalfont}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftsecdotsep}}
+\renewcommand\cftsecdotsep{\cftdot}
+\renewcommand\cftsubsecdotsep{\cftdot}
+
+
+% ----- Tables
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{longtable}
+\usepackage{makecell}
+
+% ----- Units formatting 
+\usepackage{siunitx}
+
+% ------ Macros for this document
+\definecolor{yellowMSL}{RGB}{244,182,8}
+
+% Mark-up for small changes (a few words only)
+\newcommand{\proposed}[1]{{\color{cyan}{{#1}}}}
+\newcommand{\deprecated}[1]{{\color{yellowMSL}{#1}}}
+
+% Mark-up  for paragraphs. 
+\usepackage{framed}
+\newcommand{\proposedbox}[1]{
+\colorlet{shadecolor}{gray!10}
+{\color{cyan}\begin{shaded}
+	{#1}
+\end{shaded}}
+}%
+
+\newcommand{\deprecatedbox}[1]{
+\colorlet{shadecolor}{gray!10}
+{\color{yellowMSL}\begin{shaded}
+	{#1}
+\end{shaded}}
+}%
+
+% --------------------------------------------------------------------
+% Front page definitions (do not change this)
+% --------------------------------------------------------------------
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\makeatletter							% Title
+\def\printtitle{%						
+    {\centering \@title\par}}
+\makeatother									
+
+\makeatletter							% Author
+\def\printauthor{%					
+    {\raggedright \Large \@author}}				
+\makeatother							
+
+
+% --------------------------------------------------------------------
+% Details of what to put on the front page (Change this)
+% --------------------------------------------------------------------
+\title{	\Large 
+	\textsc{ Measurement Standards Laboratory of New Zealand } \\ [2.0cm]			
+	\HRule{2pt} \\ [0.25cm]						
+	\LARGE \textbf{\uppercase{Guidelines on Reporting and Publishing}}	\\% Title
+    \Large \textit{A supplement to the MSL Quality Manual}
+	\HRule{2pt} \\ [0.25cm]		
+	\Large \today			
+}
+
+\author{
+{\large 
+	Text in this \proposed{colour} is awaiting approval by the 
+	Quality Council.\\ 
+	Text in this \deprecated{colour} is deprecated 
+	and awaiting approval to be deleted.
+} \\[\baselineskip]
+ 		
+Measurement Quality Council\\	
+Measurement Standards Laboratory of New Zealand\\	
+}
+
+% ----- Control over what will be included
+\includeonly{
+%	general,
+%	reports,
+%	informal_reports,
+%	electronic_reports,
+%	copyright_and_licensing,
+}
+
+\begin{document}
+\hypersetup{pageanchor=false}	% prevents a warning message
+\fancyhf{}	% Header and footer are empty
+
+% ------------------------------------------------------------------------------
+% Title page
+% ------------------------------------------------------------------------------
+\thispagestyle{empty}		% Remove page numbering on this page
+\pagestyle{plain}			% puts pages numbers back in front matter
+
+\printtitle					% Print the title data as defined above
+  	\vfill
+\printauthor				% Print the author data as defined above
+\newpage
+
+\pagenumbering{roman}
+
+\tableofcontents
+\newpage
+
+% ----- Main document now begins
+\pagestyle{fancy}			% Turn on footer style control
+\pagenumbering{arabic}
+\hypersetup{pageanchor=true}
+\setcounter{page}{1}		% Set page numbering to begin on this page
+
+\fancyfoot[L]{Reporting and publishing}
+\fancyfoot[C]{\today}
+\fancyfoot[R]{Page \thepage\ of \pageref*{LastPage}}
+
+\setlength{\parindent}{0cm}	% No indent when starting a new paragraph
+\setlength{\parskip}{\baselineskip}	% Leave a blank line between paragraphs
+
+% ----- These files contain the document content
+\include{general}
+\include{reports}
+\include{informal_reports}
+\include{electronic_reports}
+\include{copyright_and_licensing}
+
+\appendix	% Changes the style of the headings for sections
+% \include{abbreviations}
+
+% ----- Label for the very last page, so that we can do "page x of N"
+% \input{references}	% Use input because \include creates a blank last page 
+\label{LastPage}~
+
+\end{document}
