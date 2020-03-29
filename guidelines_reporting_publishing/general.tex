@@ -1,0 +1,87 @@
+\section{General style guidelines}
+\subsection{Numbers and units}
+Numbers and units should be formatted following the NIST guide to the SI \cite{NIST_SI}.
+
+Quantity values with units should not be split over lines. Use a non-breaking spacing to prevent this (in MS Word: CTRL-SHIFT-SPACE).
+
+When numbers are expressed with more than four digits (either side of the decimal marker), a thin space is preferred to a coma, or nothing, as separator between groups of three digits. Some examples are shown in figure~\ref{fig:ex_number_formats} 
+\begin{figure}[h]
+\begin{center}
+\begin{tabular}{Sl}
+{do this} &  {not this} \\ \hline 
+76483522 & 76,483,522 \\
+43279.168 & 43,279.168 \\
+8012 & 8,012 \\ 
+18012 & 18,012 \\
+0.4917223 & 0.4917223 
+\end{tabular}
+\caption{Examples of preferred number formatting. Note also that all numbers are aligned on the location of the decimal point in the left-hand column.}
+\label{fig:ex_number_formats}
+\end{center}
+\end{figure}
+
+\subsubsection{Generating a space separator}
+It is not easy to generate a thin space in Microsoft Word. The following recipe is a possibility:
+\begin{enumerate}
+\item Type a space normally (use a non-breaking space if needs be) 
+\item Select the space and right click to obtain the context menu; select Font …
+\item Select the Advanced tab and set Spacing to `Condensed' (the ``by 1 pt'' default is OK)
+\item Click OK and copy the space to the clipboard 
+\end{enumerate}
+
+This thin space character can be pasted into numbers as required.
+
+Using Microsoft Excel it is possible to select a normal width space separator for thousands in the number formatting. Unfortunately, this does not insert spaces between groups of three digits to the right of the decimal marker. 
+
+To set up Excel to insert a space between digits to the left of the decimal marker:
+\begin{enumerate}
+\item Find the `Use system separators' check box under `Editing Options' in the Excel Options menu 
+\item Un-check this box and type a space character into the `Thousands Separator' box
+\end{enumerate} 
+
+Alternatively, to insert spaces between groups of three digits to the right of the decimal marker use a custom number format of ``\verb|#.### ### ###|''. Similarly, a custom number format of ``\verb|# ### ###|'' can be used to set a space as the thousands separator.
+
+\subsection{Mathematical language}
+Mathematical formulae and equations should be contained in complete sentences with appropriate punctuation. 
+
+Punctuation follows equations: a computation that ends a sentence needs to end with a full stop; a computation that does not end a sentence should be followed by a comma (an effective way to check for appropriate punctuation is to read text containing equations out loud). 
+
+For example, the following sentence appears in a report for a transformer test set: 
+\[
+\text{``For $\rho = \SI{-1}{\%}$ and $\varphi= \SI{1}{crad}$, }
+\varepsilon = \frac{1=0.01}{\cos(0.01)} - 1 \; =\; \SI{-0.995}{\%}\,. 
+\text{''}
+\]
+
+Often, the use of space and separate lines for equations can be helpful to a reader, as it is in this extract from a calibration report:
+\begin{quote}
+
+A comparator is used to evaluate the vector ratio QX/QN where QX is the fundamental component of the signal vector at terminals X (either voltage or current) and QN is the fundamental component of the corresponding signal vector at terminals N. 
+
+This ratio can be represented in polar co-ordinates as:
+\[
+\frac{Q_X}{Q_N} = (1 + \varepsilon) e^{\mathrm{j}\varphi} \;,
+\]
+where:
+
+\begin{tabular}{rl}
+$\varepsilon$ & is the ratio error, and \\
+$\varphi$ & is the phase error, for the polar co-ordinate system. 
+\end{tabular}
+
+\vspace{\baselineskip}
+This ratio can be also represented in rectangular co-ordinates as:
+\[
+\frac{Q_X}{Q_N} = 1 + \rho + \mathrm{j}\cdot\tan (\gamma) \;,
+\]
+where
+\begin{tabular}{rl}
+	$\rho$ &  is the ratio error, and \\
+	$\tan (\gamma)$ & is the phase error, for the rectangular co-ordinate system. 
+\end{tabular}
+
+\vspace{\baselineskip}	
+This ELTEL comparator reports the ratio error as $\rho$ (rectangular co-ordinate system) and the phase error as $\varphi$ (polar co-ordinate system).
+\end{quote}
+
+\subsubsection{Symbols and notation}
