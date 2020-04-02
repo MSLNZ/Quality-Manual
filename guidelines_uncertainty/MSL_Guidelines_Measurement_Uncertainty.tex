@@ -112,7 +112,7 @@
 \title{	\Large 
 	\textsc{ Measurement Standards Laboratory of New Zealand } \\ [2.0cm]			
 	\HRule{2pt} \\ [0.25cm]						
-	\LARGE \textbf{\uppercase{Guidelines on Reporting and Publishing}}	\\% Title
+	\LARGE \textbf{\uppercase{Measurement Uncertainty Guidelines}}	\\% Title
     \Large \textit{A supplement to the MSL Quality Manual}
 	\HRule{2pt} \\ [0.25cm]		
 	\Large \today			
@@ -133,8 +133,10 @@ Measurement Standards Laboratory of New Zealand\\
 % ----- Control over what will be included
 \includeonly{
 	GUM,
-%	expanded_uncertainty,
-%	rounding,
+	expanded_uncertainty,
+	rounding,
+	uncertainty_style,
+	references
 }
 
 \begin{document}
@@ -163,7 +165,7 @@ Measurement Standards Laboratory of New Zealand\\
 \hypersetup{pageanchor=true}
 \setcounter{page}{1}		% Set page numbering to begin on this page
 
-\fancyfoot[L]{Reporting and publishing}
+\fancyfoot[L]{Measurement uncertainty}
 \fancyfoot[C]{\today}
 \fancyfoot[R]{Page \thepage\ of \pageref*{LastPage}}
 
@@ -174,6 +176,7 @@ Measurement Standards Laboratory of New Zealand\\
 \include{GUM}
 \include{expanded_uncertainty}
 \include{rounding}
+\include{uncertainty_style}
 
 \appendix	% Changes the style of the headings for sections
 % \include{abbreviations}

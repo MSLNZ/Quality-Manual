@@ -1,0 +1,35 @@
+\section{Reporting expanded uncertainty}
+\subsection{Rounding expanded uncertainty}
+The expanded uncertainty in a measurement result should be reported to two significant figures and the associated result should be reported using the same precision. Reporting fewer than two significant figures in the expanded uncertainty can significantly affect the coverage probability (level of confidence). 
+ 
+Reporting more than two significant figures is acceptable when there is good reason to do so. The associated result should be reported using the same numerical precision as the uncertainty.
+
+There are situations where it may be desirable to round a value of expanded uncertainty to one significant figure. This is not recommended, but is acceptable when the least significant digit remaining is 5 or above. In such cases, rounding will introduce an error that is no more than \SI{10}{\%} of the unrounded value. There is no significant impact to the coverage probability in this case.
+
+The practice of consistently rounding the uncertainty up is not recommended (the reason for doing this might be to `err on the safe side' by ensuring that a conservative interval is reported). For example, 0.1234 should be not rounded to 0.13. Values should be rounded to the nearest value in the chosen number of significant figures. For example, 0.1234 rounded to two significant figures is 0.12, and 0.1251 is 0.13. 
+
+There is a NIST Good Laboratory Practice Guide \cite{GLP9} with examples reported to two significant figures. (The additional step of even/odd rounding in GLP 9 (2.3) is optional.)
+
+\subsubsection{Changing units}
+In some technical areas, a client may prefer results to be reported in units that are different from those best suited to the evaluation of measurement uncertainty. An example of this is the logarithmic units used in optical and electrical measurements. 
+
+In such cases, the usual data processing should be followed, producing a result and an expanded uncertainty in the most appropriate metrological units. Then, as a final step, the result and the limits of the expanded uncertainty interval can be transformed into the units requested by the client. 
+
+This procedure does not alter the level of confidence (coverage probability) of the expanded uncertainty. However, when a non-linear transformation is involved in the unit change, the transformed result may not be in the middle of the transformed expanded uncertainty interval and one or other of the interval limits may seem odd (for example, a limit of infinity is possible).
+ 
+The best way of reporting this information to the client needs to be considered, as does the process by which the client can use information in the report to extract values for the standard uncertainty and degrees of freedom.
+
+\subsection{Unphysical limits and expanded uncertainty}
+On occasions, the expanded uncertainty calculated for a measurement result can lead to an uncertainty interval that covers unphysical values.  For example, negative values for a quantity such as mass or optical density which must be greater than zero. This may happen, for example, if a measurement is sensitive to the variability in a sample of data. 
+
+Unphysical values should not generally be reported to a client.
+Such cases need to be carefully considered and the reason for the ‘unphysical’ result should be clear in terms of statistical fluctuations of influence quantities in the measurement process.  
+
+A procedure for adjusting the expanded uncertainty by removing unphysical values should be envisaged, with a clear understanding of how the ‘unphysical’ result arose. 
+
+In the simplest case, when a measurement model is linear, it may be acceptable to reset one of the expanded uncertainty interval limits. For instance, if an expanded uncertainty from -0.01 to 0.10 is obtained from a measurement of a quantity that must be greater than zero, the negative values may be removed to form an interval from 0.00 to 0.10. The level of confidence (coverage probability) is not changed by this operation.
+
+A more sophisticated approach is possible for linear models when there are infinite degrees of freedom \cite{FELDMAN_COUSINS_99}. Table~X in that paper describes limits of \SI{95}{\%} confidence intervals (expanded uncertainties), given the sample mean and sample standard deviation.
+
+In any case, the best format for reporting to the client needs to be considered, as does the process by which the client can extract a value for the standard uncertainty and for the degrees of freedom from the information given in the report.
+

@@ -1,0 +1,56 @@
+\section{Uncertainty style}
+\subsection{Background}
+A measured value is an estimate of the measurand. The measurement is subject to error, and it is that unknown error that leads to uncertainty: the measured value is only an approximation of the measurand. So, for a measurand $Y$ and some measured value of the measurand $y$, the standard uncertainty $u(y)$ is, strictly speaking, \textit{the uncertainty of $y$ as an estimate of $Y$}.
+
+A combined standard uncertainty is calculated using the measurement model and the GUM rules for uncertainty propagation, with information about influence quantities. 
+
+Expanded uncertainty is of a different nature to standard uncertainty: an expanded uncertainty is used to make an inference about the measurand, whereas a standard uncertainty describes the variability of something that is inherently unpredictable, like the measurement error.
+ 
+An expanded uncertainty is also qualified by a level of confidence, or coverage probability, whereas a standard uncertainty is not. There is no right or wrong value for the expanded uncertainty at a particular level of confidence.
+
+To calculate an expanded uncertainty, one needs to know the distribution of measurement error (the default GUM assumption is Gaussian), the combined standard uncertainty associated with the result, the degrees of freedom associated with the combined standard uncertainty and the required level of confidence. 
+
+In principle, we wish to report sufficient information for clients to work out (if not provided in the report): the combined standard uncertainty, the degrees of freedom, the expanded uncertainty and the associated level of confidence. 
+
+\subsection{Recommendations}
+\subsubsection{Only the measured value is an estimate}
+Obtaining an estimate of the measurand is the primary purpose of a measurement. So, it is unhelpful to use the term ‘estimate’ in connection with statements about values of uncertainty too. This should be avoided: uncertainty can be ‘calculated’, ‘evaluated’, etc, but not ‘estimated’. So,
+
+Instead of:
+\begin{quote}\textit{
+These uncertainties are estimated by combining the uncertainties of the calibration process \ldots}
+\end{quote} 
+Prefer:
+\begin{quote}\textit{
+These uncertainties were calculated by combining the components of uncertainty associated with the calibration process \ldots} 
+\end{quote}
+
+\subsubsection{Use the term `expanded uncertainty'}
+Our calibration reports refer to the current edition of the GUM for information about the terms we use. So it is unhelpful to abbreviate `expanded uncertainty' unless the full term has been used elsewhere in context.  
+ 
+Instead of:
+\begin{quote}\textit{
+The uncertainty is based on a coverage factor of \ldots}
+\end{quote} 
+Prefer:
+\begin{quote}\textit{
+The expanded uncertainty is calculated with a coverage factor \ldots} 
+\end{quote}
+
+\subsubsection{The level of confidence is assumed known}
+Given the level of confidence for a particular coverage factor it is possible to work out the corresponding standard uncertainty and degrees of freedom (assuming a Gaussian error distribution).
+ 
+Nonetheless, if we consider the meaning of level of confidence, we can only expect to approximate the nominal value in practice.
+
+The primary reason for reporting the level of confidence (or coverage probability) is to allow a client to work out degrees of freedom, so avoid language that would suggest otherwise.
+
+Instead of:
+\begin{quote}\textit{
+\ldots expanded uncertainties were calculated using a coverage factor $k =2.1$ and define an interval estimated to have a \SI{95}{\%} level of confidence.}
+\end{quote} 
+Prefer:
+\begin{quote}\textit{
+\ldots expanded uncertainties were calculated using a coverage factor $k = 2.1$ for a \SI{95}{\%} level of confidence.} 
+\end{quote}
+
+Situations can occur in which we are confident that the actual coverage of a measurement procedure is higher than the nominal value reported. For example, a value of the expanded uncertainty may be increased to match our current IANZ scope. In such cases, our statements should not be changed to something like `\ldots at least \SI{95}{\%} level of confidence \ldots'. Instead, either include additional information in the report to clarify how the client can use the information provided, or simply write the report as if the expanded uncertainty had not been increased.

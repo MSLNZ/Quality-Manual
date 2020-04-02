@@ -1,0 +1,38 @@
+\section{Fixed-digit indications}
+\subsection{Rounding}
+The rounding guidelines in NIST Good Laboratory Practice Guide \cite{GLP9}  apply when instrument readings are formatted in a fixed number of digits.
+
+\subsubsection{Single readings}
+
+The expression of uncertainty in a single indication should not be constrained by the format of the data.  
+
+For example, suppose an indication is limited to integer values and that the number $101$ is observed. It is \underline{not} recommended to report the result as $101,\; U=1$. The standard uncertainty (of a uniform distribution of error between $0$ and $1$) is $0.29$. So with a coverage factor $k=2$, this result would be reported as $101.00,\; U=0.58$ (or perhaps as $101.0,\; U=0.6$).
+
+\paragraph{Why report more digits than the instrument can display?} 
+The extra digits are needed because the uncertainty of the reading, as an estimate of the quantity being measured, determines the number of significant figures required.
+
+For the case of an instrument that displays truncated readings, a simple measurement model is \[
+Y=w+E\;,
+\]
+where $w$ is the reading, which is known, and $E$ is the truncation error, which is unknown. The error can be described statistically, using a uniform distribution with zero mean and a range equal to the least significant digit displayed. 
+
+The reported value is $y$, an estimate of $Y$. This is the sum of $w$ and the best estimate of $E$, which is zero.  So, \[
+y=w+0\;.
+\]
+The uncertainty of $y$, as an estimate of $Y$, is found by combining the uncertainty associated with $w$, which is zero (we know exactly what the reading is), with the uncertainty associated with taking zero as an estimate of $E$, which is $0.29$. So,\[
+u(y)= \sqrt{(0^2+0.29^2 }=0.29\;.  
+\]
+
+\subsubsection{Multiple readings}
+The uncertainty associated with the mean of a series of readings with a fixed number of decimal places can be evaluated by a simple method that takes advantage of variations in the data to reduce the size of the uncertainty \cite{WILLINK_07}. Section 3 of Willink's paper describes the best way of processing data in this situation (a view).
+ 
+This method is has been independently corroborated as best-practice by NIST.  It is available in GTC software as the function \verb|type_a.estimate_digitised()|.   The following example of use is in the GTC documentation:
+\begin{quote}
+\begin{verbatim}
+# LSD = 0.0001, data varies between -0.0055 and -0.0057
+>>> seq = (-0.0056,-0.0055,-0.0056,-0.0056,-0.0056, 
+...      -0.0057,-0.0057,-0.0056,-0.0056,-0.0057,-0.0057)
+>>> type_a.estimate_digitized(seq,0.0001)
+ureal(-0.005627272727272727, 1.9497827808661157e-05, 10)
+\end{verbatim}
+\end{quote}
