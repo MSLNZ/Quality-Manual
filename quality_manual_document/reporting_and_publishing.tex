@@ -75,7 +75,9 @@ Details about the reporting format requirements are given in the Metrological Re
 \paragraph{Statement about applicability of results}
 For most calibration work, the MSL report format clearly identifies the item(s) being calibrated or tested. However, there are some situations where MSL is effectively sent an item or items that may be considered, from the point of view of the client, as a sample from a larger population (e.g., a piece of shade-cloth sent to MSL for characterisation). In all such cases, the MSL report shall clearly state that the results provided relate only to the item(s) actually measured. This is a requirement of the 17025:2018 standard \cite[clause 7.8.2.1~(l)]{ISO_17025}.      
 
-\subsubsection{Issuing Reports and Summary Data}
+\deprecatedbox{\subsubsection*{Issuing Reports and Summary Data}}
+\proposedbox{\subsubsection{Issuing Paper Reports and Summary Data}}
+
 Only one original for each report shall be produced, signed, and sent to the client. 
 
 A scanned copy of this signed report shall be filed in the central file system ( see~\S\ref{ss:central_file_system} ). 
@@ -90,15 +92,38 @@ Clients may request calibration information in electronic format, such as an Exc
 
 Every effort should be made to ensure that the items calibrated or tested will be returned to the client at the same time as the report. If the report is delayed, the client should be informed. If it is known in advance that the report will be issued after return of the client’s items, the client should be advised before the work begins.
 
-\subsubsection{Withdrawal due to a reporting error or measurement error}
+
+\proposedbox{\subsubsection{Issuing Electronic Reports and Summary Data}
+The electronic report file shall be signed using the procedure described in \S\ref{sss:electronic_signatures}, which will ensure that a copy is saved in the central file system ( see~\S\ref{ss:central_file_system} ). 
+
+An electronic copy of the data and documents used to create the report file shall be retained in the section file system ( see~\S\ref{ss:section_file_systems} ). 
+   
+The client will be supplied with a copy of the report and the MD5 checksum for the report file ( see~\ref{} ).
+
+Clients may request other calibration information in electronic format, such as an Excel spreadsheet. Such information may be provided, but only after the report has been issued. The electronic data provided must be checked with the same care given to written reports. Moreover, it should be made clear to the client that the report remains the authoritative document. 
+}
+
+Every effort should be made to ensure that the items calibrated or tested will be returned to the client at the same time as the report. If the report is delayed, the client should be informed. If it is known in advance that the report will be issued after return of the client’s items, the client should be advised before the work begins.
+
+\subsubsection{Signing electronic reports}
+\label{sss:electronic_signatures}
+??????
+
+\subsubsection{Withdrawal due to a reporting or measurement error}
 \label{sss:reissue_report}
-If any significant error is found in the most recent report on an instrument or artefact, within five years of first issue, the report must be withdrawn.``Significant” would include a significant error of measurement or data processing, incorrect values, dates, serial numbers, etc, but not simple spelling or typing errors unless these could be misinterpreted.
+If any significant error is found in the most recent report on an instrument or artefact, within five years of first issue, the report must be withdrawn.``Significant'' would include a significant error of measurement or data processing, incorrect values, dates, serial numbers, etc, but not simple spelling or typing errors unless these could be misinterpreted.
 
 In order to reissue the report, the instrument or artefact may need to be recalled so the test or calibration can be repeated. A new test date will be used if the test or calibration was repeated.
 
 Any change of information in the reissued report shall be clearly identified and, where appropriate, the reason for change shall be given.
 
-To withdraw a report (NB changes to the central file of reports should only be done by an MSL administrator or the Quality Manager):
+\deprecated{To withdraw a report} 
+
+
+
+\proposed{
+
+\paragraph{To withdraw paper reports}\mbox{}}
 \begin{enumerate}
 \item Contact the client and ask for the return of the original report and also that any copies be destroyed. 
 
@@ -114,7 +139,7 @@ To withdraw a report (NB changes to the central file of reports should only be d
 
 \item Produce a corrected report using the original report number.  Retain the original issue dates throughout, but add, after each issue date, the words ‘reissued on [new issue date]’, e.g. ‘Report No. Pressure/1997/155, 11 August 1997, reissued on 10 February 2000’.
 
-\item Any change of information in the report must be clearly identified and, where appropriate, the reason for the change should be included in the report \proposed{(some advice on formatting this notification is given in the `Reissued reports' section of the Guidelines on Reporting and Publishing \cite{MSL_Reporting_Guidelines} ).}
+\item Any change of information in the report must be clearly identified and, where appropriate, the reason for the change should be included in the report \proposed{(some advice on formatting is given in the `Reissued reports' section of the Guidelines on Reporting and Publishing \cite{MSL_Reporting_Guidelines} ).}
 
 \item Reissue the corrected report and the cancelled original report to the client.
 
@@ -125,13 +150,51 @@ To withdraw a report (NB changes to the central file of reports should only be d
 \item The metadata tag ‘reissued’ for the EDI document should be set.
 \end{itemize}
 
-\item If appropriate, amend the technical procedure associated with the report to reduce the likelihood of a similar mistake occurring in the future.
-
-\item If the likelihood of a similar error occurring in the future can be reduced by amending the Quality Manual, follow the Improvement Procedure.  
 \end{enumerate}
 
+\proposedbox{\paragraph{To withdraw electronic reports}
+\begin{enumerate}
+\item Contact the client and ask that any copies be destroyed. 
+
+\item Electronic copies in the central file, and in the section file, should be cancelled:
+\begin{itemize}
+\item For a PDF file, add the text “{\color{red}CANCELLED}” to each page (in red text, with bold, large, font size – there are PDF reader programmes that can do this). 
+\item For the central file copy, the name of the file should not be changed. Rather, the cancelled file should be saved with the same name and a note added about the cancelation in the EDI version history of the document. 
+\end{itemize}
+
+\item Produce a corrected report using the original report number.  Retain the original issue dates throughout, but add, after each issue date, the words ‘reissued on [new issue date]’, e.g. ‘Report No. Pressure/1997/155, 11 August 1997, reissued on 10 February 2000’.
+
+\item Any change of information in the report must be clearly identified and, where appropriate, the reason for the change should be included in the report \proposed{(some advice on formatting is given in the `Reissued reports' section of the Guidelines on Reporting and Publishing \cite{MSL_Reporting_Guidelines} ).}
+
+\item Reissue the corrected report and a copy of the cancelled original report to the client. Include an MD5 checksum for the corrected report.
+
+\item File copies of the signed corrected original in the central file and the section file. 
+\begin{itemize}
+\item The name of the central file copy should not be changed (i.e., the new copy of the report replaces the cancelled original). 
+\item Add a note to the EDI version history to indicate a reissued report.
+\item Set the EDI document metadata tag ‘reissued’.
+\end{itemize}
+\end{enumerate}
+
+\paragraph{Note} changes to the central file should only be carried out by an MSL administrator or the Quality Manager.
+
+\paragraph{Finally} If appropriate, amend the technical procedure associated with the report to reduce the likelihood of a similar mistake occurring in the future.
+
+Also, if the likelihood of a similar error occurring in the future can be reduced by amending the Quality Manual, follow the Improvement Procedure.  
+}
+
+
+
 \subsubsection{Replacing a report at the client's request}
-When a report has been lost, a replacement may be issued. The new report must be identified as a replacement and have a new report issue date (i.e. to ensure that any original is unique). The replacement must be signed, as above, and copies stored in the central file and section job file. 
+When a report has been lost, a replacement may be issued. 
+
+\proposed{\paragraph{Electronic reports} no special procedure is required to replace an electronic report. Simply dispatch a copy of the report to the client, together with the corresponding MD5 checksum.
+
+There is no need to record the replacement of the report in the central file system.}
+
+\proposed{
+\paragraph{Paper reports}\mbox{}}
+The new report must be identified as a replacement and have a new report issue date (i.e. to ensure that any original is unique). The replacement must be signed and copies stored in the central file and section job file. 
 \begin{itemize}
 \item The first replacement of a lost report should be labelled ``Replacement of Report \ldots". 
 \begin{itemize}
@@ -143,33 +206,33 @@ When a report has been lost, a replacement may be issued. The new report must be
 
 \item Reissue the report to the client.
 
-\item Make copies of the report and file in the central file and the section file.
+\item File copies of the report in the central file and the section file.
 \begin{itemize}
 \item The name of the central file copy should not be changed (i.e., the new copy of the report replaces the original). 
-\item A note should be added in the EDI version history to indicate a replaced report.
-\item The metadata tag ‘reissued’ for the EDI document should be set.
+\item Add a note to indicate a replaced report in the EDI version history.
+\item Set the EDI document metadata tag ‘reissued’.
 \end{itemize}
 \end{itemize}
 
-Note, the client, on request, may be supplied with a copy of the original report, in which case the report is not considered ``reissued". The client should be advised that the copy is not authoritative and, for example, may not be acceptable in court.
+\proposed{Note, the client, on request, may be supplied with a copy of an original paper report, in which case the copy is not considered ``reissued". However, the client should be advised that the copy is not authoritative and, for example, may not be acceptable in court.}
 
 \subsubsection{Replacing a report issued with an incorrect report number}
 \proposedbox{
 A replacement may be issued if a report has been issued with an incorrect report number. 
 
-The first steps of the procedure in \S\ref{sss:reissue_report} for re-issuing a report should be followed, namely:
+Follow the first steps of the procedure in \S\ref{sss:reissue_report} for re-issuing a report, namely:
 
 \begin{enumerate}
-\item Contact the client and ask for the return of the original report and also that any copies be destroyed. 
+\item If a paper report was issued, contact the client and ask for the return of the original report and also that any copies be destroyed. If an electronic report was issued, ask the client to destroy all copies.
 
-\item On receipt of the original report, stamp all pages ``{\color{red}CANCELLED}” and initial. 
+\item On receipt of an original paper report, stamp all pages ``{\color{red}CANCELLED}” and initial.
 
-\item Where paper photocopies are held by MSL, all pages should be stamped ``{\color{red}CANCELLED}” and initialled.
+\item Where paper photocopies of paper reports are held by MSL, all pages should be stamped ``{\color{red}CANCELLED}” and initialled.
 
 \item Electronic copies in the central file, and in the section file, should be cancelled:
 \begin{itemize}
-\item For a PDF file, add the text “{\color{red}CANCELLED}” to each page (in red text, with bold, large, font size – there are PDF reader programmes that can do this). 
-\item For the central file copy, the name of the file should not be changed. Rather, the cancelled file should be saved using the same name and a note added about the cancellation to the EDI version history of the document. 
+\item For a PDF file, add “{\color{red}CANCELLED}” to each page (in red text, with bold, large, font size – there are PDF reader programmes that can do this). 
+\item For the central file, the file name should not be changed. Rather, the cancelled file should be saved with the same name and a note added to the EDI version history of the document about the cancellation. 
 \end{itemize}
 \end{enumerate}
 
@@ -190,8 +253,8 @@ Report No.\ Humidity/2020/428, 3 March 2020\\
 \item Make copies of the report and file in the central file and the section file.
 \begin{itemize}
 \item The name of the central file copy should be the new file name. 
-\item The metadata tag ‘reissued’ for the EDI document should be set.
-\item A note should be added in the EDI version history to indicate a replaced report.
+\item Set the central file metadata tag `reissued' for the EDI document.
+\item Add a note to the EDI version history to indicate a replaced report.
 \end{itemize}
 \item Reissue the report.
 
