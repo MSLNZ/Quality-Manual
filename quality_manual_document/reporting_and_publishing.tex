@@ -93,22 +93,77 @@ Clients may request calibration information in electronic format, such as an Exc
 Every effort should be made to ensure that the items calibrated or tested will be returned to the client at the same time as the report. If the report is delayed, the client should be informed. If it is known in advance that the report will be issued after return of the client’s items, the client should be advised before the work begins.
 
 
-\proposedbox{\subsubsection{Issuing Electronic Reports and Summary Data}
-The electronic report file shall be signed using the procedure described in \S\ref{sss:electronic_signatures}, which will ensure that a copy is saved in the central file system ( see~\S\ref{ss:central_file_system} ). 
+\proposedbox{
+\subsubsection{Issuing Electronic Reports and Summary Data}
+\label{sss:issuing_electronic_reports}
+\begin{itemize}
 
-An electronic copy of the data and documents used to create the report file shall be retained in the section file system ( see~\S\ref{ss:section_file_systems} ). 
+\item Before deciding to issue a report, ensure that the client is happy to receive a report in electronic format.
+\item The electronic report file shall be signed following the procedure described in \S\ref{sss:electronic_signatures}, which will ensure that a copy is saved in the central file system ( see~\S\ref{ss:central_file_system} ). 
+
+\item An electronic copy of the data and documents used to create the report file shall be retained in the section file system ( see~\S\ref{ss:section_file_systems} ). 
    
-The client will be supplied with a copy of the report and the MD5 checksum for the report file ( see~\ref{} ).
+\item The client will be supplied with a copy of the report and the MD5 checksum for the report file (see ``Checking the integrity of a report file'', in MSL Guidelines on reporting and publishing \cite{MSL_Reporting_Guidelines}).
 
-Clients may request other calibration information in electronic format, such as an Excel spreadsheet. Such information may be provided, but only after the report has been issued. The electronic data provided must be checked with the same care given to written reports. Moreover, it should be made clear to the client that the report remains the authoritative document. 
+The following message should be communicated when providing the report to the client (with appropriate replacements of \textit{<report ID>} and  \textit{<checksum>})
+\begin{quote}
+MSL's electronic calibration, test and measurement reports are produced in the same format as paper reports, but are provided as electronic files (PDF format). Distributing electronic reports carries with it a small risk that the file may become corrupted, or inadvertently changed somehow, after it has left MSL. To address this, we provide what is called an MD5 checksum, which allows the integrity of a file to be checked. You can use the MD5 checksum to make sure that the file you receive is valid. MSL Technical Guide 43 explains how to do this (online: \url{https://www.measurement.govt.nz/download/55}).
+
+\vspace{\baselineskip}
+The MD5 checksum for report \textit{<report ID>} is:   \textit{<checksum>} 
+\end{quote}
+
+\item Clients may request other calibration information in electronic format, such as an Excel spreadsheet. Such information may be provided, but only after the report has been issued. The electronic data provided must be checked with the same care given to written reports. Moreover, it should be made clear to the client that the report remains the authoritative document. 
+
+\end{itemize}
 }
 
 Every effort should be made to ensure that the items calibrated or tested will be returned to the client at the same time as the report. If the report is delayed, the client should be informed. If it is known in advance that the report will be issued after return of the client’s items, the client should be advised before the work begins.
 
+\proposedbox{
 \subsubsection{Signing electronic reports}
 \label{sss:electronic_signatures}
-??????
+The section ``Electronic reports'' of the MSL Guidelines on Reporting and Publishing contains information on how to produce a calibration report file with a suitable MSL report cover and how to insert electronic signature images in that file \cite{MSL_Reporting_Guidelines}.
 
+Signing must be carried out according to the following procedure, which is intended to create a record of the process.
+
+\begin{enumerate}
+\item Create a PDF version of the report file
+\item Upload the PDF file to the ``Calibration Reports'' library in EDI. Note, the file name should be in the following format:
+\begin{quote}
+\texttt{"section name"\_"section file number"\_year}
+\end{quote}
+\item Fill in the metadata for the report. For example,
+\begin{center}
+\includegraphics[scale=.9]{pictures/metadata_signed_report}
+\end{center}
+\item The first person can now `sign' the PDF report file by inserting an image of their signature with PDF reader software. 
+
+The person who signed the file must be the one to upload the new version to EDI.
+
+Note,
+\begin{itemize}
+\item the document must be opened with a PDF reader running on a local machine (this is a technical problem: at the moment, it is not possible to directly sign and re-store the document while in a browser)
+\item it is not necessary to initial each page (as is done with paper reports)
+\item the file name must not be changed: EDI will hide the previous version and record who uploaded the new version
+\end{itemize}
+
+\item The second person can now sign, following the process above.
+\item Chief Metrologist, or delegate, then signs. 
+
+Before uploading the final version, signed by everyone, an MD5 checksum is calculated (see section ``Checking the integrity of a report file'' in the MSL Guidelines for reporting and publishing \cite{MSL_Reporting_Guidelines}). 
+
+During uploading of the final version, this MD5 checksum must be saved as a `comment'. It must also be given to the client ( see \S\ref{sss:issuing_electronic_reports} )
+
+\item If corrections to the report are found necessary during the signing process, the faulty version can be annotated with comments, highlighted sections, etc (using a PDF reader), and then uploaded to EDI. Doing so maintains a full record of the signing/issuing process. Once corrected, the new version of the report must be signed again by everyone.
+\end{enumerate}
+
+This process generates a version history that looks a bit like the one below. All intermediate versions can be viewed. Note the checksum is associated with the final version.
+
+\begin{center}
+\includegraphics[scale=.6]{pictures/version_history_report}
+\end{center}
+}
 \subsubsection{Withdrawal due to a reporting or measurement error}
 \label{sss:reissue_report}
 If any significant error is found in the most recent report on an instrument or artefact, within five years of first issue, the report must be withdrawn.``Significant'' would include a significant error of measurement or data processing, incorrect values, dates, serial numbers, etc, but not simple spelling or typing errors unless these could be misinterpreted.
@@ -223,7 +278,12 @@ A replacement may be issued if a report has been issued with an incorrect report
 Follow the first steps of the procedure in \S\ref{sss:reissue_report} for re-issuing a report, namely:
 
 \begin{enumerate}
-\item If a paper report was issued, contact the client and ask for the return of the original report and also that any copies be destroyed. If an electronic report was issued, ask the client to destroy all copies.
+\item 
+\begin{itemize} 
+\item If a paper report was issued, contact the client and ask for the return of the original report and also that any copies be destroyed. 
+
+\item If an electronic report was issued, ask the client to destroy all copies.
+\end{itemize}
 
 \item On receipt of an original paper report, stamp all pages ``{\color{red}CANCELLED}” and initial.
 
@@ -232,11 +292,11 @@ Follow the first steps of the procedure in \S\ref{sss:reissue_report} for re-iss
 \item Electronic copies in the central file, and in the section file, should be cancelled:
 \begin{itemize}
 \item For a PDF file, add “{\color{red}CANCELLED}” to each page (in red text, with bold, large, font size – there are PDF reader programmes that can do this). 
-\item For the central file, the file name should not be changed. Rather, the cancelled file should be saved with the same name and a note added to the EDI version history of the document about the cancellation. 
+\item Do not change the file name in the central file. Rather, the cancelled file should be saved with the same name and a note added to the EDI version history of the document about the cancellation. 
 \end{itemize}
 \end{enumerate}
 
-The rest of the procedure is as follows: 
+The rest of the procedure is then as follows: 
 \begin{enumerate}
 \setcounter{enumi}{4}
 \item The replacement report should be labelled with the correct (new) report number, followed by a line begining ``Replacement of Report \ldots", which describes the previously issued report. For example, 
@@ -250,10 +310,10 @@ Report No.\ Humidity/2020/428, 3 March 2020\\
 \item Where an original signatory is not available, a person appointed to carry out the test and calibration work, or checking, in the designated field may sign the report per persona (p.p.).  The name of the original signatory must remain on the report.
 \end{itemize}
 
-\item Make copies of the report and file in the central file and the section file.
+\item Copies of the report must be stored in the central file and the section file.
 \begin{itemize}
 \item The name of the central file copy should be the new file name. 
-\item Set the central file metadata tag `reissued' for the EDI document.
+\item The central file metadata tag `reissued' should be set.
 \item Add a note to the EDI version history to indicate a replaced report.
 \end{itemize}
 \item Reissue the report.
