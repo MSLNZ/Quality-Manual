@@ -32,15 +32,17 @@
 \setlength{\oddsidemargin}{5mm}			% Remove 'twosided' indentation
 \setlength{\evensidemargin}{5mm}
 
+\usepackage{xr-hyper}
 \usepackage[
 	colorlinks=true,
 	urlcolor=magenta,
 	linkcolor=blue, 	% [red]
 %	anchorcolor 	 % [black]
-	citecolor=black, 		% [green]
-	filecolor=black, 	% [cyan]
+	citecolor=blue, 		% [green]
+	filecolor=cyan, 	% [cyan]
 	menucolor=black		% [red]
 ]{hyperref}
+\newcommand{\grpPath}{../guidelines_reporting_publishing}
 
 % Header and footer control
 \usepackage{fancyhdr}
@@ -131,11 +133,11 @@ Measurement Standards Laboratory of New Zealand\\
 }
 
 % ----- Control over what will be included
-\includeonly{
-	general,
-	reports,
-	copyright_and_licensing
-}
+%\includeonly{
+%	general,
+%	reports,
+%	copyright_and_licensing
+%}
 
 \begin{document}
 \hypersetup{pageanchor=false}	% prevents a warning message
@@ -171,9 +173,9 @@ Measurement Standards Laboratory of New Zealand\\
 \setlength{\parskip}{\baselineskip}	% Leave a blank line between paragraphs
 
 % ----- These files contain the document content
-\include{general}
-\include{reports}
-\include{copyright_and_licensing}
+\input{\grpPath/general}\clearpage
+\input{\grpPath/reports}\clearpage
+\input{\grpPath/copyright_and_licensing}\clearpage
 
 \appendix	% Changes the style of the headings for sections
 % \include{abbreviations}
