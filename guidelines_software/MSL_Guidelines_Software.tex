@@ -32,13 +32,20 @@
 \setlength{\oddsidemargin}{5mm}			% Remove 'twosided' indentation
 \setlength{\evensidemargin}{5mm}
 
+% ----- To allow cross-referencing between documents
+%       a common root folder must be established
+%       this command encapsulates the path
+\newcommand{\gsdPath}{../guidelines_software}%
+
+% ------ To cross reference other documents
+\usepackage{xr-hyper}
 \usepackage[
 	colorlinks=true,
 	urlcolor=magenta,
 	linkcolor=blue, 	% [red]
 %	anchorcolor 	 % [black]
-	citecolor=black, 		% [green]
-	filecolor=black, 	% [cyan]
+	citecolor=blue, 		% [green]
+	filecolor=cyan, 	% [cyan]
 	menucolor=black		% [red]
 ]{hyperref}
 
@@ -112,7 +119,7 @@
 \title{	\Large 
 	\textsc{ Measurement Standards Laboratory of New Zealand } \\ [2.0cm]			
 	\HRule{2pt} \\ [0.25cm]						
-	\LARGE \textbf{\uppercase{Software Development and Maintenance Guidelines}}	\\% Title
+	\LARGE \textbf{\uppercase{Software Development Guidelines}}	\\% Title
     \Large \textit{A supplement to the MSL Quality Manual}
 	\HRule{2pt} \\ [0.25cm]		
 	\Large \today			
@@ -128,12 +135,6 @@
  		
 Measurement Quality Council\\	
 Measurement Standards Laboratory of New Zealand\\	
-}
-
-% ----- Control over what will be included
-\includeonly{
-	introduction,
-	style,
 }
 
 \begin{document}
@@ -162,7 +163,7 @@ Measurement Standards Laboratory of New Zealand\\
 \hypersetup{pageanchor=true}
 \setcounter{page}{1}		% Set page numbering to begin on this page
 
-\fancyfoot[L]{Software}
+\fancyfoot[L]{Measurement uncertainty}
 \fancyfoot[C]{\today}
 \fancyfoot[R]{Page \thepage\ of \pageref*{LastPage}}
 
@@ -170,14 +171,14 @@ Measurement Standards Laboratory of New Zealand\\
 \setlength{\parskip}{\baselineskip}	% Leave a blank line between paragraphs
 
 % ----- These files contain the document content
-\include{introduction}
-\include{style}
+\input{\gsdPath/introduction}\clearpage
+\input{\gsdPath/style}\clearpage
 
 \appendix	% Changes the style of the headings for sections
-% \include{abbreviations}
+% \input{abbreviations}clearpage
 
 % ----- Label for the very last page, so that we can do "page x of N"
-\input{references}	% Use input because \include creates a blank last page 
+\input{\gsdPath/references}	% Use input because \include creates a blank last page 
 \label{LastPage}~
 
 \end{document}
