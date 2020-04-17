@@ -1,4 +1,4 @@
-# Quality-Manual
+# Quality Manual
 LaTeX source files for the MSL Quality Manual and supplement documents.
 
 The MSL Quality Manual is typeset using pdfLaTeX. A number of source files are complied to produce the final PDF document. There are several supplements to the Quality Manual that are also typeset in pdfLaTeX. All of the source files needed to produce the Quality Manual and its supplements are available in this repository.
