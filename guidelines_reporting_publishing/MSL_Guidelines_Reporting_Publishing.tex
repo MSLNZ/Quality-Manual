@@ -32,6 +32,11 @@
 \setlength{\oddsidemargin}{5mm}			% Remove 'twosided' indentation
 \setlength{\evensidemargin}{5mm}
 
+% ----- To allow cross-referencing between documents
+%       a common root folder must be established
+%       this command encapsulates the path
+\newcommand{\grpPath}{../guidelines_reporting_publishing}
+
 \usepackage{xr-hyper}
 \usepackage[
 	colorlinks=true,
@@ -42,7 +47,6 @@
 	filecolor=cyan, 	% [cyan]
 	menucolor=black		% [red]
 ]{hyperref}
-\newcommand{\grpPath}{../guidelines_reporting_publishing}
 
 % Header and footer control
 \usepackage{fancyhdr}
@@ -181,7 +185,7 @@ Measurement Standards Laboratory of New Zealand\\
 % \include{abbreviations}
 
 % ----- Label for the very last page, so that we can do "page x of N"
-\input{references}	% Use input because \include creates a blank last page 
+\input{references}	% Don't create a blank last page 
 \label{LastPage}~
 
 \end{document}

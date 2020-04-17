@@ -32,13 +32,20 @@
 \setlength{\oddsidemargin}{5mm}			% Remove 'twosided' indentation
 \setlength{\evensidemargin}{5mm}
 
+% ----- To allow cross-referencing between documents
+%       a common root folder must be established
+%       this command encapsulates the path
+\newcommand{\guPath}{../guidelines_uncertainty}%
+
+% ------ To cross reference other documents
+\usepackage{xr-hyper}
 \usepackage[
 	colorlinks=true,
 	urlcolor=magenta,
 	linkcolor=blue, 	% [red]
 %	anchorcolor 	 % [black]
-	citecolor=black, 		% [green]
-	filecolor=black, 	% [cyan]
+	citecolor=blue, 		% [green]
+	filecolor=cyan, 	% [cyan]
 	menucolor=black		% [red]
 ]{hyperref}
 
@@ -130,15 +137,6 @@ Measurement Quality Council\\
 Measurement Standards Laboratory of New Zealand\\	
 }
 
-% ----- Control over what will be included
-\includeonly{
-	GUM,
-	expanded_uncertainty,
-	rounding,
-	uncertainty_style,
-	references
-}
-
 \begin{document}
 \hypersetup{pageanchor=false}	% prevents a warning message
 \fancyhf{}	% Header and footer are empty
@@ -173,16 +171,16 @@ Measurement Standards Laboratory of New Zealand\\
 \setlength{\parskip}{\baselineskip}	% Leave a blank line between paragraphs
 
 % ----- These files contain the document content
-\include{GUM}
-\include{expanded_uncertainty}
-\include{rounding}
-\include{uncertainty_style}
+\input{\guPath/GUM}\clearpage
+\input{\guPath/expanded_uncertainty}clearpage
+\input{\guPath/rounding}clearpage
+\input{\guPath/uncertainty_style}clearpage
 
 \appendix	% Changes the style of the headings for sections
-% \include{abbreviations}
+% \input{abbreviations}clearpage
 
 % ----- Label for the very last page, so that we can do "page x of N"
-\input{references}	% Use input because \include creates a blank last page 
+\input{\guPath/references}	% Use input because \include creates a blank last page 
 \label{LastPage}~
 
 \end{document}

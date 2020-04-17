@@ -30,6 +30,11 @@
 \setlength{\oddsidemargin}{5mm}			% Remove 'twosided' indentation
 \setlength{\evensidemargin}{5mm}
 
+% ----- To allow cross-referencing between documents
+%       a common root folder must be established
+%       this command encapsulates the path
+\newcommand{\qmPath}{../quality_manual_document}%
+
 % ------ To cross reference other documents
 \usepackage{xr-hyper}
 \usepackage[
@@ -41,8 +46,6 @@
 	filecolor=cyan, 	% [cyan]
 	menucolor=black		% [red]
 ]{hyperref}
-
-\newcommand{\qmPath}{../quality_manual_document}%
 
 % Header and footer control
 \usepackage{fancyhdr}
@@ -133,25 +136,6 @@ Measurement Quality Council\\
 Measurement Standards Laboratory of New Zealand\\	
 }
 
-%% ----- Control over what will be included
-%\includeonly{
-%	Introduction,
-%	Organisation,
-%	Quality_assurance,
-%	Document_control,
-%	Competencies_and_training,
-%	Reporting_and_publishing,
-%	Goods_control,
-%	Audits_and_reviews,
-%	Requests_and_contracts,
-%	Improvements,
-%	Project_management,
-%	Abbreviations,
-%	Calendar,
-%	Cross_reference_17025,
-%	References
-%}
-
 \begin{document}
 \hypersetup{pageanchor=false}	% prevents a warning message
 \fancyhf{}	% Header and footer are empty
@@ -215,7 +199,7 @@ This signed statement is stored in the central files system.
 \input{\qmPath/Cross_reference_17025}\clearpage
 
 % ----- Label for the very last page, so that we can do "page x of N"
-\input{../quality_manual_document/References}	% Use input because \include creates a blank last page 
+\input{../quality_manual_document/References}	% Don't create a blank last page 
 \label{LastPage}~
 
 \end{document}
