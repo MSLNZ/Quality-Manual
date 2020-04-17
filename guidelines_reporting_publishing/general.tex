@@ -113,7 +113,8 @@ However, when variables, rather than descriptors or labels, appear in subscripts
 \end{itemize}Note the equation editor in MS Word (or MathType, which is an extended commercial version) automatically applies some of these rules, but not all. 
 
 
-\section{Scientific prose}
+\section{Scientific documents}
+ \label{s:scientific_documents}
 An excellent paper about the craft of writing scientific prose appeared in Scientific American in 1990 \cite{GopenAndSwan}. It develops seven structural principles that can be followed to make complicated scientific prose easier to read and understand. The principles are listed below as a convenient reminder, but the paper should be read to understand them properly.
 \begin{enumerate}
 
@@ -158,12 +159,78 @@ Table~\ref{tab:electrical_results} illustrates some of these guidelines.
 \end{sidewaysfigure}
 \clearpage
 
-%\begin{table}[h]
-%\centering
-%\includegraphics[scale=.7]{pictures/table_electrical_results}
-%\label{tab:electrical_results}
-%\caption{An example of tabulated measurement results. Note the vertical alignment of numbers and the caption above the table.}
-%\end{table}
+\subsection{Figures}
+Graphs can help a reader to understand the structure of data. It is relatively rare to include graphs in calibration reports but, in scientific papers and reports, graphs are a powerful tool for communication.
+
+Cleveland has written an excellent book about graphing data [Cleveland]. He offers a set of guiding principles on designing graphs, which are summarised here (but consult the book – it is worth the effort). Note that Cleveland was more concerned with the sort of graphing used in scientific papers and reports. However, many of these principles also apply to graphs in calibration reports.
+
+Graphs can help a reader to understand the structure of data. It is relatively rare to include graphs in calibration reports but, in scientific papers and reports, graphs are a powerful tool for communication.
+Cleveland has written an excellent book about graphing data [Cleveland]. He offers a set of guiding principles on designing graphs, which are summarised here (but consult the book – it is worth the effort). Note that Cleveland was more concerned with the sort of graphing used in scientific papers and reports. However, many of these principles also apply to graphs in calibration reports.
+
+\begin{enumerate}
+
+\item	\textit{Make the data stand out and avoid superfluity}
+
+For instance, don’t allow elements in the graph interfere with the data; make sure the elements encoding the data are visually prominent; don’t allow a graph to be cluttered by unnecessary bits and pieces.
+
+\item	\textit{Use visually prominent elements to show the data}
+
+Be careful that symbols used to encode data are visually distinct; that they do not obscure each other; that lines used to join data points do not detract from the prominence of the data points.
+
+\item	\textit{Use a pair of lines in the scale-line rectangle for each variable. Make the data rectangle slightly smaller than the scale-line rectangle. Tick marks should point outward.}
+
+Data should not interfere with the scale markings. So, allow a little space between the surface used to display the data and the bounding rectangle with the scale markings. For the same reason, point the tick marks outside the rectangle, as shown in figure~\ref{fig:cleveland_promience} below ( Fig 2.8 from Cleveland \cite{Cleveland} ).
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=1]{pictures/visual_prominence}
+\caption{From Cleveland \cite{Cleveland}. Note the clear visual separation of the data from the scale and other markings.}
+\label{fig:cleveland_promience}
+\end{figure}
+
+\item	\textit{Do not clutter the interior of the line-scale rectangle}
+
+Avoid the temptation to include too much on a graph: a legend, reference lines, arrows and labels, can build up to a figure that is hard to visually disentangle.
+
+\item	\textit{Do not use too many tic marks}
+
+Tick marks convey a sense of the measurement scale; you don’t need many (3 to 10, perhaps).
+
+\item	\textit{Use a reference line when there is an important value that must be seen across the entire graph, but do not let the line interfere with the data.}
+
+\item	\textit{Do not allow data labels inside the graph to interfere with the data or to clutter the graph}
+
+\item	\textit{Avoid notes and keys inside the graph. Put a key outside and put notes in the caption.}
+
+\item	\textit{Overlapping plotting symbols must be visually distinguishable} 
+
+\item	\textit{Superimposed data sets must be readily visually assembled}
+
+When there are several sets of data displayed, make sure that elements used to plot data points are visually distinct.
+
+\item	\textit{Visual clarity must be preserved under reduction and reproduction}
+
+This was more of an issue before modern scanning technologies existed, but it is not uncommon to sample and image and then insert a scaled copy into another document (e.g., our use of Cleveland's Fig 2.8 above).
+
+\end{enumerate}
+
+\subsubsection{Captions}
+Figure captions should be placed below the corresponding figure and may use a smaller sized font than the many body text. Units should be included in the axis labels; it is not necessary to repeat that information in the caption.
+
+Figure captions should be comprehensive and informative. The reader should not have to scour the document for information required to understand the displayed. Nevertheless, a series of related captions need not repeat information unnecessarily. If the first caption provides a comprehensive description, following captions may simply refer to it.
+
+Cleveland recommends the following framework for figure captions \cite{Cleveland}:
+\begin{itemize}
+\item	\textit{Describe everything that is graphed}
+\item	\textit{Draw attention to the important features of the data}
+\item	\textit{Describe the conclusions that are drawn from the data on the graph}
+
+This recommendation is made in the context of research work. MSL calibration reports are more likely contain graphs intended to provide access to quantitative information, rather than present conclusions visually. Guidance in that case might be expressed as something like this:
+\begin{quote}
+\textit{Describe how the graph can be interpreted and used by the reader}
+\end{quote}
+
+\end{itemize}
 
 \subsection{Uncertainty}
 Clear statements about measurement uncertainty and related concepts are sadly lacking in the metrology literature. This is a problem, because readers are presented with jargon that is rarely helpful to them. Often too, it seems that poor style is self-perpetuating. Presumably because authors do not have clear stylistic guidelines available and are unclear in their own minds about the subject. 

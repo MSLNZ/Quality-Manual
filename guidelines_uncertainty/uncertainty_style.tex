@@ -14,43 +14,49 @@ In principle, we wish to report sufficient information for clients to work out (
 
 \subsection{Recommendations}
 \subsubsection{Only the measured value is an estimate}
-Obtaining an estimate of the measurand is the primary purpose of a measurement. So, it is unhelpful to use the term ‘estimate’ in connection with statements about values of uncertainty too. This should be avoided: uncertainty can be ‘calculated’, ‘evaluated’, etc, but not ‘estimated’. So,
+The primary outcome of a measurement is an estimate of the measurand. So, it is unhelpful to use the term `estimate' in connection with statements about values of uncertainty too. This should be avoided: it is better to say that uncertainty has been `calculated', `evaluated', etc, but not `estimated'.\footnote{Many authoritative texts use `estimated', but this is a bad habit that we should avoid. The MSL Guidelines on Reporting and Publishing discusses this further in the `Uncertainty' section.} 
 
 Instead of:
-\begin{quote}\textit{
+
+\vspace{-\baselineskip}\begin{quote}\textit{
 These uncertainties are estimated by combining the uncertainties of the calibration process \ldots}
 \end{quote} 
-Prefer:
-\begin{quote}\textit{
+\vspace{-\baselineskip}Prefer:
+
+\vspace{-\baselineskip}\begin{quote}\textit{
 These uncertainties were calculated by combining the components of uncertainty associated with the calibration process \ldots} 
 \end{quote}
 
 \subsubsection{Use the term `expanded uncertainty'}
-Our calibration reports refer to the current edition of the GUM for information about the terms we use. So it is unhelpful to abbreviate `expanded uncertainty' unless the full term has been used elsewhere in context.  
- 
+Our calibration reports refer to the current edition of the GUM for information about the terms we use. So it is unhelpful to abbreviate `expanded uncertainty' unless the full term has been used elsewhere in context. 
+
 Instead of:
-\begin{quote}\textit{
+
+\vspace{-\baselineskip}\begin{quote}\textit{
 The uncertainty is based on a coverage factor of \ldots}
 \end{quote} 
-Prefer:
-\begin{quote}\textit{
+\vspace{-\baselineskip}Prefer:
+
+\vspace{-\baselineskip}\begin{quote}\textit{
 The expanded uncertainty is calculated with a coverage factor \ldots} 
 \end{quote}
 
 \subsubsection{The level of confidence is assumed known}
-Given the level of confidence for a particular coverage factor it is possible to work out the corresponding standard uncertainty and degrees of freedom (assuming a Gaussian error distribution).
+Given the level of confidence for a particular coverage factor, it is possible to work out the corresponding standard uncertainty and degrees of freedom (assuming a Gaussian error distribution).
  
-Nonetheless, if we consider the meaning of level of confidence, we can only expect to approximate the nominal value in practice.
-
-The primary reason for reporting the level of confidence (or coverage probability) is to allow a client to work out degrees of freedom, so avoid language that would suggest otherwise.
+The primary reason for reporting the level of confidence (or coverage probability) is to allow a client to work out degrees of freedom, so avoid language that would suggest otherwise. 
 
 Instead of:
-\begin{quote}\textit{
+
+\vspace{-\baselineskip}\begin{quote}\textit{
 \ldots expanded uncertainties were calculated using a coverage factor $k =2.1$ and define an interval estimated to have a \SI{95}{\%} level of confidence.}
 \end{quote} 
-Prefer:
-\begin{quote}\textit{
+\vspace{-\baselineskip}Prefer:
+
+\vspace{-\baselineskip}\begin{quote}\textit{
 \ldots expanded uncertainties were calculated using a coverage factor $k = 2.1$ for a \SI{95}{\%} level of confidence.} 
 \end{quote}
 
-Situations can occur in which we are confident that the actual coverage of a measurement procedure is higher than the nominal value reported. For example, a value of the expanded uncertainty may be increased to match our current IANZ scope. In such cases, our statements should not be changed to something like `\ldots at least \SI{95}{\%} level of confidence \ldots'. Instead, either include additional information in the report to clarify how the client can use the information provided, or simply write the report as if the expanded uncertainty had not been increased.
+Nonetheless, if we consider the intended meaning of level of confidence, we can only expect the actual level of confidence to approximate the nominal value in practice. Situations can occur where we are confident that the actual coverage of a measurement procedure will be higher than the nominal value. For example, a value of the expanded uncertainty may be increased so that it falls within our current IANZ scope. 
+
+In such cases, do not write statements like `\ldots at least \SI{95}{\%} level of confidence \ldots'. Rather, simply write the report as if the expanded uncertainty were correct or include additional information to clarify how the client can use the information reported.
