@@ -21,7 +21,7 @@ A variety of other works may be produced for ‘publication' outside MSL, includ
 
 Section~\ref{ss:msl_publications_policy} describes MSL policy for this broader category of publication.
 
-Measurement results shall be traceable to primary measurement standards held by MSL, or other NMIs. A statement to this effect is included on all calibration and test report covers (see  \cite[\S\ref*{GRP-ss:report_covers}]{MSL_Reporting_Guidelines}). Any exceptions to this policy must be approved by the Chief Metrologist (~see~\S\ref{ss:msl_publications_policy}~).
+Measurement results shall be traceable to primary measurement standards held by MSL, or other NMIs. A statement to this effect is included on all calibration and test report covers (%see  \cite[\S\ref*{GRP-ss:report_covers}]{MSL_Reporting_Guidelines}~). Any exceptions to this policy must be approved by the Chief Metrologist (~see~\S\ref{ss:msl_publications_policy}~).
 
 \subsection{Metrological Reports}
 \label{ss:metrological_reports}
@@ -75,11 +75,14 @@ Details about the reporting format requirements are given in the Metrological Re
 \paragraph{Statement about applicability of results}
 For most calibration work, the MSL report format clearly identifies the item(s) being calibrated or tested. However, there are some situations where MSL is effectively sent an item or items that may be considered, from the point of view of the client, as a sample from a larger population (e.g., a piece of shade-cloth sent to MSL for characterisation). In all such cases, the MSL report shall clearly state that the results provided relate only to the item(s) actually measured. This is a requirement of the 17025:2018 standard \cite[clause 7.8.2.1~(l)]{ISO_17025}.      
 
-\deprecatedbox{\subsubsection*{Issuing Reports and Summary Data}}
-\proposedbox{\subsubsection{Issuing Paper Reports and Summary Data}}
-
+\deprecatedbox{\subsubsection*{Issuing Reports and Summary Data}
 Only one original for each report shall be produced, signed, and sent to the client. 
 
+}
+\proposedbox{\subsubsection{Issuing Paper Reports and Summary Data}
+
+Only one printed report shall be signed and sent to the client. 
+}
 A scanned copy of this signed report shall be filed in the central file system ( see~\S\ref{ss:central_file_system} ). 
 
 An electronic copy of the document used to create the report shall be retained in the section file system ( see~\S\ref{ss:section_file_systems} ). 
@@ -98,14 +101,15 @@ Every effort should be made to ensure that the items calibrated or tested will b
 \label{sss:issuing_electronic_reports}
 \begin{itemize}
 
-\item Before deciding to issue a report, ensure that the client is happy to receive a report in electronic format.
-\item The electronic report file shall be signed following the procedure described in \S\ref{sss:electronic_signatures}, which will ensure that a copy is saved in the central file system ( see~\S\ref{ss:central_file_system} ). 
+\item Ensure that a report in electronic format is acceptable to the client.
 
-\item An electronic copy of the data and documents used to create the report file shall be retained in the section file system ( see~\S\ref{ss:section_file_systems} ). 
+\item The electronic report file shall be signed (~see procedure in \S\ref{sss:electronic_signatures}~) and a record of this signing process shall be saved in the central file system (~see~\S\ref{ss:central_file_system}~). 
+
+\item A copy of the data and documents used to create the report shall be retained in the section file system (~see~\S\ref{ss:section_file_systems}~). 
    
-\item The client will be supplied with a copy of the report and the MD5 checksum for the report file (see ``Checking the integrity of a report file'', in MSL Guidelines on reporting and publishing \cite[\S\ref*{GRP-ss:file_integrity_md5}]{MSL_Reporting_Guidelines}).
+\item The client will be supplied with a copy of the electronic report and the MD5 checksum for the file (~see ``Checking the integrity of a report file'', in \cite[\S\ref*{GRP-ss:file_integrity_md5}]{MSL_Reporting_Guidelines}~).
 
-The following message should be communicated when providing the report to the client (with appropriate replacements of \textit{<report ID>} and  \textit{<checksum>})
+\item The following message should be provided to the client with the report (make appropriate replacements for \textit{<report ID>} and  \textit{<checksum>}):
 \begin{quote}
 MSL's electronic calibration, test and measurement reports are produced in the same format as paper reports, but are provided as electronic files (PDF format). Distributing electronic reports carries with it a small risk that the file may become corrupted, or inadvertently changed somehow, after it has left MSL. To address this, we provide what is called an MD5 checksum, which allows the integrity of a file to be checked. You can use the MD5 checksum to make sure that the file you receive is valid. MSL Technical Guide 43 explains how to do this (online: \url{https://www.measurement.govt.nz/download/55}).
 
@@ -123,13 +127,13 @@ Every effort should be made to ensure that the items calibrated or tested will b
 \proposedbox{
 \subsubsection{Signing electronic reports}
 \label{sss:electronic_signatures}
-The section ``Electronic reports'' of the MSL Guidelines on Reporting and Publishing contains information on how to produce a calibration report file with a suitable MSL report cover and how to insert electronic signature images in that file \cite[\S\ref*{GRP-ss:electronic_reports}]{MSL_Reporting_Guidelines}.
+Technical information on how to produce a calibration report, with a suitable report cover and electronic signature images, is given in the ``Electronic reports''  section of \cite[\S\ref*{GRP-ss:electronic_reports}]{MSL_Reporting_Guidelines}.
 
-Signing must be carried out according to the following procedure, which is intended to create a record of the process.
+The process required to create a record of signing for the quality system is as follows:
 
 \begin{enumerate}
 \item Create a PDF version of the report file
-\item Upload the PDF file to the ``Calibration Reports'' library in EDI. Note, the file name should be in the following format:
+\item Upload the PDF file to the ``Calibration Reports'' library. Note, the file name should be in the following format:
 \begin{quote}
 \texttt{"section name"\_"section file number"\_year}
 \end{quote}
@@ -137,28 +141,28 @@ Signing must be carried out according to the following procedure, which is inten
 \begin{center}
 \includegraphics[scale=.9]{pictures/metadata_signed_report}
 \end{center}
-\item The first person can now `sign' the PDF report file by inserting an image of their signature with PDF reader software. 
-
-The person who signed the file must be the one to upload the new version to EDI.
+\item The first person can now `sign' the report by inserting an image of their signature using PDF reader software (~see \cite[\S\ref*{GRP-ss:electronic_reports}]{MSL_Reporting_Guidelines}~). The person who signed must upload the new version to EDI.
 
 Note,
 \begin{itemize}
-\item the document must be opened with a PDF reader running on a local machine (this is a technical problem: at the moment, it is not possible to directly sign and re-store the document while in a browser)
+\item the file name must remain unchanged (EDI maintains a version history based on file name)
 \item it is not necessary to initial each page (as is done with paper reports)
-\item the file name must not be changed: EDI will hide the previous version and record who uploaded the new version
+\item for technical reasons, the document must be opened with a PDF reader running on a local machine (it is not possible to sign and re-store the document directly from a browser)
 \end{itemize}
 
-\item The second person can now sign, following the process above.
-\item Chief Metrologist, or delegate, then signs. 
+\item The second person can now `sign', following the process above.
+\item Chief Metrologist, or delegate, can `sign'. 
 
-Before uploading the final version, signed by everyone, an MD5 checksum is calculated (see section ``Checking the integrity of a report file'' in the MSL Guidelines for reporting and publishing \cite[\S\ref*{GRP-ss:file_integrity_md5}]{MSL_Reporting_Guidelines}). 
+Before uploading the final version, signed by everyone, an MD5 checksum must be calculated (~see \cite[\S\ref*{GRP-ss:file_integrity_md5}]{MSL_Reporting_Guidelines}~). 
 
-During uploading of the final version, this MD5 checksum must be saved as a `comment'. It must also be given to the client ( see \S\ref{sss:issuing_electronic_reports} )
+During uploading of the final version, the MD5 checksum must be saved as a version `comment'. 
 
-\item If corrections to the report are found necessary during the signing process, the faulty version can be annotated with comments, highlighted sections, etc (using a PDF reader), and then uploaded to EDI. Doing so maintains a full record of the signing/issuing process. Once corrected, the new version of the report must be signed again by everyone.
+\item If corrections to the report are necessary during the signing process, the faulty version can be annotated with comments, highlighted sections, etc (using a PDF reader), and uploaded to EDI. Doing so maintains a full record of the signing/issuing process. 
+
+Once corrected, the new report file must be signed again by everyone.
 \end{enumerate}
 
-This process generates a version history that looks a bit like the one below. All intermediate versions can be viewed. Note the checksum is associated with the final version.
+This process generates a version history similar to the one below. All intermediate versions can be reviewed by clicking on the links at the left. Note the checksum is associated with the final version.
 
 \begin{center}
 \includegraphics[scale=.6]{pictures/version_history_report}
@@ -194,7 +198,7 @@ Any change of information in the reissued report shall be clearly identified and
 
 \item Produce a corrected report using the original report number.  Retain the original issue dates throughout, but add, after each issue date, the words ‘reissued on [new issue date]’, e.g. ‘Report No. Pressure/1997/155, 11 August 1997, reissued on 10 February 2000’.
 
-\item Any change of information in the report must be clearly identified and, where appropriate, the reason for the change should be included in the report \proposed{(some advice on formatting is given in the `Reissued reports' section of the Guidelines on Reporting and Publishing \cite[\S\ref*{GRP-ss:reissued_reports}]{MSL_Reporting_Guidelines} ).}
+\item Any change of information in the report must be clearly identified and, where appropriate, the reason for the change should be included in the report \proposed{(some advice on formatting is given in \cite[\S\ref*{GRP-ss:reissued_reports}]{MSL_Reporting_Guidelines} ).}
 
 \item Reissue the corrected report and the cancelled original report to the client.
 
@@ -219,15 +223,15 @@ Any change of information in the reissued report shall be clearly identified and
 
 \item Produce a corrected report using the original report number.  Retain the original issue dates throughout, but add, after each issue date, the words ‘reissued on [new issue date]’, e.g. ‘Report No. Pressure/1997/155, 11 August 1997, reissued on 10 February 2000’.
 
-\item Any change of information in the report must be clearly identified and, where appropriate, the reason for the change should be included in the report \proposed{(some advice on formatting is given in the `Reissued reports' section of the Guidelines on Reporting and Publishing \cite[\S\ref*{GRP-ss:reissued_reports}]{MSL_Reporting_Guidelines} ).}
+\item Any change of information in the report must be clearly identified and, where appropriate, the reason for the change should be included in the report \proposed{(some advice on formatting is given in \cite[\S\ref*{GRP-ss:reissued_reports}]{MSL_Reporting_Guidelines} ).}
 
-\item Reissue the corrected report and a copy of the cancelled original report to the client. Include an MD5 checksum for the corrected report.
+\item Reissue the corrected report to the client with the new MD5 checksum. Send a copy of the cancelled original report to the client. 
 
 \item File copies of the signed corrected original in the central file and the section file. 
 \begin{itemize}
 \item The name of the central file copy should not be changed (i.e., the new copy of the report replaces the cancelled original). 
 \item Add a note to the EDI version history to indicate a reissued report.
-\item Set the EDI document metadata tag ‘reissued’.
+\item Set the EDI document metadata tag `reissued'.
 \end{itemize}
 \end{enumerate}
 
@@ -243,7 +247,7 @@ Also, if the likelihood of a similar error occurring in the future can be reduce
 \subsubsection{Replacing a report at the client's request}
 When a report has been lost, a replacement may be issued. 
 
-\proposed{\paragraph{Electronic reports} no special procedure is required to replace an electronic report. Simply dispatch a copy of the report to the client, together with the corresponding MD5 checksum.
+\proposed{\paragraph{Electronic reports} no special procedure is required to replace an electronic report. Simply dispatch a copy of the report to the client.
 
 There is no need to record the replacement of the report in the central file system.}
 
@@ -299,7 +303,7 @@ Follow the first steps of the procedure in \S\ref{sss:reissue_report} for re-iss
 The rest of the procedure is then as follows: 
 \begin{enumerate}
 \setcounter{enumi}{4}
-\item The replacement report should be labelled with the correct (new) report number, followed by a line begining ``Replacement of Report \ldots", which describes the previously issued report. For example, 
+\item The replacement report should use the correct (new) report number, followed by a line beginning ``Replacement of Report \ldots", which describes the previously issued report. For example, 
 \begin{quote}
 Report No.\ Humidity/2020/428, 3 March 2020\\
  Replacement of Report No.\ Humidity/2020/248, 16 February 2020
@@ -312,7 +316,7 @@ Report No.\ Humidity/2020/428, 3 March 2020\\
 
 \item Copies of the report must be stored in the central file and the section file.
 \begin{itemize}
-\item The name of the central file copy should be the new file name. 
+\item The name of the central file copy should be the new file name. (The old file name may be changed on EDI without breaking the version history. Seek help from the Quality Manager or site administrator to do this before uploading the new version of the file. ) 
 \item The central file metadata tag `reissued' should be set.
 \item Add a note to the EDI version history to indicate a replaced report.
 \end{itemize}

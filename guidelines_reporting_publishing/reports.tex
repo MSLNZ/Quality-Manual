@@ -193,8 +193,10 @@ A template for the disclaimer follows. This text may be adapted to different sit
 \textit{The [\textbf{data reported on}] is provided `as is', without warranty of any kind, to [\textbf{recipient}] for [\textbf{purpose}] only. [{The data shall not be made publicly available, nor provided to a third party, without the consent of the MSL Chief Metrologist.}] [The data should not be used to inform any critical decisions.] This disclaimer must accompany any copies of the data.}
 \end{quote}
 
-\subsection{Electronic reports}
+\proposedbox{\subsection{Electronic reports}
  \label{ss:electronic_reports}
+(NOTE: the whole of this section is new)}
+ 
 An electronic report can be viewed on screen, or printed, by a client. We assume here that an electronic report is a PDF file representing a calibration report. 
 
 The format of an electronic report must comply with the same general report formatting guidelines given in this document. 
@@ -216,6 +218,7 @@ This section describes how to:
 
 This can be done by creating a new document and on the first page inserting a Next Page section break from the Breaks dropdown list on the Layout tab.
 \item 	The MSL report cover image should be loaded as a custom Watermark from the design tab (figure~\ref{fig:word_watermark_dialog}). Select the \SI{100}{\%} scaling and uncheck the washout tick box. Then select and load the image file (accept to work off-line, if prompted).
+
 \begin{figure}[h]
 \centering
 \includegraphics[scale=1]{pictures/word_watermark_dialog}
@@ -256,8 +259,10 @@ If it is the first time the Reader software is being used, you will need to load
 \item Save the file.
 \end{enumerate}
 
-\subsection{Checking the integrity of a report file}
+\proposedbox{\subsection{Checking the integrity of a report file}
  \label{ss:file_integrity_md5}
+ (NOTE: the whole of this section is new)}
+ 
 Under 17025, there is a responsibility to manage the integrity of documents. Errors can occur during transmission of electronic records. It is also possible to edit PDFs with some software.
 
 One way to prove that a file has not been changed is to use an \href{http://en.wikipedia.org/wiki/Md5sum}{MD5 checksum}. This is a code (a hexadecimal number) that can be calculated for any file. By keeping a record of the MD5 code of the signed report, we can check the integrity of a file later (e.g., after being emailed to a client). 
