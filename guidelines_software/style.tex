@@ -5,19 +5,34 @@
 \end{flushright}
 
 
-Software should be developed with end-users and future owners in mind – it should also be designed to be tested and modified easily. All of which requires consideration about how software will be structured and written.
+Software should be developed with end-users and future owners in mind – it should also be designed to be tested and maintained easily. This requires consideration of how software is written.
 
-\subsection{Style and idiom}
-Any language (English, French, mathematics, etc) has syntactical rules and common idioms. Authors work with these to create statements that others can readily understand. The same applies to programming. Each language has its features and quirks, but there will be good, familiar, ways of describing frequent operations and there will be awful alternatives; there will be `best-practice' and there will be ghastly `hacks'. When writing software, consideration should always be given to another reader (or even the author at some distant point in time): be consistent and use a simple, clear, style.
-
-A worthy goal is to write software that is \textit{self-explanatory}. 
+\subsection{Style}
+When writing, consideration should always be given to stylistic conventions: be consistent in your use of a simple, clear, style. A worthy goal is to write software that is \textit{self-explanatory}. This can be achieved by appropriate use of: names, data structures, programming structures and idioms, layout and comments. 
 
 \paragraph{Names}
-Procedural languages (such as Visual BASIC, Python, C++, etc) and some end-user tools (e.g., MathCAD) allow considerable freedom when choosing names for entities. This freedom is very helpful when writing software that is readable. Names should be concise and descriptive: a reader should easily keep track of the meanings of different variables, functions and classes, etc.
+Careful naming is important. Names for variables, functions and classes, etc, should be
+\begin{itemize}
+\item easily remembered
+\item concise
+\item descriptive (for readers)
+\item consistent (with names of similar entities)
+\item easy to chose 
+\end{itemize} 
 
-\paragraph{Layout} ???
+Languages such as Visual BASIC, Python, C++, etc, and some end-user tools (e.g., MathCAD) allow considerable freedom to choose names. 
 
-\paragraph{Comments}
-Somewhat counter-intuitively, comments in software are something of a necessary evil: they are needed, but should be used as sparingly as possible. It is always better to re-phrase the code itself, using appropriate naming, layout and idioms, if doing so will make a comment unnecessary.
-Often there will be stylistic conventions already defined for a language. These should be used, because readers are more likely to be familiar with them. If there are alternatives styles, then choose one and stick to it. Be consistent: don’t go back and forth between one style and another.  
+\paragraph{Data structures} All programming languages support a few basic data structures (e.g., arrays), some allow \textit{ad hoc} structures to be defined for particular uses (e.g., object-oriented structures). Good design of data structures is important, because it can make instructions that manipulate data easier to read, understand and maintain.
+
+\paragraph{Programming structures and idioms} Authors in languages like English, etc, use syntactical rules and common idioms to write statements that can be easily understood. The same applies to programming. Each language has its own syntax, features and quirks, but there will always be good, widely-recognised, ways of describing common tasks, which can be regarded as `best-practice'.
+
+All programming languages have a few basic control structures (e.g., \texttt{FOR-NEXT} loops, \texttt{IF-THEN} statements, etc). While the logic of these structures is simple and universal, the way they are deployed is usually language-dependent. There are subtleties in how the language works that make certain idioms preferable. Using recognised language idioms both improves code quality and makes it easier to read and maintain. 
+
+  
+
+\paragraph{Layout} The way that code appears on the page (screen) is important. Often source code will work fine no matter how it is laid out, but consistent layout makes a huge difference to readability. Once again, languages tend to have different conventions. Python even incorporates layout in the syntax of its block statements, in a deliberate effort to make code easier to read.
+
+\paragraph{Comments} Software comments are something of a necessary evil: they should be used sparingly. It is better to revise code, considering appropriate naming, layout and idioms, because doing so may make a comment unnecessary.
+
+While changes are made to code over time, comments are often overlooked. So, comments can drift with respect to the corresponding code base. Later, it may become unclear just how accurate a comment is. Writing code that does not need many comments is a better strategy. Only details that cannot be inferred from a clear coding style should be added as (preferably) short local comments.
 
