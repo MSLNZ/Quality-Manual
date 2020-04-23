@@ -1,5 +1,7 @@
 # Quality Manual
-LaTeX source files for the MSL Quality Manual and supplement documents.
+This repository contains the LaTeX source files for the MSL Quality Manual and supplementary documents.
+
+The authoritative versions of the manual and supplements are held on the MSL QMS sharepoint site. The files available in this github repository are, in general, undergoing change and will not have been approved by the MSL Quality Council.
 
 The MSL Quality Manual is typeset using pdfLaTeX. A number of source files are complied to produce the final PDF document. There are several supplements to the Quality Manual that are also typeset in pdfLaTeX. All of the source files needed to produce the Quality Manual and its supplements are available in this repository.
 
