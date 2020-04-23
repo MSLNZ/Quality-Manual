@@ -193,9 +193,8 @@ A template for the disclaimer follows. This text may be adapted to different sit
 \textit{The [\textbf{data reported on}] is provided `as is', without warranty of any kind, to [\textbf{recipient}] for [\textbf{purpose}] only. [{The data shall not be made publicly available, nor provided to a third party, without the consent of the MSL Chief Metrologist.}] [The data should not be used to inform any critical decisions.] This disclaimer must accompany any copies of the data.}
 \end{quote}
 
-\proposedbox{\subsection{Electronic reports}
+\subsection{Electronic reports}
  \label{ss:electronic_reports}
-(NOTE: the whole of this section is new)}
  
 An electronic report can be viewed on screen, or printed, by a client. We assume here that an electronic report is a PDF file representing a calibration report. 
 
@@ -203,13 +202,13 @@ The format of an electronic report must comply with the same general report form
 
 The cover page will include one of the standard MSL report covers as a background image (watermark).
 
-Electronic reports are produced by word-processing software (Word, LaTeX, etc), but electronic signatures are added to the PDF report in a distinct part of the report publication process, using different software. The two parts-–-production and signing-–-must be handled separately. 
+Electronic reports are produced by word-processing software (Word, LaTeX, etc), but electronic signatures are added to the PDF report in a distinct phase of the report issuing process, which uses different software. The two aspects-–-production and signing-–-must be handled separately. 
  
 This section describes how to: 
 \begin{itemize}
 \item	add an MSL report cover to the background of a cover page in a Word document, and
 \item	how to add electronic signatures to a PDF report, and 
-\item	how to calculate a numerical code for a particular file, which can be used to verify the integrity of file later.
+\item	how to calculate a numerical code (MD5) for a particular file, which can be used to verify the integrity of file later.
 \end{itemize}
 
 \subsubsection{How to add an MSL report cover in Word}
@@ -228,9 +227,9 @@ This can be done by creating a new document and on the first page inserting a Ne
 \item	The watermark will appear a bit washed out on the screen; don't worry, that's just to remind you it is in the background. 
 
 However, the watermark will appear on every page-–-read on. 
-\item Open the header of the first body page (not the cover page) by double clicking in the header region. Then, deselect the ``Link to Previous'' button on the Header and Footer tab. 
+\item Open the header of the first body page (not the cover page) by double clicking in the header region. Then, deselect the ``Link to Previous'' button on the Header and Footer tab (If the ``Link to Previous'' button is disabled, don't worry, just proceed). 
 
-Select the background image and delete it. The image on the cover page will remain. (If the ``Link to Previous'' button is disabled, you can go ahead and delete the background image on the first page.)
+Select the background image and delete it. The image on the cover page will remain. 
 
 \end{enumerate}
 
@@ -259,13 +258,12 @@ If it is the first time the Reader software is being used, you will need to load
 \item Save the file.
 \end{enumerate}
 
-\proposedbox{\subsection{Checking the integrity of a report file}
+\subsection{Checking the integrity of a report file}
  \label{ss:file_integrity_md5}
- (NOTE: the whole of this section is new)}
  
 Under 17025, there is a responsibility to manage the integrity of documents. Errors can occur during transmission of electronic records. It is also possible to edit PDFs with some software.
 
-One way to prove that a file has not been changed is to use an \href{http://en.wikipedia.org/wiki/Md5sum}{MD5 checksum}. This is a code (a hexadecimal number) that can be calculated for any file. By keeping a record of the MD5 code of the signed report, we can check the integrity of a file later (e.g., after being emailed to a client). 
+One way to prove that a file has not been changed is to use an MD5 checksum \cite{MD5}. This is a code (a hexadecimal number) that can be calculated for any file. By keeping a record of the MD5 code of the signed report, we can check the integrity of a file later (e.g., after being emailed to a client). 
 
 A checksum can be calculated in the Windows console, using the command ``CertUtil''. Here is an example:
 \begin{center}
