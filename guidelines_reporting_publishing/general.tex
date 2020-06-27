@@ -149,15 +149,39 @@ The following guidelines should be considered
 \item	Units should be included in a column heading; unit symbols are preferred to full unit names, but be consistent.
 \item	Use footnotes to convey information about specific entries in the table (e.g., entries that are out of scope).
 \end{itemize}   
-Table~\ref{tab:electrical_results} illustrates some of these guidelines.
+Table~\ref{tab:electrical_results} illustrates some of these guidelines. Note the vertical alignment of numbers and the caption above the table.
 
 \clearpage
-\begin{sidewaysfigure}[h]
+\begin{sidewaystable}[h!]
+%\sisetup{group-minimum-digits=4}
 \centering
-\includegraphics[width=.7\textwidth]{pictures/table_electrical_results}
-\label{tab:electrical_results}
-\caption{An example of tabulated measurement results. Note the vertical alignment of numbers and the caption above the table.}
-\end{sidewaysfigure}
+\caption{Nominal voltage applied: \SI{110}{V}, \SI{50}{Hz}}
+  \label{tab:electrical_results}
+  \begin{tabular}{SSSSSSSS}
+  	\toprule \\
+  	{Indicated voltage} & {Indicated phase} & {Voltage ratio error} & {Expanded} & {Coverage} & {Phase error} & {Expanded} & {Coverage} \\
+  	{ratio error} & {error} & {correction} & {uncertainty} & {factor} & {correction} & {uncertainty} & {factor} \\
+  	{$(\rho / \si{\%})$} &  {$(\varphi / \si{crad})$} &  {$(\rho / \si{\%})$} &  {$(U(\rho)/\si{\%})$}
+  	&  {$(k)$}  &  {$(\varphi / \si{crad})$} &  {$(U(\varphi)/ \si{crad})$} &   {$(k)$} \\
+	\\
+    \midrule
+    -10.00 & -10.00 & 0.028 & 0.021 & 2.0 & -0.085 & 0.020 & 2.0 \\
+    -10.00 & 0.0000 & 0.000 & 0.021 & 2.0 & -0.074 & 0.020 & 2.0 \\
+    -10.00 & 10.00 & -0.032 & 0.021 & 2.0 & -0.060 & 0.020 & 2.0 \\
+    0.0000 & -10.00 & 0.0286 & 0.0017 & 2.6 & -0.046 & 0.007 & 2.1 \\
+    0.0000 & 10.00 & -0.0367 & 0.0040 & 3.0 & -0.020 & 0.006 & 2.1 \\
+    10.00 & -10.00 & 0.030 & 0.021 & 2.0 & -0.018 & 0.020 & 2.0 \\
+    10.00 & 0.0000 & -0.007 & 0.021 & 2.0 & -0.0007 & 0.020 & 2.0 \\
+    10.00 & 10.00 & -0.042 & 0.021 & 2.0 & 0.010 & 0.020 & 2.0 \\
+    \bottomrule
+  \end{tabular}
+\end{sidewaystable}
+%\begin{sidewaysfigure}[h]
+%\centering
+%\includegraphics[width=.7\textwidth]{pictures/table_electrical_results}
+%\label{tab:electrical_results}
+%\caption{An example of tabulated measurement results. Note the vertical alignment of numbers and the caption above the table.}
+%\end{sidewaysfigure}
 \clearpage
 
 \subsection{Figures}
