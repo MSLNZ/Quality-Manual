@@ -1,12 +1,15 @@
 \section{Numbers and units}
 Numbers and units should be formatted following the NIST guide to the SI \cite{NIST_SI}.
 
-Quantity values with units should not be split over lines. Use a non-breaking spacing to prevent this (in MS Word: CTRL-SHIFT-SPACE).
+Quantity values with units should not be split over lines. Use a non-breaking spacing to prevent this in MS Word (CTRL-SHIFT-SPACE). In \LaTeX, the symbol \verb|~| can be inserted to provide a non-breaking, however, the `siunitx' package provides better support for units (and number formatting).
 
-When numbers are expressed with more than four digits (either side of the decimal marker), a thin space is preferred to a comma, or nothing, as separator between groups of three digits. Some examples are shown in figure~\ref{fig:ex_number_formats} 
-\begin{figure}[h]
+When numbers are expressed with more than four digits (either side of the decimal marker), a thin space is preferred to a comma, or nothing, as separator between groups of three digits. Some examples are shown in table~\ref{tab:ex_number_formats} 
+\begin{table}[h!]
 \begin{center}
-\begin{tabular}{Sl}
+% default is group-minimum-digits=5
+% so here we make sure that the 8 in 8012 
+% is not aligned differently from other numbers
+\begin{tabular}{S[group-minimum-digits=4]l}
 {do this} &  {not this} \\ \hline 
 76483522 & 76,483,522 \\
 43279.168 & 43,279.168 \\
@@ -14,13 +17,17 @@ When numbers are expressed with more than four digits (either side of the decima
 18012 & 18,012 \\
 0.4917223 & 0.4917223 
 \end{tabular}
-\caption{Preferred number formatting. Note that all numbers in the left-hand column are vertically aligned to the location of the decimal point.}
-\label{fig:ex_number_formats}
+\caption{Preferred number formatting. Note that all numbers in the left-hand column are vertically aligned to the location of the decimal point and that a thin space separates thousands. In this example, in the left-hand column, a thin-space separator has been used for all numbers, but an acceptable format for the third row is also \num{8012}.}
+\label{tab:ex_number_formats}
 \end{center}
-\end{figure}
+\end{table}
+
+The \LaTeX\ package `siunitx' defines a new column type `S' that applies numerical formatting rules to numbers in a tabular environment. The numbers in the left-hand column of table~\ref{tab:ex_number_formats} were produced in this way. The column heading `do this' was enclosed in brackets to indicate that it did not need numerical formatting (i.e., \verb|{do this}|). A thin space was also used when formatting the number \num[group-minimum-digits=4]{8012}.
+\footnote{Default formatting will not introduce a thousands separator until there are more than 4 digits. This was changed by writing \texttt{S[group-minimum-digits=4]} in the column specifier.} 
+
 
 \subsection{Generating a space separator}
-It is not easy to generate a thin space in Microsoft Word. The following recipe is one possibility:
+It is not easy to generate a thin space in Microsoft Word.\footnote{There is no difficulty in \LaTeX: correct formatting of numbers and units is handled by the package `siunitx'.} The following recipe is one possibility:
 \begin{enumerate}
 \item Type a space normally (use a non-breaking space if needs be) 
 \item Select the space and right click to obtain the context menu; select Font …
@@ -149,7 +156,7 @@ The following guidelines should be considered
 \item	Units should be included in a column heading; unit symbols are preferred to full unit names, but be consistent.
 \item	Use footnotes to convey information about specific entries in the table (e.g., entries that are out of scope).
 \end{itemize}   
-Table~\ref{tab:electrical_results} illustrates some of these guidelines. Note the vertical alignment of numbers and the caption above the table.
+Table~\ref{tab:electrical_results} illustrates some of these guidelines. Note the vertical alignment of numbers and the caption above the table.\footnote{This table was produced in \LaTeX\ using the `siunitx' package. However, it is a copy of a table generated, with a very similar appearance, using MS Word. There is a tab-stop available in MS Word that aligns numbers on the decimal point.}
 
 \clearpage
 \begin{sidewaystable}[h!]
