@@ -269,12 +269,12 @@ A checksum can be calculated in the Windows console, using the command ``CertUti
 \begin{center}
 \includegraphics[scale=.6]{pictures/md5_cmd}
 \end{center}
-The command takes the form: 
+The command takes the form:\footnote{On Windows 10, `MD5' may be in upper or lower case but on Windows 7 upper case is required.} 
 \begin{quote}
 \texttt{
-> CertUtil -hashfile "\textit{Windows file path}" md5}
+> CertUtil -hashfile "\textit{Windows file path}" MD5}
 \end{quote}
-The checksum result is the number \texttt{6c818093080a8d5b7c2cab72d738d8f5}.
+The checksum result is the 32-digit hexadecimal number \texttt{6c818093080a8d5b7c2cab72d738d8f5}.\footnote{On Windows 7, the checksum is displayed as 16 pairs of hexadecimal digits:  \texttt{6c 81 80 93 08 0a 8d 5b 7c 2c ab 72 d7 38 d8 f5}.}
  
 There are many ways to calculate a checksum. Here is a simple Python script that takes a file path as input argument on the command line and prints the checksum (wil work in Python 2 or 3):
 
