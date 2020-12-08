@@ -26,7 +26,7 @@ digraph {
             
         // Top row
         B1 [style=invis];
-        D [label="{Director|Fleur Francois}"];
+        D [label="{Director (acting)|Cliff Hastings}"];
         B2 [style=invis]; 
         
         {rank=same; B2, D, B1 ; }
@@ -41,9 +41,9 @@ digraph {
         // Third row
 //        MQC [style=invis];
 //            label="{Quality Council |" 
-//            +   "Jeremy Lovell-Smith\l"
-//            +   "Tim Lawson\l"
-//            +   "Chris Young\l"
+//            +   "Annette Koo\l"
+//            +   "Tom Stewart\l"
+//            +   "Yin Hsien Fung\l"
 //            +   "}" 
 //        ];
 
@@ -84,7 +84,7 @@ digraph {
 
         TeamLengthMass[ 
             label="{Team Manager|"
-            +   "Kevin Gudmundsson\n"
+            +   "Mesh Pillay\n"
             +   "}" 
         ];
 
@@ -92,13 +92,13 @@ digraph {
         
         TeamTemperatureLight[ 
             label="{Team Manager|" 
-            +   "Mackenzie Nicol\n"
+            +   "MacKenzie Nicol\n"
             +   "}" 
         ]; 
 
         TeamElectricalTime[ 
             label="{Team Manager|"
-            +   "Cliff Hastings\n"
+            +   "Kevin Gudmundsson\n" // "Cliff Hastings\n"
             +   "}" 
         ];
         
@@ -120,7 +120,7 @@ digraph {
         +	"Darrin Jack\l"
         +	"Yin Hsien Fung\l"
         +	"Rebecca Hawke\l" // Sutton-Hawke
-        +	"Peter Mcdowall\l"
+        +	"Peter McDowall\l"
         +   "}"
         ];
 
@@ -152,7 +152,6 @@ digraph {
 //        ];
         
         S_temperature_humidity [label = "{Temperature & Humidity|  "
-        +	"Rod White\l"
         +   "Peter Saunders\l"
         +	"Emile Webster\l"
         +	"Jeremy Lovell-Smith\l"
