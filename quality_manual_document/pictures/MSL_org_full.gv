@@ -132,9 +132,10 @@ digraph {
         +	"Tim Lawson\l"
         +	"Cheng Yang (shared T&F)\l"
         +	"Vladmir Bubanja\l" 
-         +	"Adam Knight\l" 
+        +	"Adam Knight\l" 
         +	"Minyu Zhang\l"
-       +   "}"
+        +   "(vacancy)\l"
+        +   "}"
         ];
 
         S_photometry_radiometry [label = "{Photometry & Radiometry| "
@@ -153,11 +154,11 @@ digraph {
         
         S_temperature_humidity [label = "{Temperature & Humidity|  "
         +   "Peter Saunders\l"
-        +	"Emile Webster\l"
         +	"Jeremy Lovell-Smith\l"
         + 	"Farzana Masouleh\l"
         +	"Hamish Edgar\l"
         +	"Ben Sherson\l"
+        +   "(vacancy)\l"
         +   "}"
         ];
 
