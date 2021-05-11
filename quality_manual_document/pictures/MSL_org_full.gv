@@ -33,7 +33,7 @@ digraph {
         
         // Second row
         QM [label="{Quality Manager|Blair Hall}" ];   
-        SSC[label="{Science Support\n& Administration|Cynthia Lendrum\nCheree Walker}" ];    
+        SSC[label="{Science Support\n& Administration|(vacancy)\nCheree Walker}" ];    
         CM [label="{Chief Metrologist|Eleanor Howick}" ];
         
         {rank=same; QM, SSC, CM; }
@@ -84,7 +84,7 @@ digraph {
 
         TeamLengthMass[ 
             label="{Team Manager|"
-            +   "Mesh Pillay\n"
+            +   "Chris Young (acting)\n"
             +   "}" 
         ];
 
@@ -92,7 +92,7 @@ digraph {
         
         TeamTemperatureLight[ 
             label="{Team Manager|" 
-            +   "MacKenzie Nicol\n"
+            +   "Cynthia Lendrum\n"
             +   "}" 
         ]; 
 
@@ -109,7 +109,6 @@ digraph {
         +   "Lucy Forde\l"
         +   "Chris Young\l"
         +   "Lenice Evergreen\l"
-        +   "Nina Wronski\l"
         +	"Johan Grand (shared T&F)\l"
         +   "}"
         ];
@@ -134,7 +133,7 @@ digraph {
         +	"Vladmir Bubanja\l" 
         +	"Adam Knight\l" 
         +	"Minyu Zhang\l"
-        +   "(vacancy)\l"
+        +   "Guy Dubuis\l"
         +   "}"
         ];
 
@@ -155,9 +154,10 @@ digraph {
         S_temperature_humidity [label = "{Temperature & Humidity|  "
         +   "Peter Saunders\l"
         +	"Jeremy Lovell-Smith\l"
-        + 	"Farzana Masouleh\l"
         +	"Hamish Edgar\l"
         +	"Ben Sherson\l"
+        +   "(vacancy)\l"
+        +   "(vacancy)\l"
         +   "(vacancy)\l"
         +   "}"
         ];
