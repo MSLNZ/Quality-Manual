@@ -73,7 +73,7 @@ The last page of the main body of the report contains the signatures, as describ
 
 The signatures page of the report shall be signed by the workers who contributed to the report, the checker who reviewed it and the Chief Metrologist (or delegate) who authorizes it. These individuals shall also initial all other pages of paper reports, but this not required for electronic reports.
 
-For IANZ-endorsed reports, at least one of the workers or the checker signing the report must be a \deprecated{recognised IANZ signatory for the measurement class(es)} \proposed{Key Technical Person for the technical procedure(s)}  covering the measurements.
+For IANZ-endorsed reports, at least one of the workers or the checker signing the report must be a Key Technical Person for the technical procedure(s)  covering the measurements.
 
 The person signing as Chief Metrologist, or for the Chief Metrologist, must be identified as such:  for the Chief Metrologist, use the label ``Chief Metrologist''; for a delegate use ``for Chief Metrologist''.
 
@@ -269,12 +269,12 @@ A checksum can be calculated in the Windows console, using the command ``CertUti
 \begin{center}
 \includegraphics[scale=.6]{pictures/md5_cmd}
 \end{center}
-The command takes the form: 
+The command takes the form:\footnote{On Windows 10, `MD5' may be in upper or lower case but on Windows 7 upper case is required.} 
 \begin{quote}
 \texttt{
-> CertUtil -hashfile "\textit{Windows file path}" md5}
+> CertUtil -hashfile "\textit{Windows file path}" MD5}
 \end{quote}
-The checksum result is the number \texttt{6c818093080a8d5b7c2cab72d738d8f5}.
+The checksum result is the 32-digit hexadecimal number \texttt{6c818093080a8d5b7c2cab72d738d8f5}.\footnote{On Windows 7, the checksum is displayed as 16 pairs of hexadecimal digits:  \texttt{6c 81 80 93 08 0a 8d 5b 7c 2c ab 72 d7 38 d8 f5}.}
  
 There are many ways to calculate a checksum. Here is a simple Python script that takes a file path as input argument on the command line and prints the checksum (wil work in Python 2 or 3):
 
