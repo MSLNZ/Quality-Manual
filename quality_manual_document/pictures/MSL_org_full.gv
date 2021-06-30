@@ -26,14 +26,14 @@ digraph {
             
         // Top row
         B1 [style=invis];
-        D [label="{Director|Fleur Francois}"];
+        D [label="{Director (acting)|Cliff Hastings}"];
         B2 [style=invis]; 
         
         {rank=same; B2, D, B1 ; }
         
         // Second row
         QM [label="{Quality Manager|Blair Hall}" ];   
-        SSC[label="{Science Support\n& Administration|Cynthia Lendrum\nCheree Walker}" ];    
+        SSC[label="{Science Support\n& Administration|Lisa Castle\nCheree Walker}" ];    
         CM [label="{Chief Metrologist|Eleanor Howick}" ];
         
         {rank=same; QM, SSC, CM; }
@@ -41,9 +41,9 @@ digraph {
         // Third row
 //        MQC [style=invis];
 //            label="{Quality Council |" 
-//            +   "Jeremy Lovell-Smith\l"
-//            +   "Tim Lawson\l"
-//            +   "Chris Young\l"
+//            +   "Annette Koo\l"
+//            +   "Tom Stewart\l"
+//            +   "Yin Hsien Fung\l"
 //            +   "}" 
 //        ];
 
@@ -84,7 +84,7 @@ digraph {
 
         TeamLengthMass[ 
             label="{Team Manager|"
-            +   "Kevin Gudmundsson\n"
+            +   "Chris Young (acting)\n"
             +   "}" 
         ];
 
@@ -92,13 +92,13 @@ digraph {
         
         TeamTemperatureLight[ 
             label="{Team Manager|" 
-            +   "Mackenzie Nicol\n"
+            +   "Cynthia Lendrum\n"
             +   "}" 
         ]; 
 
         TeamElectricalTime[ 
             label="{Team Manager|"
-            +   "Cliff Hastings\n"
+            +   "Kevin Gudmundsson\n" // "Cliff Hastings\n"
             +   "}" 
         ];
         
@@ -109,7 +109,6 @@ digraph {
         +   "Lucy Forde\l"
         +   "Chris Young\l"
         +   "Lenice Evergreen\l"
-        +   "Nina Wronski\l"
         +	"Johan Grand (shared T&F)\l"
         +   "}"
         ];
@@ -120,7 +119,7 @@ digraph {
         +	"Darrin Jack\l"
         +	"Yin Hsien Fung\l"
         +	"Rebecca Hawke\l" // Sutton-Hawke
-        +	"Peter Mcdowall\l"
+        +	"Peter McDowall\l"
         +   "}"
         ];
 
@@ -132,9 +131,10 @@ digraph {
         +	"Tim Lawson\l"
         +	"Cheng Yang (shared T&F)\l"
         +	"Vladmir Bubanja\l" 
-         +	"Adam Knight\l" 
+        +	"Adam Knight\l" 
         +	"Minyu Zhang\l"
-       +   "}"
+        +   "Guy Dubuis\l"
+        +   "}"
         ];
 
         S_photometry_radiometry [label = "{Photometry & Radiometry| "
@@ -152,13 +152,13 @@ digraph {
 //        ];
         
         S_temperature_humidity [label = "{Temperature & Humidity|  "
-        +	"Rod White\l"
         +   "Peter Saunders\l"
-        +	"Emile Webster\l"
         +	"Jeremy Lovell-Smith\l"
-        + 	"Farzana Masouleh\l"
         +	"Hamish Edgar\l"
         +	"Ben Sherson\l"
+        +   "Stefaan Janssens\l"
+        +   "(pending)\l"
+        +   "(vacancy)\l"
         +   "}"
         ];
 
