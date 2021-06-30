@@ -33,7 +33,7 @@ digraph {
         
         // Second row
         QM [label="{Quality Manager|Blair Hall}" ];   
-        SSC[label="{Science Support\n& Administration|(vacancy)\nCheree Walker}" ];    
+        SSC[label="{Science Support\n& Administration|Lisa Castle\nCheree Walker}" ];    
         CM [label="{Chief Metrologist|Eleanor Howick}" ];
         
         {rank=same; QM, SSC, CM; }
@@ -156,8 +156,8 @@ digraph {
         +	"Jeremy Lovell-Smith\l"
         +	"Hamish Edgar\l"
         +	"Ben Sherson\l"
-        +   "(vacancy)\l"
-        +   "(vacancy)\l"
+        +   "Stefaan Janssens\l"
+        +   "(pending)\l"
         +   "(vacancy)\l"
         +   "}"
         ];
