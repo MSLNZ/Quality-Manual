@@ -1,10 +1,14 @@
 \section{Proficiency testing}
-This guide concerns the ISO/IEC 17043:2010 standard on the general requirements for proficiency testing. That standard is distinct from ISO/IEC 17025:2017 but there are many similarities. The purpose of this document is to present an overview of the clauses in ISO/IEC 17043 and, where appropriate, associate them with sections in our ISO/IEC 17025 Quality Manual. 
-Sections 1 through 3 of ISO/IEC 17043 concern Scope, Normative references and Terms and definitions. Sections 4 and 5 are considered in greater detail below. Section 4 concerns Technical requirements and section 5 Management requirements.
+This guide is concerned proficiency testing organised by MSL. It takes the ISO/IEC 17043:2010 standard into account. That standard is distinct from ISO/IEC 17025:2017, although there are many similarities, and MSL does not currently intend to fully implement the standard to seek accreditation \cite{BSI:proficiency}. 
+
+The 17043 standard is mainly concerned with organisations that routinely organise proficiency testing, which is not the case for MSL. The nature of the proficiency tests (PTs) that MSL offers are more in line with what has been called \textit{small interlaboratory comparisons}. Some advice about running these smaller comparisons is given in \cite{Milde:2020} and \cite{EA-4/21}
+
+This document provides an overview of ISO/IEC 17043 and, where appropriate, associates clauses in that standard with sections in our ISO/IEC 17025 Quality Manual. 
+Sections 1 through 3 of ISO/IEC 17043 deal with: Scope, Normative references and Terms and definitions; they are not discussed here. Section~4 concerns Technical requirements and section 5 Management requirements: these sections are considered below.
 
 \subsection{Technical requirements}
 
-Technical requirements are partially met by MSL's quality control over calibration and measurement capabilities. There are new competencies, which could be managed in our TCM. We need people to design PT protocols and validate the designs, people to work through the data processing and people to check the results. These are similar distinctions as our existing A+R+W+C classifications, but the competencies involved are substantially different.
+Technical requirements of 17043 are partially met by MSL's quality control over calibration and measurement capabilities. There are new competencies, which could be managed in our TCM. We need people to design PT protocols and validate the designs, people to work through the data processing and people to check the results. These are similar distinctions as our existing A+R+W+C classifications, but the competencies involved are substantially different.
 
 \begin{center}
 {\renewcommand*{\arraystretch}{1.4}
@@ -86,82 +90,100 @@ There will be a need to label results with anonymous IDs when reporting results.
 
 \subsection{Proficiency test design}
 
-A planning document must be prepared before every PT. This document must address the objectives and PT scheme design. The plan is a requirement of 17043 (clause 4.4.1.3). 
-There are 21 points that must be addressed in the plan. The following schema may help to make sure that all are covered. 
+A planning document must be prepared before every PT. The plan is a requirement of 17043 (clause 4.4.1.3).  The document must address the objectives and PT scheme design. 
 
-\paragraph{Plan headings:}\mbox{}\\
+
+There are 21 points that must be covered in the plan. The headings are as follows, with some brief comments  
 
 \begin{enumerate}[a)]
-\item	PT provider \\
+\item	\textbf{PT provider} \\
 Measurement Standards Laboratory of New Zealand (MSL)
 
-\item	PT coordinator \\
-(Name, address, contact details)
+\item	\textbf{PT coordinator} \\
+(Name, address, contact details). For example:
 
-\item	Subcontracted activities \\
-(None)
+Peter Saunders\\
+Measurement Standards Laboratory\\
+Tel.: 04 931 3143\\
+email: peter.saunders@measurement.govt.nz
 
-\item	Criteria to be met for participants \\
-(17025-accredited laboratory) \\
-Criteria to be met for participants:
-(accredited laboratory?) This is a question of policy. Why would we allow non-accredited labs to participate (this is risky), perhaps only those intending to become accredited (how would we know?)
+\item	\textbf{Subcontracted activities} \\
+(Probably none)
 
-Note too that at the moment of registration some teams may want the participant to supply information about their circumstances. We might need them to return answers to a series of questions.
+\item	\textbf{Criteria to be met for participants} \\
 
-\item	Expected number of participants \\
-(...) This is just to make sure we have properly resourced it: if suddenly this number were exceeded you would know to check if we had the capacity to go ahead
+\textit{Participation is restricted to New Zealand laboratories only.  Please contact your country's National Metrology Institute for information about proficiency tests available in your country.}
 
-\item	Information on measurands, including what the participants are to measure or test \\
-(...) This will go in the protocol, but it is important that the team knows (and has had this validated internally). This is the place to state what the aim of the PT is too.
+\vspace{\baselineskip}
+Note, when registering, we might want participants to supply information about their circumstances  e.g., to return answers to a series of questions.\footnote{Whether to restrict participation to 17025-accredited laboratories may also be considered. Why would we allow non-accredited labs to participate (this is risky), perhaps only those intending to become accredited should be allowed (but how would we know)?}
 
-\item	The range of measured values expected \\
-(...) Same as f). Note here it pays to think about how labs might behave (unintended behaviour) and document assumptions and planned responses. We should not be adapting the rules as we see the data coming in. 
+\item	\textbf{Expected number of participants} \\
+To be sure the PT can be properly resourced. 
 
-\item	The major sources of measurement error expected in this type of measurement \\
-(...) Same as f) – it is asking whether we have thought about the measurement model
+\item	\textbf{Information about the measurand} \\ \label{l:measurands}%
+This should cover what participants are expected to measure or test and may also include the aim of the PT. The PT protocol will also include this information.  This information should be reviewed and validated internally.
 
-\item	Requirements for quality control, storage and distribution of items used in the PT \\
-(...) Shipping, etc, as well as QA to be sure the item has not been compromised. These are things that MSL will assume responsibility for (but see (n) below).
+\item	\textbf{The expected range of measured values} \\ \label{l:ranges}%
+It is important to consider the diversity of responses that may be submitted. It pays to think about how labs might behave (unintended behaviour). This will determine acceptable data processing strategies (which should be decided before the results are reviewed).
 
-\item	Reasonable precautions to prevent collusion between participants or falsification of results, and procedures to be employed if collusion or falsification is suspected  \\
-(...) This will depend on the PT, but we should have a statement that such behaviour will not be tolerated and what will happen if we suspect it (level of evidence?). It may be possible to ask for extra things that would make it easier for us to detect bad behaviour (e.g, raw data immediately following a measurement).
+\item	\textbf{The major sources of measurement error} \\
+This builds on \ref{l:measurands} and \ref{l:ranges}. It is asking about the main features of the measurement model, which will probably be influence factors for all participants.
 
-\item	The information that will be given to participants and the time schedule for the various phases of the PT \\
-(...) 
 
-\item	(For continuous PTs only) The timetable for distribution of items to participants, the deadline for returns and, where appropriate, dates on which participants will make measurements \\
-(...) 
+\item	\textbf{Requirements for quality control, storage and distribution of items} \\
+These are the things that MSL must assume responsibility for (but, see \ref{l:stability} below). We must ensure that items do not become compromised. How items will be packed and shipped and how they will be checked during the PT need to be considered.
 
-\item	Any information on methods or procedures that participants need \\
-(...) 
 
-\item	Procedures to be used to establish the stability of PT items \\
-(...)  This sounds like i) but this refers to procedures that the lab will use to establish stability.
+\item	\textbf{Collusion between participants or falsification of results}  \\
+This should cover the procedure to be followed if collusion or falsification is suspected. We should state that such behaviour will not be tolerated and explain what will happen if we suspect that it has occurred.\footnote{The statement should allow MSL to drop a participant when there are some grounds for concern, rather than placing a burden of proof on MSL to show that someone has behaved inappropriately.} 
+ 
+It may be possible to ask for extra information with results that would make it easier for us to detect bad behaviour (e.g, raw data immediately following a measurement).
 
-\item	Description of any standardised reporting formats to be used by participants \\
-(...) 
 
-\item	A detailed description of the statistical analysis that will be used to analyse results \\
-(...)  Like f-h, this is a technical question that should be sorted and validated before the PT starts
+\item	\textbf{Information for participants and the time schedule}  \\
+This is usually all covered in the Technical Protocol.
 
-\item	The uncertainty of any assigned values (must be traceable)
-[NA] This needs rewording. The question is: how is traceability obtained by MSL?
+\item	\textbf{For continuous PTs} \\ 
+A timetable for distribution of items to participants, the deadline for returns.
 
-\item	Performance criteria for participants\\
-(...) E.g., En values, this is related to p). Note, we should be clear in our own minds about what the purpose of the PT is: what is the actual proficiency that is being tested. This should be documented. Knowing this will make other decisions clearer.
+\item	\textbf{Supplementary information on methods or procedures} \\
+This may or many not be needed.
 
-\item	A description of the data, interim reports or other information that will be returned to participants\\
-(...) Think about how participants can be informed promptly after they have submitted a report, so that they get feedback before the final report for the PT is prepared. We might issue an interim report with data. This report is unlikely to be a full calibration report, and unsigned, but general quality principles apply so it should be prepared by one person and checked by another, with some record of checking retained. The publication clearance process might be used to cover the whole set of reports for on PT. 
+\item	\textbf{Procedures to establish stability of PT items} \\ \label{l:stability}%
+This is about the procedures each participant will use to establish stability of the items they receive for measurement.
 
-\item	A description of the extent to which participant results, and conclusions based on the outcome of the PT, are to be made public\\
-(...) Will there be an overall PT report? If so, participants will be anonymized (we pledge this in the confidentiality statement). However, we might name the participants at the beginning of the report (or not) and we might prepare a report that can only be distributed among participants, or not.
+\item	\textbf{Standardised reporting formats} \\
+A description of any requirements for the format when reporting results. 
 
-\item	Actions to be taken in the case of lost or damaged PT test items\\
-(...) One important question is: who pays if it breaks? Has the question of insurance been considered? Also, some thought about mitigating the effects of various risks. Also, communication with clients: we will tell them if ….; refunds, etc?
+\item	\textbf{Statistical analysis of results} \\ \label{l:statistics}%
+A detailed description of the statistical analysis that will be used to analyse results.
+This is an important technical question. Like \ref{l:measurands}, this should be validated internally before the PT begins.
+
+\item	\textbf{Traceability} \\
+How is traceability to the SI obtained?
+
+\item	\textbf{Performance criteria} \\
+How will the performance of participants be evaluated (e.g., En values)? This relates to the purpose of the PT and what is actually being tested. This is also related to \ref{l:statistics}. 
+
+
+\item	\textbf{Interim reporting} \\
+If interim reports, or other information will be given to participants before the end of the PT this should be noted. 
+
+Think about how participants may be informed promptly after they have submitted a result. We might issue an interim report with data that is not a full calibration report (hence unsigned). If so, general quality principles should still apply: it should be prepared by one person and checked by another, with some record of checking retained. 
+
+The publication clearance process might be used to cover the whole set of reports for on PT. 
+
+\item	\textbf{Publication of information} \\
+The extent to which participant results, and conclusions based on the outcome of the PT, are to be made public should be noted. 
+
+Will there be a final overarching report? If so, will participants maintain their anonymity in this report (we pledge this in the confidentiality statement)? We might list participant names at the beginning of the report, but not identify the results for each participant. We might prepare a report that can only be distributed among participants.
+
+\item	\textbf{Lost or damaged test items} \\
+What actions will be taken if items are lost or damaged? Who is financially responsible? Has insurance been considered? Is it possible to mitigate any of the various risks. If a PT can be seriously impacted, how will communication with participants be handled, will there be refunds, etc?
 
 \end{enumerate}
 
-Another idea regarding confidentiality and anonymisation: the team could give Cynthia a pool of identifiers that she can distribute to people who register (the point is that Cynthia does this completely independently of the team, which mitigates of the communication mishaps leading to leaked information about the comparison). Cynthia would let the team know how she has assigned the ids when registration closes.
+Another idea regarding confidentiality and anonymity: the team could give Cynthia a pool of identifiers that she can distribute to people who register (the point is that Cynthia does this completely independently of the team, which mitigates of the communication mishaps leading to leaked information about the comparison). Cynthia would let the team know how she has assigned the ids when registration closes.
  
 
 Not discussed but also important: 
