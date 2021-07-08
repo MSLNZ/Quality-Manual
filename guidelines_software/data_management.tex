@@ -18,6 +18,13 @@ The DMP should contain sufficient detail to enable stakeholders (MSL staff, mana
 \begin{enumerate}
  \item How is data generated? What software is used? 
  \item Data formats (e.g., raw text, .csv, .xlsx, XML, etc). 
+ 
+Open, non-proprietary formats are likely to remain usable longer. As a general rule, plain text formats, such as comma- or tab- delimited files, are open formats and are typically better for re-use and long-term preservation. Formats with complete and freely available documentation are more likely to remain usable. Avoid formats that can only be accessed by one program, e.g.: a Photoshop .psd file is proprietary whereas a .tiff image file is open.
+
+Avoid formats that compress information in a file. They are often smaller, but the compression may permanently remove data. 
+
+Avoid encrypted and compiled formats. Source code has a higher likelihood of remaining usable, since compiling is possible on different architectures and platforms.
+
  \item Is data annotated (with metadata)? Are standards used (which)? 
  \item Where is data stored? How is it organised (common file structure, database, etc)? 
  \item Size of data (storage and networking requirements)? 
@@ -30,7 +37,7 @@ The DMP should contain sufficient detail to enable stakeholders (MSL staff, mana
  \item How is software maintained (over time)?
  \item How long must data and software be retained?  
  \item Responsibilities for data (stewardship, custody)?\footnote{A `custodian`  is usually a manger with responsibility for the business function of data; they will have responsibility for planning and policy-making on data management. A `steward` is a subject-matter expert with responsibility for how data is used; they perform the work to manage data.}
- \item Who is responsible for the DMP (audits, reviews, etc)? 
+ \item Who is responsible for the DMP (audits, reviews, etc)? Responsibility must transfer if key personnel leave. 
 \end{enumerate}
 
 \subsubsection{17025 requirements}
