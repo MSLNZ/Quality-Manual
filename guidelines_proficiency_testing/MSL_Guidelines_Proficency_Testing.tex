@@ -32,11 +32,6 @@
 \setlength{\oddsidemargin}{5mm}			% Remove 'twosided' indentation
 \setlength{\evensidemargin}{5mm}
 
-% ----- To allow cross-referencing between documents
-%       a common root folder must be established
-%       this command encapsulates the path
-\newcommand{\gptPath}{../guidelines_proficiency_testing}%
-
 % ------ To cross reference other documents
 \usepackage{xr-hyper}
 \usepackage[
@@ -48,6 +43,14 @@
 	filecolor=cyan, 	% [cyan]
 	menucolor=black		% [red]
 ]{hyperref}
+
+% ------ External references
+\externaldocument[QM-]{../quality_manual_document/MSL_Quality_Manual}
+
+% ----- To allow cross-referencing between documents
+%       a common root folder must be established
+%       this command encapsulates the path
+\newcommand{\gptPath}{../guidelines_proficiency_testing}%
 
 % Header and footer control
 \usepackage{fancyhdr}
