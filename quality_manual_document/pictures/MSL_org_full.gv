@@ -98,7 +98,7 @@ digraph {
 
         TeamElectricalTime[ 
             label="{Team Manager|"
-            +   "Kevin Gudmundsson\n" // "Cliff Hastings\n"
+            +   "Matthias Vest\n"
             +   "}" 
         ];
         
@@ -157,7 +157,7 @@ digraph {
         +	"Hamish Edgar\l"
         +	"Ben Sherson\l"
         +   "Stefaan Janssens\l"
-        +   "(pending)\l"
+        +   "Ana Rakonjac\l"
         +   "(vacancy)\l"
         +   "}"
         ];
