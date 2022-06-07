@@ -26,15 +26,15 @@ digraph {
             
         // Top row
         B1 [style=invis];
-        D [label="{Director (acting)|Cliff Hastings}"];
+        D [label="{Director (acting)|Annette Koo}"];
         B2 [style=invis]; 
         
         {rank=same; B2, D, B1 ; }
         
         // Second row
-        QM [label="{Quality Manager|Blair Hall}" ];   
-        SSC[label="{Science Support\n& Administration|Lisa Castle\nCheree Walker}" ];    
-        CM [label="{Chief Metrologist|Eleanor Howick}" ];
+        QM [label="{Quality Manager|Neil Swift}" ];   
+        SSC[label="{Science Support\n& Administration|Callaghan Innovation pool staff}" ];    
+        CM [label="{Chief Metrologist|Annette Koo}" ];
         
         {rank=same; QM, SSC, CM; }
 
@@ -92,7 +92,8 @@ digraph {
         
         TeamTemperatureLight[ 
             label="{Team Manager|" 
-            +   "Cynthia Lendrum\n"
+            +   "Mesh Pillay (acting Photometry & Radiometry)\n"
+            +   "Matthias Vest (acting Temperature & Humidity)\n"
             +   "}" 
         ]; 
 
@@ -158,7 +159,6 @@ digraph {
         +	"Ben Sherson\l"
         +   "Stefaan Janssens\l"
         +   "Ana Rakonjac\l"
-        +   "(vacancy)\l"
         +   "}"
         ];
 
