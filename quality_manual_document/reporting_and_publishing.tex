@@ -126,20 +126,28 @@ Technical information on how to produce a calibration report, with a suitable re
 The process required to create a record of signing for the quality system is as follows:
 
 \begin{enumerate}
-\item Create a PDF version of the report file
-\item Upload the PDF file to the ``Calibration Reports'' library. Note, the file name should be in the following format:
+\item Create a PDF version of the report file. Note, the file name should be in the following format:
 \begin{quote}
 \texttt{"section name"\_"section file number"\_year}
 \end{quote}
+\item Upload the PDF file to the ``Calibration Reports'' class within the AODocs Quality Management System library. 
+
+Create new Calibration Report: \\
+\\
+\includegraphics[scale=.9]{pictures/new_report} \\
+\\
+Select 'Attach' and navigate to the PDF.  Do NOT select 'Upload and convert' or 'Create'.
+\\
+\includegraphics[scale=.55]{pictures/new_report2} \\
 \item \deprecated{Fill in the metadata for the report. For example,}
 \begin{center}
-\includegraphics[scale=.9]{pictures/metadata_signed_report}
+\includegraphics[scale=.75]{pictures/metadata_signed_report}
 \end{center}
-\item The first person can now `sign' the report by inserting an image of their signature using PDF reader software (~see \cite[\S\ref*{GRP-ss:electronic_reports}]{MSL_Reporting_Guidelines}~). \deprecated{The person who signed must upload the new version to EDI.}
+\item The first person can now `sign' the report by inserting an image of their signature using PDF reader software (~see \cite[\S\ref*{GRP-ss:electronic_reports}]{MSL_Reporting_Guidelines}~). \deprecated{In AODocs, this can be done by the signatory either downloading the PDF, signing and then uploading to the same file name, OR by using the AODocs Universal File Opener (UFO) browser extension.  The UFO is the more efficient solution with guidance available through the AODocs MSL Quality Management System home page.}
 
 Note,
 \begin{itemize}
-\item the file name must not be changed \deprecated{(EDI maintains a version history based on file name)}
+\item the file name must not be changed \deprecated{(AODocs maintains a version history based on file name)}
 \item it is not necessary to initial each page (as is done with paper reports)
 \item for technical reasons, the document must be opened with a PDF reader running on a local machine (it is not possible to sign and re-store the document directly from a browser)
 \end{itemize}
@@ -149,17 +157,17 @@ Note,
 
 Before uploading the final version, signed by everyone, an MD5 checksum must be calculated (~see \cite[\S\ref*{GRP-ss:file_integrity_md5}]{MSL_Reporting_Guidelines}~). 
 
-During uploading of the final version, the MD5 checksum must be saved as a version `comment'. 
+The MD5 checksum must be saved in the 'Checksum' property and as a note in the version history. 
 
-\item If corrections to the report are necessary during the signing process, the faulty version can be annotated with comments, highlighted sections, etc (using a PDF reader), \deprecated{and uploaded to EDI}. Doing so maintains a full record of the signing/issuing process. 
+\item If corrections to the report are necessary during the signing process, the faulty version can be annotated with comments, highlighted sections, etc (using a PDF reader), \deprecated{and uploaded to AODocs}. Doing so maintains a full record of the signing/issuing process. 
 
 Once corrected, the new report file must be signed again by everyone.
 \end{enumerate}
 
-This process generates a version history similar to the one below. All intermediate versions can be reviewed by clicking on the links at the left. Note the checksum in the comment associated with the final version. \deprecated{Figure needs replacing}
+This process generates a version history similar to the one below. All intermediate versions can be reviewed by clicking on the links at the left. Note the checksum in the comment associated with the final version.
 
 \begin{center}
-\includegraphics[scale=.6]{pictures/version_history_report}
+\includegraphics[scale=.45]{pictures/version_history_report}
 \end{center}
 
 \subsubsection{Withdrawal due to a reporting or measurement error}
@@ -181,22 +189,21 @@ Any change of information in the reissued report shall be clearly identified and
 \item Electronic copies in the central file, and in the section file, should be cancelled:
 \begin{itemize}
 \item For a PDF file, add the text “{\color{red}CANCELLED}” to each page (in red text, with bold, large, font size – there are PDF reader programmes that can do this). 
-\item For the central file copy, the name of the file should not be changed. Rather, the cancelled file should be saved with the same name and a note added about the cancellation in the \deprecated{EDI version history of the document}. 
+\item For the central file copy, the name of the file should not be changed. Rather, the cancelled file should be saved with the same name and a note added about the cancellation in the \deprecated{AODocs version history of the document}. 
 \end{itemize}
 
 \item Produce a corrected report using the original report number.  Retain the original issue dates throughout, but add, after each issue date, the words `reissued on [new issue date]', e.g. `Report No. Pressure/1997/155, 11 August 1997, reissued on 10 February 2000'.
 
 \item Any change of information in the report must be clearly identified and, where appropriate, the reason for the change should be included in the report (~some advice on formatting is given in \cite[\S\ref*{GRP-ss:reissued_reports}]{MSL_Reporting_Guidelines}~).
 
-\item Reissue the corrected report and the cancelled original report to the client.
-
 \item Make copies of the signed corrected original and file in the central file and the section file. 
 \begin{itemize}
 \item The name of the central file copy should not be changed (i.e., the new copy of the report replaces the cancelled original). 
-\item \deprecated{A note should be added in the EDI version history} to indicate a reissued report.
-\item The metadata tag `reissued' for \deprecated{the EDI document} should be set.
+\item \deprecated{A note should be added in the AODocs version history} to indicate a reissued report.
+\item \deprecated{If the reissued report is of electronic format instead of paper, upload the final signed reissued report to AODocs. The Chief Metrologist, or delegate, shall add the MD5 to both the version notes and the Checksum property.}
+\item Set the \deprecated{AODocs} 'Re-issued' property to TRUE.
 \end{itemize}
-
+\item Reissue the corrected report and the cancelled original report to the client.
 \end{enumerate}
 
 \paragraph{To withdraw electronic reports}
@@ -206,7 +213,7 @@ Any change of information in the reissued report shall be clearly identified and
 \item Electronic copies in the central file, and in the section file, should be cancelled:
 \begin{itemize}
 \item For a PDF file, add the text “{\color{red}CANCELLED}” to each page (in red text, with bold, large, font size – there are PDF reader programmes that can do this). 
-\item For the central file copy, the name of the file should not be changed. Rather, the cancelled file should be saved with the same name and a note added about the cancellation in \deprecated{the EDI version history} of the document. 
+\item For the central file copy, the name of the file should not be changed. Rather, the cancelled file should be saved with the same name and a note added about the cancellation in \deprecated{the AODocs version history} of the document. 
 \end{itemize}
 
 \item Produce a corrected report using the original report number.  Retain the original issue dates throughout, but add, after each issue date, the words `reissued on [new issue date]', e.g. `Report No. Pressure/1997/155, 11 August 1997, reissued on 10 February 2000'.
@@ -218,8 +225,9 @@ Any change of information in the reissued report shall be clearly identified and
 \item File copies of the signed corrected original in the central file and the section file. 
 \begin{itemize}
 \item The name of the central file copy should not be changed (i.e., the new copy of the report replaces the cancelled original). 
-\item Add a note to the \deprecated{EDI version history} to indicate a reissued report.
-\item Set the \deprecated{EDI document metadata} tag `reissued'.
+\item Add a note to the \deprecated{AODocs version history} to indicate a reissued report.
+\item \deprecated{Upon upload of the final signed reissued report to AODocs, the Chief Metrologist, or delegate, shall add the latest MD5 to both the version notes and the Checksum property. Usually the Checksum property will already populated with the MD5 for the prior issued report. This shall be overwritten.}
+\item Set the \deprecated{AODocs} 'Re-issued' property to TRUE.
 \end{itemize}
 \end{enumerate}
 
@@ -256,8 +264,9 @@ The new report must be identified as a replacement and have a new report issue d
 \item File copies of the report in the central file and the section file.
 \begin{itemize}
 \item The name of the central file copy should not be changed (i.e., the new copy of the report replaces the original). 
-\item Add a note to indicate a replaced report in \deprecated{the EDI version history}.
-\item Set the \deprecated{EDI document metadata} tag `reissued'.
+\item Add a note to indicate a replaced report in \deprecated{the AODocs version history}.
+\item \deprecated{If the reissued report to the client is of electronic format instead of paper, the Chief Metrologist, or delegate, shall add the MD5 to both the version notes and the Checksum property.}
+\item Set the \deprecated{AODocs 'Re-issued' property to TRUE}.
 \end{itemize}
 \end{itemize}
 
@@ -284,7 +293,7 @@ Follow the first steps of the procedure in \S\ref{sss:reissue_report} for re-iss
 \item Electronic copies in the central file, and in the section file, should be cancelled:
 \begin{itemize}
 \item For a PDF file, add “{\color{red}CANCELLED}” to each page (in red text, with bold, large, font size – there are PDF reader programmes that can do this). 
-\item Do not change the file name in the central file. Rather, the cancelled file should be saved with the same name and a note added to \deprecated{the EDI version history} of the document about the cancellation. 
+\item Do not change the file name in the central file. Rather, the cancelled file should be saved with the same name and a note added to \deprecated{the AODocs version history} of the document about the cancellation. 
 \end{itemize}
 \end{enumerate}
 
@@ -304,9 +313,9 @@ Report No.\ Humidity/2020/428, 3 March 2020\\
 
 \item Copies of the report must be stored in the central file and the section file.
 \begin{itemize}
-\item The name of the central file copy should be the new file name. (The old file name may be changed \deprecated{on EDI} without breaking the version history. Seek help from the Quality Manager or site administrator to do this before uploading the new version of the file.) 
+\item The name of the central file copy should be the new file name. (The old file name may be changed \deprecated{on AODocs} without breaking the version history. Seek help from the Quality Manager or site administrator to do this before uploading the new version of the file.) 
 \item The central file metadata tag `reissued' should be set.
-\item Add a note to the \deprecated{EDI version history} to indicate a replaced report.
+\item Add a note to the \deprecated{AODocs version history} to indicate a replaced report.
 \end{itemize}
 \item Reissue the report.
 
@@ -366,7 +375,7 @@ This time-of-day display is affected by unpredictable transmission delays betwee
 
 \subsubsection{MSL publications repository}
  \label{sss:publications_repository}
-The MSL Publications library is the common repository for publications. It is part of the \deprecated{`Measurement Standards Laboratory' site on EDI}. Various categories of document can be stored there, including: 
+The MSL Publications library is the common repository for publications. It is a folder within the \deprecated{`MSL Quality Management System' library in AODocs}. Various categories of document can be stored there, including: 
 \begin{itemize}
  \item Peer-reviewed journal article
  \item Conference proceedings article 
@@ -382,9 +391,9 @@ The MSL Publications library is the common repository for publications. It is pa
 \end{itemize}
 
 \subsubsection{Publications clearance form}
-A Publication Clearance Form can be used to record the review of a publication in the repository. The form is one of \deprecated{the `new' document types that can be created inside the docset (`bucket') associated with the publication}.
+A Publication Clearance Form can be used to record the review of a publication in the repository. The form is \deprecated{available within AODocs by navigating to the Publications folder then selecting New > Document > Publication Clearance}.
 
-The version control system on EDI keeps track of the different individuals who contribute to the clearance process (e.g., a Team Manager can save comments about IP issues before, or after, a technical review by someone in the team). Extra rows can be added to the form for authors or reviewers (a table structure is used in the form).
+The version control system in AODocs keeps track of the different individuals who contribute to the clearance process (e.g., a Team Manager can save comments about IP issues before, or after, a technical review by someone in the team). Extra rows can be added to the form for authors or reviewers (a table structure is used in the form).
 
 A Publication Clearance Form template is provided for convenience, but other types of document could also be used to keep a record of review. The form has been designed for technical reports and scientific papers (i.e., traditional types of scientific publication).  
 
@@ -394,7 +403,7 @@ When MSL staff are co-authors in a publication that is led by an external organi
 
 Nevertheless, there should be an agreement, between MSL and other parties, about the nature of the collaboration, intellectual property, confidentiality, etc. This agreement should allow MSL staff to approve any final draft before it is submitted to a journal or a conference. If any measurements are reported, MSL authors should ensure that our metrological traceability policy is followed (see \S\ref{sss:traceability_policy}).
 
-The \deprecated{Publications Library} should be used to store the final manuscript draft, and a record of MSL staff approval for submission. Other information, such as the agreement between authors, may also be saved in the library. 
+The \deprecated{Publications folder} should be used to store the final manuscript draft, and a record of MSL staff approval for submission. Other information, such as the agreement between authors, may also be saved in the library. 
 
 \subsection{Guidelines for authors and reviewers}
 All material must be presented clearly for the intended audience.

@@ -5,16 +5,9 @@ The QMS file system comprises a central file system and a number of section file
 
 \subsection{Central file system}
 \label{ss:central_file_system}
-The central file system is located on the Callaghan Innovation electronic document and records management system \deprecated{(EDRMS, fondly referred to as EDI). In the past, the central file system was paper-based, with files located in the administration office of MSL and in the office of the Quality Manager. The transition to an electronic file system began in 2016. The older paper file system is being operated concurrently with the new electronic file system (paper files are in the storage room on the 4th floor of the Library).}
+\deprecated{The central file system is the 'MSL Quality Management System' library within the Callaghan Innovation document management system. This is a AODocs secured folder library with access limited to staff working at MSL and certain key members of the organisation who need access.}
 
-\deprecated{The technology used in the new central file system is Microsoft Sharepoint 2013. There is a ‘Measurement Standards Laboratory’ Sharepoint site on EDI; the central files are held on a sub-site named ‘Quality Management System’ (QMS). 
-Sharepoint backs up documents and provides version control, which ensures that the current version of QMS documents are easily identifiable and available uniformly throughout MSL.}
-
-Access to documents on the QMS site \deprecated{(and the Jobs Register on the MSL site)} is limited to staff working at MSL and certain key members of the organisation who need access. 
-
-\deprecated{The QMS site uses Sharepoint libraries, lists and docsets to manage documents and information. Sharepoint lists can present information in a tabular format (rather like an Excel worksheet). Loosely speaking, a Sharepoint library is a collection of documents. A library may also contain collections of docsets, which themselves may contain documents (rather like a Windows folder). The QMS site uses libraries of docsets to create two-tiered collections of documents (rather like a folder that contains other folders).}
-
-\deprecated{The following table identifies the main libraries and lists on the QMS site and summarises the type of information stored in each.}
+\deprecated{The secured folder library type stores data within a folder structure.  In a change from the prior document management system (edi), key information such as the Technical Competency Matrix is now stored within files instead of as meta data.  The following table summarises the type of information stored.}
 
 \deprecatedbox{{\renewcommand*{\arraystretch}{1.4}
 \begin{longtable}{p{14.07em}p{25em}}
@@ -22,35 +15,41 @@ Access to documents on the QMS site \deprecated{(and the Jobs Register on the MS
 	\textcolor[rgb]{ 1,  1,  1}{\textbf{Name}} & 
 	\textcolor[rgb]{ 1,  1,  1}{\textbf{Contains}} \\
 
-\textbf{Quality Manual} & A library containing this document, a number of guidance documents that supplement this manual, and some forms used by the QMS \\
+\textbf{APMP Reporting} & A folder structure containing section presentations and reports to the annual APMP meetings. \\
 
-\textbf{Improvement Requests} & A library of docsets. Each docset contains documents associated with a particular Improvement Request. \\
+\textbf{Calibration reports} & A folder containing copies of issued calibration and test reports. \\
 
-\textbf{Risks and Opportunities} & A library containing an Excel spreadsheet used for recording risks and opportunities to the Quality Management System \\
+\textbf{Client Callbacks} & A folder of documents related to calls to clients about work done recently by MSL. \\
 
-\textbf{Signing Delegations} & A list of the people with delegated authority to sign for the Chief Metrologist and for the Quality Manager \\
+\textbf{CMCs and IANZ Scope} & A folder structure containing past and present CMC documents (from the BIPM database) and IANZ scopes of accreditation for MSL. \\
 
-\textbf{Technical Competencies} & A list representing the Technical Competency Matrix: the official record of MSL technical competencies. \\
+\textbf{Correspondence} & A folder structure of important correspondence related to the quality system. Mostly communications to and from the Quality Manager, IANZ, Director or Chief Metrologist relating to the accredited laboratory. \\
 
-\textbf{\makecell[tl]{Validated Procedures\\ Register}} & A list of MSL Technical Procedures with information about their validation status. \\
+\textbf{IANZ Assessments} & A folder structure containing reports from prior technical reassessment and surveillance audits. \\
 
-\textbf{Client Callbacks} & A library of documents related to call to clients about work done recently by MSL \\
+\\
 
-\textbf{Competency Records} & A library of docsets. Each docset contains documents presented to the Quality Manager as evidence of an individual's competency \\
+\textbf{Improvement Requests} & Each improvement request is given a separate folder identified by number and description.  The original improvement request document and any supporting information is stored in this folder. \\
 
-\textbf{Correspondence} & A library of important correspondence related to the quality system. Mostly communications to and from the Quality Manager, IANZ, Director or Chief Metrologist relating to the accredited laboratory. \\
+\textbf{Internal Audits} & A folder structure with a folder for each round of internal audits. \\
 
-\textbf{Internal Audits} & A library of docsets. Each docset contains documents associated with one round of internal audits. \\
+\textbf{International Comparisons} & A folder structure containing documents related to the participation of MSL in international measurement comparisons. \\
 
-\textbf{MQC documents} & A library of MSL Quality Council working documents \\
+\textbf{MQC documents} & A folder of MSL Quality Council working documents. \\
 
-\textbf{\makecell[tl]{Technical Procedure\\ Records}} & A library of docsets. Each docset contains a copy of the validation cover sheet and other supporting validation documents, such as the change history, for a validated technical procedure. \\
+\textbf{MSL Publications} & A folder structure containing records associated with publication of a Book, Book chapter, Conference Proceedings, MSL Consultancy Report, MSL Technical Guide, MSL Training Course, Peer-reviewed journal, Presentation, Proficiency Test, Software, Technical Publication (not peer reviewed) or Technical Report. \\
 
-\textbf{Calibration reports} & A library containing copies of issued calibration and test reports \\
+\textbf{Quality Manual} & A folder containing this document, a number of guidance documents that supplement this manual, and some forms used by the QMS. \\
 
-\textbf{CMCs and IANZ Scope} & A library containing the CMC documents (from the BIPM database) and IANZ scopes of accreditation for MSL \\
+\textbf{Risks and Opportunities} & This folder contains a deprecated spreadsheet. Risks and Opportunities are now stored in JIRA, see section 10.1 of this Quality Manual. \\
 
-\textbf{International comparisons} & A library of docsets containing documents related to the participation of MSL in international measurement comparisons \\
+\textbf{Signing Delegations} & A folder containing a spreadsheet with a list of the people with delegated authority to sign for the Chief Metrologist and for the Quality Manager \\
+
+\textbf{Technical Competencies} & A folder containing subfolders for each person in MSL within an entry in the Technical Competency Matrix. Each person's folder contains documents presented to the Quality Manager as evidence of an individual's competency. The 'Technical Competencies List' is a spreadsheet at the top level folder and is the official record of MSL technical competencies. \\
+
+\textbf{\makecell[tl]{Technical Procedure\\ Records}} & A folder structure containing a copy of the validation cover sheet and other supporting validation documents, such as the change history, for each validated technical procedure. \\
+
+\textbf{\makecell[tl]{Validated Procedures\\ Register}} & A folder containing the spreadsheet 'Validated Procedure List' of MSL Technical Procedures with information about their validation status. \\
 
 \bottomrule
 \end{longtable}
@@ -103,7 +102,7 @@ Each item in the master document list shall identify:
 \subsubsection{Technical procedure files}
 Sections have a number of technical procedures that describe specific technical activities ( see \S\ref{ss:technical_procedures} ). These procedures and documents related to them are filed by the section.
  
-Note, the validity status of all technical procedures is recorded in the Validated Procedure Register in the central file system. The report prepared by the validation team when a procedure is validated is stored in the Technical Procedures Records library.
+Note, the validity status of all technical procedures is recorded in the 'Validated Procedure List' spreadsheet in the central file system. The report prepared by the validation team when a procedure is validated is stored in the Technical Procedures Records folder.
 
 \subsubsection{Technical records}
 Sections shall retain records of original measurements and derived data. The integrity of data and information in these records will be maintained; they shall be protected against tampering and loss.
@@ -115,10 +114,7 @@ Technical records shall be retained indefinitely.
 
 \subsubsection{Commercial jobs}
 \deprecatedbox{
-Documents related to the contractual arrangements for commercial jobs are managed in the ‘Job Register', a sharepoint smart-folder on the ‘Measurement Standards Laboratory' site. 
-
-A section may use the ‘Job Register' as an extension of the section file system. 
-For short jobs commissioned by IANZ, there is also an ‘IANZ Additional Jobs' library on the ‘Measurement Standards Laboratory' EDI site, which serves as an alternative to the Job Register. The procedure for using this register is written on the associated EDI page.
+Documents related to the contractual arrangements for commercial jobs are managed within section quality systems. A job register is available for use within JIRA, though its use is not mandatory and sections are free to implement their own method instead.
 } 
 
 \subsubsection{Software register}
@@ -236,7 +232,7 @@ Changes might be made to one part of a procedure that do not impact on the valid
 \end{itemize}
 \item If any of the points above are found to be unsatisfactory the author will be asked to make suitable changes.
 \item When re-validating a procedure, the validation team should ensure that material remains current (e.g., references, diagrams, etc)
-\item The team will complete a Validation Cover Sheet (available in the \deprecated{Quality Manual library on EDI}) and submit this, and the procedure, to the Quality Manager. 
+\item The team will complete a Validation Cover Sheet (available in the \deprecated{Quality Manual folder in AODocs}) and submit this, and the procedure, to the Quality Manager. 
 \item The review team will ensure that a record of their analysis and notes about the procedure review are filed with technical procedure documents in the section’s file system. 
 \item The Quality Manager will sign the Validation Cover Sheet to accept the validation. Alternatively, the Quality Manager may direct the validation team to reconsider part of their review.
 \item The Quality Manager will ensure that information about a procedure is updated in the Validated Procedure Register ( see~\S\ref{sss:validated_procedure_register} ) and that a copy of the cover sheet and change history is saved in the Technical Procedure Records library in the central files.
@@ -250,15 +246,15 @@ Archival copies of all superseded technical procedures shall be retained by the 
 \label{sss:validated_procedure_register}
 A Validated Procedure Register keeps track of the status of all MSL technical procedures. Entries in this register identify the procedure, the version number and the period of validity.
 
-The Validated Procedure Register is a \deprecated{sharepoint list in the central file system} ( see \S\ref{ss:central_file_system} ). 
+The Validated Procedure Register is a \deprecated{the spreadsheet 'Validated Procedure List' stored in the Validated Procedure Folder of the AODocs library} ( see \S\ref{ss:central_file_system} ). 
 
 \paragraph{Procedure to modify the Validated Procedure Register}
 \begin{itemize}
 \item Following the review of a procedure by a validation team, a summary of the review will be presented to the Quality Manager, in the form of a validation cover sheet and a complete change history, as well as a copy of the procedure document.
 \item The Quality Manager will sign the cover sheet if satisfied with the review.
 \item One copy of the cover sheet will be filed, by the section, with the technical procedure. 
-\item Scanned copies of the cover sheet and change history will be uploaded to the Technical Procedure Records library \deprecated{on EDI}.
-\item The corresponding entry in the register will be updated \deprecated{(by the site administrator)} and checked by the Quality Manager \deprecated{(who sets the ‘approve’ attribute of the item – this change is recorded by the EDI versioning system)}.
+\item Scanned copies of the cover sheet and change history will be uploaded to the Technical Procedure Records folder \deprecated{in AODocs}.
+\item The corresponding entry in the register will be updated \deprecated{(by the Section's usual Chief Metrologist delegate checker)} and checked by the Quality Manager \deprecated{(who sets the ‘approve’ attribute of the item – this change is recorded by the AODocs versioning system)}.
 \end{itemize} 
 
 \subsubsection{Documentary standards}

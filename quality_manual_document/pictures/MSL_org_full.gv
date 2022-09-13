@@ -26,7 +26,7 @@ digraph {
             
         // Top row
         B1 [style=invis];
-        D [label="{Director (acting)|Annette Koo}"];
+        D [label="{Director |Annette Koo}"];
         B2 [style=invis]; 
         
         {rank=same; B2, D, B1 ; }
@@ -106,7 +106,6 @@ digraph {
         {rank=same; TeamLengthMass, TeamTemperatureLight, TeamElectricalTime; }
 
         S_length [label = "{ Length| " 
-        +   "Eleanor Howick\l"
         +   "Lucy Forde\l"
         +   "Chris Young\l"
         +   "Lenice Evergreen\l"
@@ -144,6 +143,7 @@ digraph {
         +	"Neil Swift\l"
         +	"Yang Yenn Tan\l"
         +	"Joseph Borbely\l"
+		+	"Blair Hall\l"
         +   "}"
         ];
         
