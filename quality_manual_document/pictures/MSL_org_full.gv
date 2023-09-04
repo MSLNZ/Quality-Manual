@@ -90,12 +90,12 @@ digraph {
 
 //        TeamTemperatureLight[ style=invis];
         
-        TeamTemperatureLight[ 
-            label="{Team Manager|" 
-            +   "Mesh Pillay (acting Photometry & Radiometry)\n"
-            +   "Matthias Vest (acting Temperature & Humidity)\n"
-            +   "}" 
-        ]; 
+  //      TeamTemperatureLight[ 
+  //          label="{Team Manager|" 
+  //          +   "Mesh Pillay (acting Photometry & Radiometry)\n"
+  //          +   "Matthias Vest (acting Temperature & Humidity)\n"
+  //          +   "}" 
+  //      ]; 
 
         TeamElectricalTime[ 
             label="{Team Manager|"
@@ -103,12 +103,13 @@ digraph {
             +   "}" 
         ];
         
-        {rank=same; TeamLengthMass, TeamTemperatureLight, TeamElectricalTime; }
-
+        //{rank=same; TeamLengthMass, TeamTemperatureLight, TeamElectricalTime; }
+	{rank=same; TeamLengthMass, TeamElectricalTime; }
         S_length [label = "{ Length| " 
         +   "Lucy Forde\l"
         +   "Chris Young\l"
         +   "Lenice Evergreen\l"
+        +   "Fergus Robinson\l"
         +	"Johan Grand (shared T&F)\l"
         +   "}"
         ];
@@ -138,12 +139,12 @@ digraph {
         ];
 
         S_photometry_radiometry [label = "{Photometry & Radiometry| "
-        +   "Annette Koo\l"
-        +	"Francois Shindo\l"
         +	"Neil Swift\l"
+        +	"Francois Shindo\l"
         +	"Yang Yenn Tan\l"
         +	"Joseph Borbely\l"
-		+	"Blair Hall\l"
+        +       "Ellie Molloy\l"
+	+	"Blair Hall\l"
         +   "}"
         ];
         
@@ -182,15 +183,17 @@ digraph {
         
     } 
     CM -> TeamElectricalTime [style=invis];
-    SSC -> TeamTemperatureLight [style=invis];
+    //SSC -> TeamTemperatureLight [style=invis];
     QM -> TeamLengthMass  [style=invis];
     TeamElectricalTime -> S_electrical ; 
     S_electrical -> S_time_frequency [arrowsize=0] ; 
+	S_time_frequency -> S_temperature_humidity [arrowsize=0];
 //    S_electrical -> S_time_frequency ->  S_temperature_humidity; 
 //    TeamTemperatureLight
-    TeamTemperatureLight -> S_photometry_radiometry ;
-    S_photometry_radiometry ->  S_temperature_humidity[arrowsize=0] ;
-    TeamLengthMass -> S_length ;
+  //    TeamTemperatureLight -> S_photometry_radiometry ;
+  //    S_photometry_radiometry ->  S_temperature_humidity[arrowsize=0] ;
+      TeamLengthMass -> S_length ;
     S_length  ->  S_mass_pressure [arrowsize=0] ;
+    S_mass_pressure  ->  S_photometry_radiometry [arrowsize=0];
 //    S_length  ->  S_mass_pressure -> S_photometry_radiometry[arrowsize=0] ;
 }
