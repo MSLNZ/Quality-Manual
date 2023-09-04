@@ -1,5 +1,5 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{Quality policy statement}{iv}{Doc-Start}%
+\contentsline {section}{Quality policy statement}{ii}{Doc-Start}%
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {section}{\numberline {2}Organisational structure}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Callaghan Innovation}{2}{subsection.2.1}%
@@ -83,10 +83,10 @@
 \contentsline {subsection}{\numberline {6.2}MSL Publications policy}{37}{subsection.6.2}%
 \contentsline {subsubsection}{\numberline {6.2.1}Responsibilities}{39}{subsubsection.6.2.1}%
 \contentsline {subsubsection}{\numberline {6.2.2}MSL publications repository}{39}{subsubsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.3}Publications clearance form}{39}{subsubsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.3}Publications clearance form}{40}{subsubsection.6.2.3}%
 \contentsline {subsubsection}{\numberline {6.2.4}Publication led by another organisation}{40}{subsubsection.6.2.4}%
 \contentsline {subsection}{\numberline {6.3}Guidelines for authors and reviewers}{40}{subsection.6.3}%
-\contentsline {subsubsection}{\numberline {6.3.1}Check lists}{40}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.1}Check lists}{41}{subsubsection.6.3.1}%
 \contentsline {paragraph}{Scientific papers (journals and conference papers)}{41}{section*.31}%
 \contentsline {paragraph}{Trade journals}{41}{section*.32}%
 \contentsline {paragraph}{Callaghan Innovation technical reports}{41}{section*.33}%
