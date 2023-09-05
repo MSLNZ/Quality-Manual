@@ -87,54 +87,56 @@
 \contentsline {subsubsection}{\numberline {6.2.4}Publication led by another organisation}{40}{subsubsection.6.2.4}%
 \contentsline {subsection}{\numberline {6.3}Open data policy}{40}{subsection.6.3}%
 \contentsline {subsubsection}{\numberline {6.3.1}Types of open-access publication}{41}{subsubsection.6.3.1}%
-\contentsline {subsubsection}{\numberline {6.3.2}Publishing agreements and the review of manuscripts}{41}{subsubsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.4}Guidelines for authors and reviewers}{42}{subsection.6.4}%
-\contentsline {subsubsection}{\numberline {6.4.1}Check lists}{42}{subsubsection.6.4.1}%
-\contentsline {paragraph}{Scientific papers (journals and conference papers)}{42}{section*.31}%
-\contentsline {paragraph}{Trade journals}{43}{section*.32}%
-\contentsline {paragraph}{Callaghan Innovation technical reports}{43}{section*.33}%
-\contentsline {paragraph}{Technical Guides}{43}{section*.34}%
-\contentsline {paragraph}{Training course slides and notes}{44}{section*.35}%
-\contentsline {paragraph}{Posters and presentations}{44}{section*.36}%
-\contentsline {paragraph}{Articles for the MSL website}{45}{section*.37}%
-\contentsline {subsubsection}{\numberline {6.4.2}MSL consultancy reports}{45}{subsubsection.6.4.2}%
-\contentsline {subsubsection}{\numberline {6.4.3}Reporting on international measurement comparisons}{45}{subsubsection.6.4.3}%
-\contentsline {subsubsection}{\numberline {6.4.4}Acknowledgement of national standards funding}{46}{subsubsection.6.4.4}%
-\contentsline {section}{\numberline {7}Inwards and outwards goods control}{47}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Inwards goods procedure}{47}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Documentation}{47}{subsubsection.7.1.1}%
-\contentsline {paragraph}{Goods Log Book}{47}{section*.38}%
-\contentsline {paragraph}{Goods Control Form}{47}{section*.39}%
-\contentsline {paragraph}{Goods control label}{47}{section*.40}%
-\contentsline {subsubsection}{\numberline {7.1.2}Client goods}{47}{subsubsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.2}Outwards goods procedure}{48}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Documentation}{48}{subsubsection.7.2.1}%
-\contentsline {paragraph}{Goods Log Book}{48}{section*.41}%
-\contentsline {paragraph}{Goods Control Form}{48}{section*.42}%
-\contentsline {subsubsection}{\numberline {7.2.2}Packaging}{48}{subsubsection.7.2.2}%
-\contentsline {subsubsection}{\numberline {7.2.3}Dispatch}{49}{subsubsection.7.2.3}%
-\contentsline {subsubsection}{\numberline {7.2.4}Goods on loan from MSL}{49}{subsubsection.7.2.4}%
-\contentsline {section}{\numberline {8}Audits and reviews}{50}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Internal Audits}{50}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Management review}{51}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Management review procedure}{51}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Management review reporting}{52}{subsubsection.8.2.2}%
-\contentsline {section}{\numberline {9}Review of requests and contracts}{53}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Policy}{53}{subsection.9.1}%
-\contentsline {subsubsection}{\numberline {9.1.1}Confidentiality}{53}{subsubsection.9.1.1}%
-\contentsline {subsubsection}{\numberline {9.1.2}Additional work for IANZ}{53}{subsubsection.9.1.2}%
-\contentsline {section}{\numberline {10}Improvements}{55}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Risks and Opportunities}{55}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Improvement requests (IRF)}{56}{subsection.10.2}%
-\contentsline {subsubsection}{\numberline {10.2.1}IRF procedure}{56}{subsubsection.10.2.1}%
-\contentsline {subsection}{\numberline {10.3}Complaints}{57}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Assessing Client Satisfaction}{58}{subsection.10.4}%
-\contentsline {subsubsection}{\numberline {10.4.1}Call backs}{58}{subsubsection.10.4.1}%
-\contentsline {subsubsection}{\numberline {10.4.2}Client survey}{59}{subsubsection.10.4.2}%
-\contentsline {section}{\numberline {11}Project management}{60}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Science research project management}{60}{subsection.11.1}%
-\contentsline {section}{\numberline {A}Abbreviations}{62}{appendix.A}%
-\contentsline {section}{\numberline {B}Calendar of responsibilities}{63}{appendix.B}%
-\contentsline {section}{\numberline {C}ISO/IEC 17025 Cross-reference}{64}{appendix.C}%
-\contentsline {section}{\numberline {D}References}{65}{appendix.D}%
+\contentsline {subsubsection}{\numberline {6.3.2}Publishing agreements and manuscript review}{41}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}Repositories}{42}{subsubsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.4}Unique identifiers: DOI and ORCID}{42}{subsubsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.4}Guidelines for authors and reviewers}{43}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Check lists}{43}{subsubsection.6.4.1}%
+\contentsline {paragraph}{Scientific papers (journals and conference papers)}{43}{section*.31}%
+\contentsline {paragraph}{Trade journals}{44}{section*.32}%
+\contentsline {paragraph}{Callaghan Innovation technical reports}{44}{section*.33}%
+\contentsline {paragraph}{Technical Guides}{44}{section*.34}%
+\contentsline {paragraph}{Training course slides and notes}{45}{section*.35}%
+\contentsline {paragraph}{Posters and presentations}{45}{section*.36}%
+\contentsline {paragraph}{Articles for the MSL website}{46}{section*.37}%
+\contentsline {subsubsection}{\numberline {6.4.2}MSL consultancy reports}{46}{subsubsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.3}Reporting on international measurement comparisons}{47}{subsubsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.4}Acknowledgement of national standards funding}{47}{subsubsection.6.4.4}%
+\contentsline {section}{\numberline {7}Inwards and outwards goods control}{48}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Inwards goods procedure}{48}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Documentation}{48}{subsubsection.7.1.1}%
+\contentsline {paragraph}{Goods Log Book}{48}{section*.38}%
+\contentsline {paragraph}{Goods Control Form}{48}{section*.39}%
+\contentsline {paragraph}{Goods control label}{48}{section*.40}%
+\contentsline {subsubsection}{\numberline {7.1.2}Client goods}{48}{subsubsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.2}Outwards goods procedure}{49}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Documentation}{49}{subsubsection.7.2.1}%
+\contentsline {paragraph}{Goods Log Book}{49}{section*.41}%
+\contentsline {paragraph}{Goods Control Form}{49}{section*.42}%
+\contentsline {subsubsection}{\numberline {7.2.2}Packaging}{49}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Dispatch}{50}{subsubsection.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.4}Goods on loan from MSL}{50}{subsubsection.7.2.4}%
+\contentsline {section}{\numberline {8}Audits and reviews}{51}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Internal Audits}{51}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Management review}{52}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Management review procedure}{52}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Management review reporting}{53}{subsubsection.8.2.2}%
+\contentsline {section}{\numberline {9}Review of requests and contracts}{54}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Policy}{54}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Confidentiality}{54}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Additional work for IANZ}{54}{subsubsection.9.1.2}%
+\contentsline {section}{\numberline {10}Improvements}{56}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Risks and Opportunities}{56}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Improvement requests (IRF)}{57}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}IRF procedure}{57}{subsubsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.3}Complaints}{58}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Assessing Client Satisfaction}{59}{subsection.10.4}%
+\contentsline {subsubsection}{\numberline {10.4.1}Call backs}{59}{subsubsection.10.4.1}%
+\contentsline {subsubsection}{\numberline {10.4.2}Client survey}{60}{subsubsection.10.4.2}%
+\contentsline {section}{\numberline {11}Project management}{61}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Science research project management}{61}{subsection.11.1}%
+\contentsline {section}{\numberline {A}Abbreviations}{63}{appendix.A}%
+\contentsline {section}{\numberline {B}Calendar of responsibilities}{64}{appendix.B}%
+\contentsline {section}{\numberline {C}ISO/IEC 17025 Cross-reference}{65}{appendix.C}%
+\contentsline {section}{\numberline {D}References}{66}{appendix.D}%
 \contentsfinish 

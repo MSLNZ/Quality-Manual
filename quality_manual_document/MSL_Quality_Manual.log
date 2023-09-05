@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.29)  5 SEP 2023 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.29)  6 SEP 2023 10:56
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -902,7 +902,7 @@ File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 \openout4 = `MSL_Quality_Manual.toc'.
 
  [3]
-<pictures/MSL_qps_(signed).pdf, id=502, 597.432pt x 845.07718pt>
+<pictures/MSL_qps_(signed).pdf, id=512, 597.432pt x 845.07718pt>
 File: pictures/MSL_qps_(signed).pdf Graphic file (type pdf)
 <use pictures/MSL_qps_(signed).pdf>
 Package pdftex.def Info: pictures/MSL_qps_(signed).pdf  used on input line 160.
@@ -942,7 +942,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 [2
 
 ] [3]
-<pictures/MSL_org_full.pdf, id=532, 538.01pt x 687.56876pt>
+<pictures/MSL_org_full.pdf, id=542, 538.01pt x 687.56876pt>
 File: pictures/MSL_org_full.pdf Graphic file (type pdf)
 <use pictures/MSL_org_full.pdf>
 Package pdftex.def Info: pictures/MSL_org_full.pdf  used on input line 91.
@@ -984,12 +984,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 [30]
-<pictures/new_report.png, id=719, 381.425pt x 204.26312pt>
+<pictures/new_report.png, id=729, 381.425pt x 204.26312pt>
 File: pictures/new_report.png Graphic file (type png)
 <use pictures/new_report.png>
 Package pdftex.def Info: pictures/new_report.png  used on input line 137.
 (pdftex.def)             Requested size: 343.27931pt x 183.8351pt.
-<pictures/new_report2.png, id=721, 626.34pt x 327.2225pt>
+<pictures/new_report2.png, id=731, 626.34pt x 327.2225pt>
 File: pictures/new_report2.png Graphic file (type png)
 <use pictures/new_report2.png>
 Package pdftex.def Info: pictures/new_report2.png  used on input line 141.
@@ -1010,14 +1010,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--142
  []
 
 [31 <./pictures/new_report.png>]
-<pictures/metadata_signed_report.png, id=729, 518.93875pt x 401.5pt>
+<pictures/metadata_signed_report.png, id=739, 518.93875pt x 401.5pt>
 File: pictures/metadata_signed_report.png Graphic file (type png)
 <use pictures/metadata_signed_report.png>
 Package pdftex.def Info: pictures/metadata_signed_report.png  used on input lin
 e 144.
 (pdftex.def)             Requested size: 389.20311pt x 301.12425pt.
  [32 <./pictures/new_report2.png> <./pictures/metadata_signed_report.png>]
-<pictures/version_history_report.png, id=741, 852.18375pt x 437.13312pt>
+<pictures/version_history_report.png, id=751, 852.18375pt x 437.13312pt>
 File: pictures/version_history_report.png Graphic file (type png)
 <use pictures/version_history_report.png>
 Package pdftex.def Info: pictures/version_history_report.png  used on input lin
@@ -1033,21 +1033,21 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 5.69998pt on input line 356.
  [38] [39]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 448.
+(Font)              scaled to size 8.54997pt on input line 475.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 448.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 475.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.54997pt on input line 448.
- [40] [41] [42] [43] [44] [45]) [46]
-(../quality_manual_document/Goods_control.tex [47
+(Font)              scaled to size 8.54997pt on input line 475.
+ [40] [41] [42] [43] [44] [45] [46]) [47]
+(../quality_manual_document/Goods_control.tex [48
 
-] [48]) [49]
-(../quality_manual_document/Audits_and_reviews.tex [50
+] [49]) [50]
+(../quality_manual_document/Audits_and_reviews.tex [51
 
-] [51]) [52]
-(../quality_manual_document/Requests_and_contracts.tex [53
+] [52]) [53]
+(../quality_manual_document/Requests_and_contracts.tex [54
 
-]) [54]
+]) [55]
 (../quality_manual_document/Improvements.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--18
 
@@ -1064,7 +1064,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
  []
 
-[55
+[56
 
 ]
 Overfull \hbox (36.29248pt too wide) in paragraph at lines 45--47
@@ -1073,13 +1073,13 @@ ovt . nz / msl-[]qms / home / improvement-[]requests$[][]\T1/phv/m/n/10 (-20) .
  
  []
 
-[56]
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
  []
 
-[57] [58]) [59] (../quality_manual_document/Project_management.tex
-<pictures/science_review.png, id=930, 867.24pt x 490.83376pt>
+[58] [59]) [60] (../quality_manual_document/Project_management.tex
+<pictures/science_review.png, id=952, 867.24pt x 490.83376pt>
 File: pictures/science_review.png Graphic file (type png)
 <use pictures/science_review.png>
 Package pdftex.def Info: pictures/science_review.png  used on input line 25.
@@ -1089,16 +1089,16 @@ Overfull \hbox (450.40501pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-) [60
+) [61
 
-] [61 <./pictures/science_review.png>]
-(../quality_manual_document/Abbreviations.tex) [62
-
-]
-(../quality_manual_document/Calendar.tex) [63
+] [62 <./pictures/science_review.png>]
+(../quality_manual_document/Abbreviations.tex) [63
 
 ]
-(../quality_manual_document/Cross_reference_17025.tex) [64
+(../quality_manual_document/Calendar.tex) [64
+
+]
+(../quality_manual_document/Cross_reference_17025.tex) [65
 
 ]
 (../quality_manual_document/References.tex
@@ -1107,7 +1107,7 @@ Underfull \hbox (badness 1852) in paragraph at lines 14--15
 mtt/m/n/10 https : / / www . bipm . org / en / cipm-[]mra /
  []
 
-) [65
+) [66
 
 ] (MSL_Quality_Manual.aux)
  ***********
@@ -1115,14 +1115,14 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
 Package rerunfilecheck Info: File `MSL_Quality_Manual.out' has not changed.
-(rerunfilecheck)             Checksum: D040D55458FE4FAEBED901D5436EB55F;18822.
+(rerunfilecheck)             Checksum: 90AA5D91795D4C287AEEA67EC53E9C37;19149.
  ) 
 Here is how much of TeX's memory you used:
- 22198 strings out of 475550
- 401592 string characters out of 5761553
+ 22207 strings out of 475550
+ 401724 string characters out of 5761553
  1934238 words of memory out of 5000000
- 42552 multiletter control sequences out of 15000+600000
- 645884 words of font info for 302 fonts, out of 8000000 for 9000
+ 42555 multiletter control sequences out of 15000+600000
+ 645981 words of font info for 304 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,19n,79p,1017b,1107s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\At work\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
@@ -1132,9 +1132,9 @@ public/stix/stix-mathrm.pfb><C:/Users/At work/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/At work/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/At work/AppData/Local/Programs/
 MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on MSL_Quality_Manual.pdf (70 pages, 1139109 bytes).
+Output written on MSL_Quality_Manual.pdf (71 pages, 1147227 bytes).
 PDF statistics:
- 1115 PDF objects out of 1200 (max. 8388607)
- 250 named destinations out of 1000 (max. 500000)
- 58668 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1143 PDF objects out of 1200 (max. 8388607)
+ 253 named destinations out of 1000 (max. 500000)
+ 58684 words of extra memory for PDF output out of 61914 (max. 10000000)
 
