@@ -36,8 +36,12 @@
 %       this command encapsulates the path
 \newcommand{\qmPath}{../quality_manual_document}%
 
-% ------ To cross reference other documents
+% ------ To cross reference other documents, works with hyperref
 \usepackage{xr-hyper}
+
+% ------ External references used in this manual
+\externaldocument[GRP-]{../guidelines_reporting_publishing/MSL_Guidelines_Reporting_Publishing}
+
 \usepackage[
 	colorlinks=true,
 	urlcolor=magenta,
@@ -71,9 +75,6 @@
 
 % ----- Units formatting 
 \usepackage{siunitx}
-
-% ------ External references
-\externaldocument[GRP-]{../guidelines_reporting_publishing/MSL_Guidelines_Reporting_Publishing}
 
 % ------ Macros for this document
 \definecolor{yellowMSL}{RGB}{244,182,8}
