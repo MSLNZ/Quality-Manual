@@ -9,14 +9,17 @@
 
 % 'microtype' can only be used with pdflatex
 \usepackage[protrusion=true,expansion=true]{microtype}
-
 	
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-\usepackage{amsmath,amsfonts,amsthm,amssymb}
-\usepackage{stix}
+\usepackage{amsmath,amsfonts,amsthm,amssymb,bm}
 \usepackage{graphicx}
 \usepackage{xcolor}
+\usepackage[shortlabels]{enumitem} 	% Allows different styles in enumerate
+\usepackage{ulem}		% For strikethrough text
+\usepackage{rotating}	% For landscape figures
+
+\usepackage{longtable}
 
 % Spacing between lines 
 \usepackage{setspace}
@@ -30,6 +33,30 @@
 
 \setlength{\oddsidemargin}{5mm}			% Remove 'twosided' indentation
 \setlength{\evensidemargin}{5mm}
+
+% ----- To allow cross-referencing between documents
+%       a common root folder must be established
+%       this command encapsulates the path
+%       it is used to \input LaTeX source files for this document
+\newcommand{\gmrPath}{../guidelines_management_review}%
+
+% ------ To cross reference other documents
+\usepackage{xr-hyper}
+\usepackage[
+	colorlinks=true,
+	urlcolor=magenta,
+	linkcolor=blue, 	% [red]
+%	anchorcolor 	 % [black]
+	citecolor=blue, 		% [green]
+	filecolor=cyan, 	% [cyan]
+	menucolor=black		% [red]
+]{hyperref}
+
+% ------ External references
+% The square brackets contain prefix strings that sould be used in this document 
+% to refer to a label in another document. For example
+% \ref*{GRP-s:scientific_documents}
+\externaldocument[QM-]{../quality_manual_document/MSL_Quality_Manual}
 
 % Header and footer control
 \usepackage{fancyhdr}
@@ -46,6 +73,7 @@
 \renewcommand\cftsecdotsep{\cftdot}
 \renewcommand\cftsubsecdotsep{\cftdot}
 
+
 % ----- Tables
 \usepackage{booktabs}
 \usepackage{colortbl}
@@ -55,31 +83,6 @@
 % ----- Units formatting 
 \usepackage{siunitx}
 
-% ----- To allow cross-referencing between documents
-%       a common root folder must be established
-%       this command encapsulates the path
-%       it is used to \input LaTeX source files for this document
-\newcommand{\qmPath}{../quality_manual_document}%
-
-% ------ To cross reference other documents
-\usepackage{xr-hyper}
-\usepackage[
-	colorlinks=true,
-	urlcolor=magenta,
-	linkcolor=blue, 	% [red]
-%	anchorcolor 	 % [black]
-	citecolor=blue, 		% [green]
-	filecolor=cyan, 	% [cyan]
-	menucolor=black		% [red]
-]{hyperref}
-
-% ------ External references
-% The square brackets contain prefix strings that should be used in this document 
-% to refer to a label in another document. For example
-% \ref{GRP-s:scientific_documents} 
-\externaldocument[GRP-]{../guidelines_reporting_publishing/MSL_Guidelines_Reporting_Publishing}
-\externaldocument[GMR-]{../guidelines_management_review/MSL_Guidelines_Management_Review}
-
 % ------ Macros for this document
 \definecolor{yellowMSL}{RGB}{244,182,8}
 
@@ -87,7 +90,7 @@
 \newcommand{\proposed}[1]{{\color{cyan}{{#1}}}}
 \newcommand{\deprecated}[1]{{\color{yellowMSL}{#1}}}
 
-% Mark-up for paragraphs. 
+% Mark-up  for paragraphs. 
 \usepackage{framed}
 \newcommand{\proposedbox}[1]{
 \colorlet{shadecolor}{gray!10}
@@ -102,6 +105,8 @@
 	{#1}
 \end{shaded}}
 }%
+
+\newcommand{\remark}[1]{\textit{\color{red}{#1}}}
 
 % --------------------------------------------------------------------
 % Front page definitions (do not change this)
@@ -125,12 +130,19 @@
 \title{	\Large 
 	\textsc{ Measurement Standards Laboratory of New Zealand } \\ [2.0cm]			
 	\HRule{2pt} \\ [0.25cm]						
-	\LARGE \textbf{\uppercase{Quality Manual}}	% Title
+	\LARGE \textbf{\uppercase{Management Review Panel Guidelines}}	\\% Title
+    \Large \textit{A supplement to the MSL Quality Manual}
 	\HRule{2pt} \\ [0.25cm]		
 	\Large \today			
 }
 
 \author{
+{\large 
+	Text in this \proposed{colour} is awaiting approval by the 
+	Quality Council.\\ 
+	Text in this \deprecated{colour} is deprecated 
+	and awaiting approval to be deleted.
+} \\[\baselineskip]
 Measurement Quality Council\\	
 Measurement Standards Laboratory of New Zealand\\	
 }
@@ -155,24 +167,13 @@ Measurement Standards Laboratory of New Zealand\\
 \tableofcontents
 \newpage
 
-% ----- Place the signed Quality Policy Statement prominently 
-\addcontentsline{toc}{section}{Quality policy statement}
-\section*{Quality policy statement}
-\label{ss:quality_policy_statement}
-This signed statement is stored in the central files system. 
-
-\begin{center}
-\includegraphics[width=1.05\textwidth]{pictures/MSL_qps_(signed)}
-\end{center}
-\clearpage
-
-
 % ----- Main document now begins
 \pagestyle{fancy}			% Turn on footer style control
 \pagenumbering{arabic}
 \hypersetup{pageanchor=true}
 \setcounter{page}{1}		% Set page numbering to begin on this page
-\fancyfoot[L]{MSL Quality Manual}
+
+\fancyfoot[L]{Proficiency testing}
 \fancyfoot[C]{\today}
 \fancyfoot[R]{Page \thepage\ of \pageref*{LastPage}}
 
@@ -180,25 +181,13 @@ This signed statement is stored in the central files system.
 \setlength{\parskip}{\baselineskip}	% Leave a blank line between paragraphs
 
 % ----- These files contain the document content
-\input{\qmPath/Introduction}\clearpage
-\input{\qmPath/Organisation}\clearpage
-\input{\qmPath/Quality_assurance}\clearpage
-\input{\qmPath/Document_control}\clearpage
-\input{\qmPath/Competencies_and_training}\clearpage
-\input{\qmPath/Reporting_and_publishing}\clearpage
-\input{\qmPath/Goods_control}\clearpage
-\input{\qmPath/Audits_and_reviews}\clearpage
-\input{\qmPath/Requests_and_contracts}\clearpage
-\input{\qmPath/Improvements}\clearpage
-\input{\qmPath/Project_management}\clearpage
+\input{\gmrPath/general}
+%\clearpage
 
-\appendix	% Changes the style of the headings for sections
-\input{\qmPath/Abbreviations}\clearpage
-\input{\qmPath/Calendar}\clearpage
-\input{\qmPath/Cross_reference_17025}\clearpage
+%\appendix	% Changes the style of the headings for sections
+\input{\gmrPath/references}
 
 % ----- Label for the very last page, so that we can do "page x of N"
-\input{\qmPath/References}	% Don't create a blank last page 
 \label{LastPage}~
 
 \end{document}
