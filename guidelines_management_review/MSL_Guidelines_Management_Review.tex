@@ -1,0 +1,193 @@
+% --------------------------------------------------------------------
+% Preamble
+% --------------------------------------------------------------------
+\documentclass[a4paper]{article}	
+
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+
+% 'microtype' can only be used with pdflatex
+\usepackage[protrusion=true,expansion=true]{microtype}
+	
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath,amsfonts,amsthm,amssymb,bm}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[shortlabels]{enumitem} 	% Allows different styles in enumerate
+\usepackage{ulem}		% For strikethrough text
+\usepackage{rotating}	% For landscape figures
+
+\usepackage{longtable}
+
+% Spacing between lines 
+\usepackage{setspace}
+\onehalfspacing
+
+% ----- page layout 
+\usepackage[
+	a4paper,
+	top=1in, bottom=1.25in, left=1.25in, right=1.25in
+]{geometry}	
+
+\setlength{\oddsidemargin}{5mm}			% Remove 'twosided' indentation
+\setlength{\evensidemargin}{5mm}
+
+% ----- To allow cross-referencing between documents
+%       a common root folder must be established
+%       this command encapsulates the path
+%       it is used to \input LaTeX source files for this document
+\newcommand{\gmrPath}{../guidelines_management_review}%
+
+% ------ To cross reference other documents
+\usepackage{xr-hyper}
+\usepackage[
+	colorlinks=true,
+	urlcolor=magenta,
+	linkcolor=blue, 	% [red]
+%	anchorcolor 	 % [black]
+	citecolor=blue, 		% [green]
+	filecolor=cyan, 	% [cyan]
+	menucolor=black		% [red]
+]{hyperref}
+
+% ------ External references
+% The square brackets contain prefix strings that sould be used in this document 
+% to refer to a label in another document. For example
+% \ref*{GRP-s:scientific_documents}
+\externaldocument[QM-]{../quality_manual_document/MSL_Quality_Manual}
+
+% Header and footer control
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+
+% ----- Table of contents 
+\usepackage{titletoc}
+\usepackage{tocloft}
+
+\renewcommand\cftsecfont{\normalfont}
+\renewcommand\cftsecpagefont{\normalfont}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftsecdotsep}}
+\renewcommand\cftsecdotsep{\cftdot}
+\renewcommand\cftsubsecdotsep{\cftdot}
+
+
+% ----- Tables
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{longtable}
+\usepackage{makecell}
+
+% ----- Units formatting 
+\usepackage{siunitx}
+
+% ------ Macros for this document
+\definecolor{yellowMSL}{RGB}{244,182,8}
+
+% Mark-up for small changes (a few words only)
+\newcommand{\proposed}[1]{{\color{cyan}{{#1}}}}
+\newcommand{\deprecated}[1]{{\color{yellowMSL}{#1}}}
+
+% Mark-up  for paragraphs. 
+\usepackage{framed}
+\newcommand{\proposedbox}[1]{
+\colorlet{shadecolor}{gray!10}
+{\color{cyan}\begin{shaded}
+	{#1}
+\end{shaded}}
+}%
+
+\newcommand{\deprecatedbox}[1]{
+\colorlet{shadecolor}{gray!10}
+{\color{yellowMSL}\begin{shaded}
+	{#1}
+\end{shaded}}
+}%
+
+\newcommand{\remark}[1]{\textit{\color{red}{#1}}}
+
+% --------------------------------------------------------------------
+% Front page definitions (do not change this)
+% --------------------------------------------------------------------
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\makeatletter							% Title
+\def\printtitle{%						
+    {\centering \@title\par}}
+\makeatother									
+
+\makeatletter							% Author
+\def\printauthor{%					
+    {\raggedright \Large \@author}}				
+\makeatother							
+
+
+% --------------------------------------------------------------------
+% Details of what to put on the front page (Change this)
+% --------------------------------------------------------------------
+\title{	\Large 
+	\textsc{ Measurement Standards Laboratory of New Zealand } \\ [2.0cm]			
+	\HRule{2pt} \\ [0.25cm]						
+	\LARGE \textbf{\uppercase{Management Review Panel Guidelines}}	\\% Title
+    \Large \textit{A supplement to the MSL Quality Manual}
+	\HRule{2pt} \\ [0.25cm]		
+	\Large \today			
+}
+
+\author{
+{\large 
+	Text in this \proposed{colour} is awaiting approval by the 
+	Quality Council.\\ 
+	Text in this \deprecated{colour} is deprecated 
+	and awaiting approval to be deleted.
+} \\[\baselineskip]
+Measurement Quality Council\\	
+Measurement Standards Laboratory of New Zealand\\	
+}
+
+\begin{document}
+\hypersetup{pageanchor=false}	% prevents a warning message
+\fancyhf{}	% Header and footer are empty
+
+% ------------------------------------------------------------------------------
+% Title page
+% ------------------------------------------------------------------------------
+\thispagestyle{empty}		% Remove page numbering on this page
+\pagestyle{plain}			% puts pages numbers back in front matter
+
+\printtitle					% Print the title data as defined above
+  	\vfill
+\printauthor				% Print the author data as defined above
+\newpage
+
+\pagenumbering{roman}
+
+\tableofcontents
+\newpage
+
+% ----- Main document now begins
+\pagestyle{fancy}			% Turn on footer style control
+\pagenumbering{arabic}
+\hypersetup{pageanchor=true}
+\setcounter{page}{1}		% Set page numbering to begin on this page
+
+\fancyfoot[L]{Proficiency testing}
+\fancyfoot[C]{\today}
+\fancyfoot[R]{Page \thepage\ of \pageref*{LastPage}}
+
+\setlength{\parindent}{0cm}	% No indent when starting a new paragraph
+\setlength{\parskip}{\baselineskip}	% Leave a blank line between paragraphs
+
+% ----- These files contain the document content
+\input{\gmrPath/general}
+%\clearpage
+
+%\appendix	% Changes the style of the headings for sections
+\input{\gmrPath/references}
+
+% ----- Label for the very last page, so that we can do "page x of N"
+\label{LastPage}~
+
+\end{document}
