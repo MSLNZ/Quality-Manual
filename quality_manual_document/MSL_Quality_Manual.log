@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.5.3)  18 OCT 2023 11:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.5.3)  18 OCT 2023 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -912,7 +912,7 @@ File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 \openout4 = `MSL_Quality_Manual.toc'.
 
  [3]
-<pictures/MSL_qps_(signed).pdf, id=205, 597.432pt x 845.07718pt>
+<pictures/MSL_qps_(signed).pdf, id=487, 597.432pt x 845.07718pt>
 File: pictures/MSL_qps_(signed).pdf Graphic file (type pdf)
 <use pictures/MSL_qps_(signed).pdf>
 Package pdftex.def Info: pictures/MSL_qps_(signed).pdf  used on input line 172.
@@ -926,27 +926,10 @@ Overfull \hbox (20.84291pt too wide) in paragraph at lines 172--173
 [4 <./pictures/MSL_qps_(signed).pdf, page is rotated 90 degrees>]
 Package hyperref Info: Option `pageanchor' set `true' on input line 180.
 
-(../quality_manual_document/Introduction.tex
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 4.
+(../quality_manual_document/Introduction.tex) [1
 
-
-LaTeX Warning: Citation `Metre_convention' on page 1 undefined on input line 4.
-
-
-
-LaTeX Warning: Citation `MRA_1999' on page 1 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ISO_17025' on page 1 undefined on input line 7.
-
-)
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 190.
-
-[1
-
-] (../quality_manual_document/Organisation.tex
+]
+(../quality_manual_document/Organisation.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 5.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
@@ -961,25 +944,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 29.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 26.
 
 [2
 
-]
-
-LaTeX Warning: Reference `ss:central_file_system' on page 3 undefined on input 
-line 45.
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 59.
-
-[3]
-
-LaTeX Warning: Reference `fig:org_msl' on page 4 undefined on input line 66.
-
-<pictures/MSL_org_full.pdf, id=227, 538.01pt x 687.56876pt>
+] [3]
+<pictures/MSL_org_full.pdf, id=517, 538.01pt x 687.56876pt>
 File: pictures/MSL_org_full.pdf Graphic file (type pdf)
 <use pictures/MSL_org_full.pdf>
 Package pdftex.def Info: pictures/MSL_org_full.pdf  used on input line 91.
@@ -989,241 +960,29 @@ Overfull \hbox (41.68582pt too wide) in paragraph at lines 91--92
  [] 
  []
 
-
-LaTeX Warning: Citation `MS_ACT_1992' on page 4 undefined on input line 101.
-
-
-LaTeX Warning: Citation `NS_Regulations' on page 4 undefined on input line 101.
-
-
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 103.
-
-[4]
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 103.
-
-[5 <./pictures/MSL_org_full.pdf>]
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 128.
-
-[6]
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 157.
-
-[7])
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 191.
-
-[8] (../quality_manual_document/Quality_assurance.tex
-
-LaTeX Warning: Citation `CIPM_MRA_POLICY' on page 9 undefined on input line 77.
-
-
-
-LaTeX Warning: Citation `ILAC_MRA_POLICY' on page 9 undefined on input line 77.
-
-
+[4] [5 <./pictures/MSL_org_full.pdf>] [6] [7]) [8]
+(../quality_manual_document/Quality_assurance.tex
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 79.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 79.
+ [9
 
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 80.
+]) [10]
+(../quality_manual_document/Document_control.tex [11
 
-[9
+] [12] [13] [14] [15]
+[16] [17] [18] [19]) [20]
+(../quality_manual_document/Competencies_and_training.tex [21
 
-]
-
-LaTeX Warning: Citation `ISO_17025' on page 10 undefined on input line 105.
-
-)
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 192.
-
-[10] (../quality_manual_document/Document_control.tex
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 55.
-
-[11
-
-]
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 74.
-
-[12]
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 100.
-
-[13]
-
-LaTeX Warning: Reference `ss:technical_procedures' on page 14 undefined on inpu
-t line 103.
-
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 128.
-
-[14]
-
-LaTeX Warning: Reference `sss:irf_procedure' on page 15 undefined on input line
- 153.
-
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 156.
-
-[15]
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 181.
-
-[16]
-
-LaTeX Warning: Reference `ss:quality_assurance_policy' on page 17 undefined on 
-input line 197.
-
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 205.
-
-[17]
-
-LaTeX Warning: Reference `ss:quality_assurance_policy' on page 18 undefined on 
-input line 228.
-
-
-LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 234.
-
-[18]
-
-LaTeX Warning: Reference `sss:validated_procedure_register' on page 19 undefine
-d on input line 238.
-
-
-LaTeX Warning: Reference `ss:central_file_system' on page 19 undefined on input
- line 249.
-
-
-LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 263.
-
-[19])
-
-LaTeX Warning: Reference `LastPage' on page 20 undefined on input line 193.
-
-[20] (../quality_manual_document/Competencies_and_training.tex
-
-LaTeX Warning: Reference `sss:training_records' on page 21 undefined on input l
-ine 18.
-
-
-LaTeX Warning: Reference `LastPage' on page 21 undefined on input line 25.
-
-[21
-
-]
-
-LaTeX Warning: Reference `LastPage' on page 22 undefined on input line 51.
-
-[22]
-
-LaTeX Warning: Reference `LastPage' on page 23 undefined on input line 77.
-
-[23]
-
-LaTeX Warning: Reference `f:ktp_cv' on page 24 undefined on input line 100.
-
-
-LaTeX Warning: Reference `LastPage' on page 24 undefined on input line 102.
-
-[24]
-
-LaTeX Warning: Reference `ss:central_file_system' on page 25 undefined on input
- line 140.
-
-
-LaTeX Warning: Reference `sss:tp_validation' on page 25 undefined on input line
- 144.
-
-
-LaTeX Warning: Reference `ss:mentoring' on page 25 undefined on input line 150.
-
-
-
-LaTeX Warning: Reference `LastPage' on page 25 undefined on input line 153.
-
-[25])
-
-LaTeX Warning: Reference `LastPage' on page 26 undefined on input line 194.
-
-[26] (../quality_manual_document/Reporting_and_publishing.tex
-
-LaTeX Warning: Reference `ss:metrological_reports' on page 27 undefined on inpu
-t line 2.
-
-
-LaTeX Warning: Reference `ss:msl_publications_policy' on page 27 undefined on i
-nput line 22.
-
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 27 undefined on inpu
-t line 24.
-
-
-LaTeX Warning: Reference `ss:msl_publications_policy' on page 27 undefined on i
-nput line 24.
-
-
-LaTeX Warning: Reference `LastPage' on page 27 undefined on input line 34.
-
+] [22] [23]
+[24] [25]) [26] (../quality_manual_document/Reporting_and_publishing.tex
 [27
 
-]
-
-LaTeX Warning: Reference `sss:technical_procedure_structure' on page 28 undefin
-ed on input line 54.
-
-
-LaTeX Warning: Reference `sss:measurement_conditions' on page 28 undefined on i
-nput line 63.
-
-
-LaTeX Warning: Reference `LastPage' on page 28 undefined on input line 64.
-
-[28]
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 29 undefined on inpu
-t line 73.
-
-
-LaTeX Warning: Citation `ISO_17025' on page 29 undefined on input line 76.
-
-
-LaTeX Warning: Reference `ss:central_file_system' on page 29 undefined on input
- line 82.
-
-
-LaTeX Warning: Reference `ss:section_file_systems' on page 29 undefined on inpu
-t line 84.
-
-
-LaTeX Warning: Reference `LastPage' on page 29 undefined on input line 89.
-
-[29]
-
-LaTeX Warning: Reference `sss:electronic_signatures' on page 30 undefined on in
-put line 101.
-
-
-LaTeX Warning: Reference `ss:central_file_system' on page 30 undefined on input
- line 101.
-
-
-LaTeX Warning: Reference `ss:section_file_systems' on page 30 undefined on inpu
-t line 103.
-
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 30 undefined on inpu
-t line 105.
-
+] [28] [29]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 09.
+
 (C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
@@ -1232,20 +991,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-
-LaTeX Warning: Reference `LastPage' on page 30 undefined on input line 121.
-
 [30]
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 31 undefined on inpu
-t line 124.
-
-<pictures/new_report.png, id=378, 381.425pt x 204.26312pt>
+<pictures/new_report.png, id=704, 381.425pt x 204.26312pt>
 File: pictures/new_report.png Graphic file (type png)
 <use pictures/new_report.png>
 Package pdftex.def Info: pictures/new_report.png  used on input line 137.
 (pdftex.def)             Requested size: 343.27931pt x 183.8351pt.
-<pictures/new_report2.png, id=380, 626.34pt x 327.2225pt>
+<pictures/new_report2.png, id=706, 626.34pt x 327.2225pt>
 File: pictures/new_report2.png Graphic file (type png)
 <use pictures/new_report2.png>
 Package pdftex.def Info: pictures/new_report2.png  used on input line 141.
@@ -1265,196 +1017,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--142
 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 31 undefined on input line 142.
-
 [31 <./pictures/new_report.png>]
-<pictures/metadata_signed_report.png, id=388, 518.93875pt x 401.5pt>
+<pictures/metadata_signed_report.png, id=714, 518.93875pt x 401.5pt>
 File: pictures/metadata_signed_report.png Graphic file (type png)
 <use pictures/metadata_signed_report.png>
 Package pdftex.def Info: pictures/metadata_signed_report.png  used on input lin
 e 144.
 (pdftex.def)             Requested size: 389.20311pt x 301.12425pt.
-
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 32 undefined on inpu
-t line 146.
-
-
-LaTeX Warning: Reference `LastPage' on page 32 undefined on input line 153.
-
-[32 <./pictures/new_report2.png> <./pictures/metadata_signed_report.png>]
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 33 undefined on inpu
-t line 158.
-
-<pictures/version_history_report.png, id=398, 852.18375pt x 437.13312pt>
+ [32 <./pictures/new_report2.png> <./pictures/metadata_signed_report.png>]
+<pictures/version_history_report.png, id=726, 852.18375pt x 437.13312pt>
 File: pictures/version_history_report.png Graphic file (type png)
 <use pictures/version_history_report.png>
 Package pdftex.def Info: pictures/version_history_report.png  used on input lin
 e 170.
 (pdftex.def)             Requested size: 383.47914pt x 196.70808pt.
-
-LaTeX Warning: Reference `LastPage' on page 33 undefined on input line 180.
-
-[33 <./pictures/version_history_report.png>]
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 34 undefined on inpu
-t line 197.
-
-
-LaTeX Warning: Reference `LastPage' on page 34 undefined on input line 217.
-
-[34]
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 35 undefined on inpu
-t line 221.
-
-
-LaTeX Warning: Reference `LastPage' on page 35 undefined on input line 251.
-
-[35]
-
-LaTeX Warning: Reference `sss:reissue_report' on page 36 undefined on input lin
-e 279.
-
-
-LaTeX Warning: Reference `LastPage' on page 36 undefined on input line 286.
-
-[36]
-
-LaTeX Warning: Reference `ss:metrological_reports' on page 37 undefined on inpu
-t line 329.
-
-
-LaTeX Warning: Reference `LastPage' on page 37 undefined on input line 336.
-
-[37]
-
-LaTeX Warning: Reference `sss:publications_repository' on page 38 undefined on 
-input line 339.
-
+ [33 <./pictures/version_history_report.png>]
+[34] [35] [36] [37]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.12497pt on input line 356.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 356.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 5.69998pt on input line 356.
+ [38] [39] [40] [41] [42] [43]) [44]
+(../quality_manual_document/Goods_control.tex [45
 
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 38 undefined on inpu
-t line 357.
+] [46]) [47]
+(../quality_manual_document/Audits_and_reviews.tex [48
 
+] [49]) [50]
+(../quality_manual_document/Requests_and_contracts.tex [51
 
-LaTeX Warning: Reference `LastPage' on page 38 undefined on input line 371.
-
-[38]
-
-LaTeX Warning: Reference `LastPage' on page 39 undefined on input line 397.
-
-[39]
-
-LaTeX Warning: Reference `sss:traceability_policy' on page 40 undefined on inpu
-t line 404.
-
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 40 undefined on inpu
-t line 413.
-
-
-LaTeX Warning: Reference `LastPage' on page 40 undefined on input line 421.
-
-[40]
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 41 undefined on inpu
-t line 422.
-
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 41 undefined on inpu
-t line 423.
-
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 41 undefined on inpu
-t line 444.
-
-
-LaTeX Warning: Reference `LastPage' on page 41 undefined on input line 456.
-
-[41]
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 42 undefined on inpu
-t line 465.
-
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 42 undefined on inpu
-t line 466.
-
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 42 undefined on inpu
-t line 468.
-
-
-LaTeX Warning: Citation `MSL_Reporting_Guidelines' on page 42 undefined on inpu
-t line 481.
-
-
-LaTeX Warning: Reference `LastPage' on page 42 undefined on input line 486.
-
-[42]
-
-LaTeX Warning: Reference `LastPage' on page 43 undefined on input line 512.
-
-[43]
-
-LaTeX Warning: Reference `sss:publications_repository' on page 44 undefined on 
-input line 513.
-
-)
-
-LaTeX Warning: Reference `LastPage' on page 44 undefined on input line 195.
-
-[44] (../quality_manual_document/Goods_control.tex
-
-LaTeX Warning: Reference `LastPage' on page 45 undefined on input line 28.
-
-[45
-
-]
-
-LaTeX Warning: Reference `LastPage' on page 46 undefined on input line 57.
-
-[46])
-
-LaTeX Warning: Reference `LastPage' on page 47 undefined on input line 196.
-
-[47] (../quality_manual_document/Audits_and_reviews.tex
-
-LaTeX Warning: Reference `LastPage' on page 48 undefined on input line 22.
-
-[48
-
-]
-
-LaTeX Warning: Citation `MSL_Management_Review_Guidelines' on page 49 undefined
- on input line 30.
-
-
-LaTeX Warning: Reference `LastPage' on page 49 undefined on input line 59.
-
-[49])
-
-LaTeX Warning: Reference `LastPage' on page 50 undefined on input line 197.
-
-[50] (../quality_manual_document/Requests_and_contracts.tex
-
-LaTeX Warning: Reference `LastPage' on page 51 undefined on input line 27.
-
-[51
-
-])
-
-LaTeX Warning: Reference `LastPage' on page 52 undefined on input line 198.
-
-[52] (../quality_manual_document/Improvements.tex
+]) [52]
+(../quality_manual_document/Improvements.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--18
 
  []
@@ -1470,56 +1065,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 53 undefined on input line 24.
-
 [53
 
 ]
-
-LaTeX Warning: Reference `ss:complaints' on page 54 undefined on input line 33.
-
-
-
-LaTeX Warning: Reference `ss:central_file_system' on page 54 undefined on input
- line 43.
-
-
 Overfull \hbox (36.29248pt too wide) in paragraph at lines 45--47
 [][]$\T1/cmtt/m/n/10 https : / / sites . google . com / callaghaninnovation . g
 ovt . nz / msl-[]qms / home / improvement-[]requests$[][]\T1/phv/m/n/10 (-20) .
  
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 54 undefined on input line 47.
-
 [54]
 Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 55 undefined on input line 84.
-
-[55]
-
-LaTeX Warning: Reference `sss:irf_procedure' on page 56 undefined on input line
- 93.
-
-
-LaTeX Warning: Reference `LastPage' on page 56 undefined on input line 115.
-
-[56])
-
-LaTeX Warning: Reference `LastPage' on page 57 undefined on input line 199.
-
-[57] (../quality_manual_document/Project_management.tex
-
-LaTeX Warning: Reference `f:science_review' on page 58 undefined on input line 
-19.
-
-<pictures/science_review.png, id=554, 867.24pt x 490.83376pt>
+[55] [56]) [57] (../quality_manual_document/Project_management.tex
+<pictures/science_review.png, id=904, 867.24pt x 490.83376pt>
 File: pictures/science_review.png Graphic file (type png)
 <use pictures/science_review.png>
 Package pdftex.def Info: pictures/science_review.png  used on input line 25.
@@ -1529,149 +1090,36 @@ Overfull \hbox (450.40501pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-)
+) [58
 
-LaTeX Warning: Reference `LastPage' on page 58 undefined on input line 200.
-
-[58
+] [59 <./pictures/science_review.png>]
+(../quality_manual_document/Abbreviations.tex) [60
 
 ]
+(../quality_manual_document/Calendar.tex) [61
 
-LaTeX Warning: Reference `LastPage' on page 59 undefined on input line 200.
+]
+(../quality_manual_document/Cross_reference_17025.tex) [62
 
-[59 <./pictures/science_review.png>]
-(../quality_manual_document/Abbreviations.tex)
-
-LaTeX Warning: Reference `LastPage' on page 60 undefined on input line 203.
-
-[60
-
-] (../quality_manual_document/Calendar.tex)
-
-LaTeX Warning: Reference `LastPage' on page 61 undefined on input line 204.
-
-[61
-
-] (../quality_manual_document/Cross_reference_17025.tex
-
-LaTeX Warning: Reference `s:organisation' on page 62 undefined on input line 11
-.
-
-
-LaTeX Warning: Reference `sssp:impartiality' on page 62 undefined on input line
- 12.
-
-
-LaTeX Warning: Reference `s:documents_and_document_control' on page 62 undefine
-d on input line 13.
-
-
-LaTeX Warning: Reference `ss:central_file_system' on page 62 undefined on input
- line 14.
-
-
-LaTeX Warning: Reference `ss:quality_assurance_policy' on page 62 undefined on 
-input line 15.
-
-
-LaTeX Warning: Reference `ss:quality_policy_statement' on page 62 undefined on 
-input line 16.
-
-
-LaTeX Warning: Reference `sss:equipment_register' on page 62 undefined on input
- line 17.
-
-
-LaTeX Warning: Reference `ss:technical_procedures' on page 62 undefined on inpu
-t line 18.
-
-
-LaTeX Warning: Reference `s:competencies_professional_development' on page 62 u
-ndefined on input line 19.
-
-
-LaTeX Warning: Reference `ss:mentoring' on page 62 undefined on input line 20.
-
-
-LaTeX Warning: Reference `ss:metrological_reports' on page 62 undefined on inpu
-t line 21.
-
-
-LaTeX Warning: Reference `sss:reissue_report' on page 62 undefined on input lin
-e 22.
-
-
-LaTeX Warning: Reference `s:inwards_outwards_goods' on page 62 undefined on inp
-ut line 23.
-
-
-LaTeX Warning: Reference `ss:internal_audit' on page 62 undefined on input line
- 24.
-
-
-LaTeX Warning: Reference `ss:management_review' on page 62 undefined on input l
-ine 25.
-
-
-LaTeX Warning: Reference `s:requests_and_tenders' on page 62 undefined on input
- line 26.
-
-
-LaTeX Warning: Reference `sss:confidentiality' on page 62 undefined on input li
-ne 27.
-
-
-LaTeX Warning: Reference `s:improvements' on page 62 undefined on input line 28
-.
-
-
-LaTeX Warning: Reference `ss:complaints' on page 62 undefined on input line 29.
-
-
-
-LaTeX Warning: Reference `ss:client_satisfaction' on page 62 undefined on input
- line 30.
-
-)
-
-LaTeX Warning: Reference `LastPage' on page 62 undefined on input line 205.
-
-[62
-
-] (../quality_manual_document/References.tex
+]
+(../quality_manual_document/References.tex
 Underfull \hbox (badness 1852) in paragraph at lines 14--15
 []\T1/phv/m/n/10 (+20) CIPM/2009-24: Trace-abil-ity in the CIPM MRA, [][]$\T1/c
 mtt/m/n/10 https : / / www . bipm . org / en / cipm-[]mra /
  []
 
-)
-
-LaTeX Warning: Reference `LastPage' on page 63 undefined on input line 211.
-
-[63
+) [63
 
 ] (MSL_Quality_Manual.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `MSL_Quality_Manual.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `MSL_Quality_Manual.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  CCE45BC0E66BDF4E33679047ABC40539;18115.
+Package rerunfilecheck Info: File `MSL_Quality_Manual.out' has not changed.
+(rerunfilecheck)             Checksum: CCE45BC0E66BDF4E33679047ABC40539;18115.
  ) 
 Here is how much of TeX's memory you used:
- 22134 strings out of 476334
- 402241 string characters out of 5787028
+ 22226 strings out of 476334
+ 403920 string characters out of 5787028
  1867382 words of memory out of 5000000
- 41681 multiletter control sequences out of 15000+600000
- 596004 words of font info for 292 fonts, out of 8000000 for 9000
+ 41776 multiletter control sequences out of 15000+600000
+ 595907 words of font info for 290 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,19n,77p,1017b,1105s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\n.swift\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
@@ -1682,9 +1130,9 @@ lic/stix/stix-mathrm.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/fonts/
 type1/urw/helvetic/uhvb8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on MSL_Quality_Manual.pdf (68 pages, 1083381 bytes).
+Output written on MSL_Quality_Manual.pdf (68 pages, 1133190 bytes).
 PDF statistics:
- 727 PDF objects out of 1000 (max. 8388607)
+ 1089 PDF objects out of 1200 (max. 8388607)
  243 named destinations out of 1000 (max. 500000)
- 53796 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 54548 words of extra memory for PDF output out of 61914 (max. 10000000)
 
