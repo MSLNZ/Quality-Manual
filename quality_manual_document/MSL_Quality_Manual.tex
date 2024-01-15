@@ -31,27 +31,6 @@
 \setlength{\oddsidemargin}{5mm}			% Remove 'twosided' indentation
 \setlength{\evensidemargin}{5mm}
 
-% ----- To allow cross-referencing between documents
-%       a common root folder must be established
-%       this command encapsulates the path
-\newcommand{\qmPath}{../quality_manual_document}%
-
-% ------ To cross reference other documents, works with hyperref
-\usepackage{xr-hyper}
-
-% ------ External references used in this manual
-\externaldocument[GRP-]{../guidelines_reporting_publishing/MSL_Guidelines_Reporting_Publishing}
-
-\usepackage[
-	colorlinks=true,
-	urlcolor=magenta,
-	linkcolor=blue, 	% [red]
-%	anchorcolor 	 % [black]
-	citecolor=blue, 		% [green]
-	filecolor=cyan, 	% [cyan]
-	menucolor=black		% [red]
-]{hyperref}
-
 % Header and footer control
 \usepackage{fancyhdr}
 \setlength{\headheight}{15.2pt}
@@ -75,6 +54,31 @@
 
 % ----- Units formatting 
 \usepackage{siunitx}
+
+% ----- To allow cross-referencing between documents
+%       a common root folder must be established
+%       this command encapsulates the path
+%       it is used to \input LaTeX source files for this document
+\newcommand{\qmPath}{../quality_manual_document}%
+
+% ------ To cross reference other documents
+\usepackage{xr-hyper}
+\usepackage[
+	colorlinks=true,
+	urlcolor=magenta,
+	linkcolor=blue, 	% [red]
+%	anchorcolor 	 % [black]
+	citecolor=blue, 		% [green]
+	filecolor=cyan, 	% [cyan]
+	menucolor=black		% [red]
+]{hyperref}
+
+% ------ External references
+% The square brackets contain prefix strings that should be used in this document 
+% to refer to a label in another document. For example
+% \ref{GRP-s:scientific_documents} 
+\externaldocument[GRP-]{../guidelines_reporting_publishing/MSL_Guidelines_Reporting_Publishing}
+\externaldocument[GMR-]{../guidelines_management_review/MSL_Guidelines_Management_Review}
 
 % ------ Macros for this document
 \definecolor{yellowMSL}{RGB}{244,182,8}
@@ -194,7 +198,7 @@ This signed statement is stored in the central files system.
 \input{\qmPath/Cross_reference_17025}\clearpage
 
 % ----- Label for the very last page, so that we can do "page x of N"
-\input{../quality_manual_document/References}	% Don't create a blank last page 
+\input{\qmPath/References}	% Don't create a blank last page 
 \label{LastPage}~
 
 \end{document}
