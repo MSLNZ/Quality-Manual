@@ -109,7 +109,6 @@ digraph {
         +   "Lucy Forde\l"
         +   "Chris Young\l"
         +   "Lenice Evergreen\l"
-        +   "Fergus Robinson\l"
         +	"Johan Grand (shared T&F)\l"
         +   "}"
         ];
@@ -126,7 +125,6 @@ digraph {
 
         S_electrical [label = "{ Electrical| "
         +   "Murray Early\l"
-        +	"Laurie Christian\l"
         +	"Keith Jones\l"
         +	"Tom Stewart\l"
         +	"Tim Lawson\l"
