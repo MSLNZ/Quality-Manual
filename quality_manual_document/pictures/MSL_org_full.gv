@@ -114,7 +114,6 @@ digraph {
         ];
         
         S_mass_pressure [label = "{ Mass & Pressure| "
-        +	"Mark Clarkson\l"
         +	"Greg Reid\l"
         +	"Darrin Jack\l"
         +	"Yin Hsien Fung\l"
