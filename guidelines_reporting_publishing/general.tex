@@ -49,22 +49,28 @@ Alternatively, to insert spaces between groups of three digits to the right of t
 
 \subsection{Units in equations}
 \proposedbox{
-The SI Brochure explains that \textit{The value of a quantity is generally expressed as the product of a number and a unit.} \cite[\S2.1]{SI9}. Most people are familiar with this advice, which should be followed when expressing SI quantities in MSL documents.
+The SI Brochure explains that \textit{``The value of a quantity is generally expressed as the product of a number and a unit.''} \cite[\S2.1]{SI9}. This advice should be followed when expressing SI quantities in MSL documents.
 
-When a quantity is expressed as a number followed by a unit symbol, it is also often assumed that unit conversion can be performed with a multiplicative conversion factor. This is true for all SI units except when the degree Celsius is used to express absolute temperature or temperature on the ITS-90 scale (temperature difference or uncertainty expressed in degrees Celsius can, however, be converted by a multiplicative factor). A related assumption is that unit-expressions can be simplified according to the rules of multiplication and division (e.g., $\si{\metre\cubed}/\si{\metre\squared}= \si{\metre}$). These assumptions are certainly not correct when temperature is expressed in degrees Celsius and may not be justified for some other non-SI units.
+In this standard form, it is generally assumed that unit conversion can be performed using a multiplicative conversion factor. This is true for all SI quantities except when thermodynamic temperature or temperature on the ITS-90 scale is expressed in degrees Celsius (temperature difference or uncertainty expressed in degrees Celsius can, however, be converted using a multiplicative factor). A related assumption is that unit-expressions can be simplified according to the rules of multiplication and division (e.g., $\si{\metre\cubed}/\si{\metre\squared}= \si{\metre}$). 
 
-Calibration equations reported by MSL must take care to avoid ambiguity or misinterpretation associated with unit symbols like the degree Celsius. These equations usually describe how to calculate a correction to be applied to an indicated value, and include coefficient values determined by MSL. For example, the following equation appears in some of MSL's Temperature reports for electronic thermometers. The correction,
+These assumptions do not hold when temperature is expressed in degrees Celsius, because \SI{0}{\celsius} is offset from \SI{0}{\kelvin}. In general, situations like this will arise if the zero point shifts during unit conversion.  
+
+%The thing to be aware of is that multiplicative unit conversion factors are assumed to apply when a quantity is expressed as a number followed by a unit symbol.
+
+ 
+Measurement system calibration equations often describe corrections for system readings. Care must be taken to avoid misinterpretation when units like the degree Celsius are involved, because multiplicative unit conversion does not apply. In such cases, coefficient values should be reported as pure numbers and a description of terms provided as text.
+
+For example, the following equation appears in some of MSL's calibration reports for electronic thermometers. The correction,
 \[
 \Delta t = A + B \cdot R + C\cdot R^2 + D\cdot R^3\;,
 \]
-is intended to be added to the thermometer indication, $R$, and the values of $A, B, C,\text{ and }D$ are determined during calibration. To avoid misinterpretation, reports should specify the units associated with indications (which relates to instrument configuration) but $A, B, C,\text{ and }D$ should be reported as pure numbers. For example,
+is added to a thermometer indication, $R$. Reports should associate units with indications (which relates to the instrument configuration) but $A, B, C,\text{ and }D$ should be reported as pure numbers. For example, coefficient values and a possible sentence to accompany the equation might appear as
 \begin{align*}
     A &= \num{-1.05e-2}\\
-    B &= \num{+4.8e-6}\\
+    B &= \num{+4.80e-6}\\
     C &= \num{+1.19E-8}\\
     D &= \num{+5.24e-11} 
 \end{align*}
-A possible sentence to accompany the correction equation is 
 \begin{quote}
 \textit{When the thermometer is configured to indicate in degrees Celsius, the correction, $\Delta t$, can be added to the reading, $R$, to obtain a value of temperature expressed in degrees Celsius. }
 \end{quote}
