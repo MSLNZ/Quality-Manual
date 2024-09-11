@@ -1,4 +1,5 @@
-*.toc
-*.gz
-*.out
-*.log
+/guidelines_proficiency_testing/*.toc
+/guidelines_proficiency_testing/*.gz
+/guidelines_proficiency_testing/*.out
+/guidelines_proficiency_testing/*.log
+/quality_manual_document/*.gz

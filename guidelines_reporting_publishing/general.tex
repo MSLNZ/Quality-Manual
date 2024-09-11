@@ -47,6 +47,36 @@ To set up Excel to insert a space between digits to the left of the decimal mark
 
 Alternatively, to insert spaces between groups of three digits to the right of the decimal marker use a custom number format of ``\verb|#.### ### ###|''. Similarly, a custom number format of ``\verb|# ### ###|'' can be used to set a space as the thousands separator.
 
+\subsection{Units in equations}
+The SI Brochure explains that \textit{``The value of a quantity is generally expressed as the product of a number and a unit.''} \cite[\S2.1]{SI9}. This advice should be followed when expressing SI quantities in MSL documents.
+
+In this standard form, it is assumed that unit conversion can be performed with a multiplicative conversion factor. This is true for all SI quantities except when thermodynamic temperature or temperature on the ITS-90 scale is expressed in degrees Celsius (temperature difference or uncertainty expressed in degrees Celsius can, however, be converted using a multiplicative factor). A related assumption is that unit-expressions can be simplified according to the rules of multiplication and division (e.g., $\si{\metre\cubed}/\si{\metre\squared}= \si{\metre}$). 
+
+When temperature is expressed in degrees Celsius, a multiplicative conversion factor is not enough for unit conversion because \SI{0}{\celsius} is offset from \SI{0}{\kelvin}. 
+Situations like this arise whenever the zero on a measurement scale is shifted by unit conversion.  
+
+%The thing to be aware of is that multiplicative unit conversion factors are assumed to apply when a quantity is expressed as a number followed by a unit symbol.
+
+ 
+MSL sometimes provides calibration equations that describe corrections to measurement system readings. Coefficients in these equations represent quantities. So, when quantities like temperature are involved, care must be taken to avoid misinterpretation of the coefficients. When conversion of readings to an alternative unit would involve a shift in zero as well as scaling, coefficients should be reported as pure numbers (indicating a numeric equation rather than a quantity equation). 
+
+For example, the following correction equation appears in some calibration reports for electronic thermometers. The correction,
+\[
+\Delta t = A + B \cdot R + C\cdot R^2 + D\cdot R^3\;,
+\]
+is added to a thermometer indication, $R$, to give an estimate of temperature that is traceable. 
+
+When describing terms in this equation, a unit of temperature can be stipulated for indications (which relates to the instrument configuration) but the coefficients $A, B, C,\text{ and }D$ should be reported as pure numbers. For example, coefficient values and a possible sentence to accompany the equation might appear as
+\begin{align*}
+    A &= \num{-1.05e-2}\\
+    B &= \num{+4.80e-6}\\
+    C &= \num{+1.19E-8}\\
+    D &= \num{+5.24e-11} 
+\end{align*}
+\begin{quote}
+\textit{When the thermometer is configured to indicate in degrees Celsius, the correction, $\Delta t$, can be added to the reading, $R$, to obtain a value of temperature in degrees Celsius. }
+\end{quote}
+
 \section{Mathematical language}
 Mathematical formulae and equations should be contained in complete English sentences with appropriate punctuation. 
 
