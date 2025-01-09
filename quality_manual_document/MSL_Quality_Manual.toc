@@ -1,0 +1,137 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Quality policy statement}{iv}{Doc-Start}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Organisational structure}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Callaghan Innovation}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Measurement Standards Laboratory}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Responsibilities}{2}{subsubsection.2.2.1}%
+\contentsline {paragraph}{Impartiality}{3}{section*.2}%
+\contentsline {paragraph}{The Quality Manager}{3}{section*.3}%
+\contentsline {subsubsection}{\numberline {2.2.2}MSL Sections}{4}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Approvals}{6}{subsubsection.2.2.3}%
+\contentsline {paragraph}{Chief Metrologist}{6}{section*.4}%
+\contentsline {paragraph}{Team Leader}{6}{section*.5}%
+\contentsline {paragraph}{Quality Manager}{6}{section*.6}%
+\contentsline {paragraph}{Member}{6}{section*.7}%
+\contentsline {paragraph}{Quality Council}{7}{section*.8}%
+\contentsline {paragraph}{Leadership Team}{7}{section*.9}%
+\contentsline {subsubsection}{\numberline {2.2.4}MSL Affiliations}{7}{subsubsection.2.2.4}%
+\contentsline {section}{\numberline {3}Quality Assurance}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Policy on the Quality Assurance of Measurement Capabilities}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Metrological traceability}{9}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Traceability policy}{10}{subsubsection.3.2.1}%
+\contentsline {paragraph}{Exceptions:}{10}{section*.10}%
+\contentsline {paragraph}{Quality assurance:}{10}{section*.11}%
+\contentsline {section}{\numberline {4}Documents and document control}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}File systems}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Central file system}{11}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}The MSL Quality Manual}{13}{subsubsection.4.2.1}%
+\contentsline {paragraph}{Amendments to the Quality Manual}{13}{section*.12}%
+\contentsline {subsection}{\numberline {4.3}Section file systems}{13}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Technical procedure files}{14}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Technical records}{14}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Commercial jobs}{14}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}Software register}{14}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.5}Staff training records}{15}{subsubsection.4.3.5}%
+\contentsline {subsubsection}{\numberline {4.3.6}Equipment registers}{15}{subsubsection.4.3.6}%
+\contentsline {subsubsection}{\numberline {4.3.7}Correspondence, complaints and feedback}{15}{subsubsection.4.3.7}%
+\contentsline {subsection}{\numberline {4.4}Technical Procedures}{16}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Technical procedure structure}{16}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Amendments to technical procedures}{17}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}Technical procedure validation (and revalidation)}{18}{subsubsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.4}Validated Procedure Register}{19}{subsubsection.4.4.4}%
+\contentsline {paragraph}{Procedure to modify the Validated Procedure Register}{19}{section*.13}%
+\contentsline {subsubsection}{\numberline {4.4.5}Documentary standards}{20}{subsubsection.4.4.5}%
+\contentsline {section}{\numberline {5}Competencies, Training and Professional Development}{21}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Training and Professional Development Planning}{21}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Mentoring}{22}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Working under supervision}{22}{subsubsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.3}Technical Competency Classes}{22}{subsection.5.3}%
+\contentsline {paragraph}{Author}{22}{section*.14}%
+\contentsline {paragraph}{Reviewer}{22}{section*.15}%
+\contentsline {paragraph}{Worker}{22}{section*.16}%
+\contentsline {paragraph}{Checker}{22}{section*.17}%
+\contentsline {paragraph}{Key Technical Person}{23}{section*.18}%
+\contentsline {subsubsection}{\numberline {5.3.1}Competency requirements for different classes}{23}{subsubsection.5.3.1}%
+\contentsline {paragraph}{Core requirements}{23}{section*.19}%
+\contentsline {paragraph}{Author}{23}{section*.20}%
+\contentsline {paragraph}{Reviewer}{23}{section*.21}%
+\contentsline {paragraph}{Worker}{24}{section*.22}%
+\contentsline {paragraph}{Key technical person}{24}{section*.23}%
+\contentsline {subsection}{\numberline {5.4}The Technical Competency Matrix}{25}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Procedure for adding a technical competency}{25}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Procedure for deleting a technical competency}{26}{subsubsection.5.4.2}%
+\contentsline {section}{\numberline {6}Reporting and Publishing}{27}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Metrological Reports}{27}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Report types}{28}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Authority to write and review reports}{28}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Reporting measurement conditions}{29}{subsubsection.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.4}Reporting format}{29}{subsubsection.6.1.4}%
+\contentsline {paragraph}{Statement about applicability of results}{29}{section*.24}%
+\contentsline {subsubsection}{\numberline {6.1.5}Issuing Paper Reports and Summary Data}{29}{subsubsection.6.1.5}%
+\contentsline {subsubsection}{\numberline {6.1.6}Issuing Electronic Reports and Summary Data}{30}{subsubsection.6.1.6}%
+\contentsline {subsubsection}{\numberline {6.1.7}Signing electronic reports}{31}{subsubsection.6.1.7}%
+\contentsline {subsubsection}{\numberline {6.1.8}Withdrawal due to a reporting or measurement error}{33}{subsubsection.6.1.8}%
+\contentsline {paragraph}{To withdraw paper reports}{34}{section*.25}%
+\contentsline {paragraph}{To withdraw electronic reports}{34}{section*.26}%
+\contentsline {paragraph}{Note}{35}{section*.27}%
+\contentsline {paragraph}{Finally}{35}{section*.28}%
+\contentsline {subsubsection}{\numberline {6.1.9}Replacing a report at the client's request}{35}{subsubsection.6.1.9}%
+\contentsline {paragraph}{Electronic reports}{36}{section*.29}%
+\contentsline {paragraph}{Paper reports}{36}{section*.30}%
+\contentsline {subsubsection}{\numberline {6.1.10}Replacing a report issued with an incorrect report number}{36}{subsubsection.6.1.10}%
+\contentsline {subsection}{\numberline {6.2}MSL Publications policy}{37}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Responsibilities}{39}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}MSL publications repository}{39}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Publications clearance form}{39}{subsubsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.4}Publication led by another organisation}{40}{subsubsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.3}Guidelines for authors and reviewers}{40}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Check lists}{40}{subsubsection.6.3.1}%
+\contentsline {paragraph}{Scientific papers (journals and conference papers)}{41}{section*.31}%
+\contentsline {paragraph}{Trade journals}{41}{section*.32}%
+\contentsline {paragraph}{Callaghan Innovation technical reports}{41}{section*.33}%
+\contentsline {paragraph}{Technical Guides}{42}{section*.34}%
+\contentsline {paragraph}{Training course slides and notes}{42}{section*.35}%
+\contentsline {paragraph}{Posters and presentations}{43}{section*.36}%
+\contentsline {paragraph}{Articles for the MSL website}{43}{section*.37}%
+\contentsline {subsubsection}{\numberline {6.3.2}MSL consultancy reports}{43}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}Reporting on international measurement comparisons}{44}{subsubsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.4}Acknowledgement of national standards funding}{44}{subsubsection.6.3.4}%
+\contentsline {section}{\numberline {7}Inwards and outwards goods control}{45}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Inwards goods procedure}{45}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Documentation}{45}{subsubsection.7.1.1}%
+\contentsline {paragraph}{Goods Log Book}{45}{section*.38}%
+\contentsline {paragraph}{Goods Control Form}{45}{section*.39}%
+\contentsline {paragraph}{Goods control label}{45}{section*.40}%
+\contentsline {subsubsection}{\numberline {7.1.2}Client goods}{45}{subsubsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.2}Outwards goods procedure}{46}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Documentation}{46}{subsubsection.7.2.1}%
+\contentsline {paragraph}{Goods Log Book}{46}{section*.41}%
+\contentsline {paragraph}{Goods Control Form}{46}{section*.42}%
+\contentsline {subsubsection}{\numberline {7.2.2}Packaging}{46}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Dispatch}{47}{subsubsection.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.4}Goods on loan from MSL}{47}{subsubsection.7.2.4}%
+\contentsline {section}{\numberline {8}Audits and reviews}{48}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Internal Audits}{48}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Management review}{49}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Management review procedure}{49}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Management review reporting}{50}{subsubsection.8.2.2}%
+\contentsline {section}{\numberline {9}Review of requests and contracts}{51}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Policy}{51}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Confidentiality}{51}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Additional work for IANZ}{51}{subsubsection.9.1.2}%
+\contentsline {section}{\numberline {10}Improvements}{53}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Risks and Opportunities}{53}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Improvement requests (IRF)}{54}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}IRF procedure}{54}{subsubsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.3}Complaints}{55}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Assessing Client Satisfaction}{56}{subsection.10.4}%
+\contentsline {subsubsection}{\numberline {10.4.1}Call backs}{56}{subsubsection.10.4.1}%
+\contentsline {subsubsection}{\numberline {10.4.2}Client survey}{57}{subsubsection.10.4.2}%
+\contentsline {section}{\numberline {11}Project management}{58}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Science research project management}{58}{subsection.11.1}%
+\contentsline {section}{\numberline {A}Abbreviations}{60}{appendix.A}%
+\contentsline {section}{\numberline {B}Calendar of responsibilities}{61}{appendix.B}%
+\contentsline {section}{\numberline {C}ISO/IEC 17025 Cross-reference}{62}{appendix.C}%
+\contentsline {section}{\numberline {D}References}{63}{appendix.D}%
+\contentsfinish 

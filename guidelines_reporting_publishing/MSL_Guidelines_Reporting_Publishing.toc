@@ -1,0 +1,49 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Numbers and units}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Generating a space separator}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Units in equations}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Mathematical language}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Symbols and notation}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}MSL style guide for symbols}{4}{subsubsection.2.1.1}%
+\contentsline {section}{\numberline {3}Scientific documents}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Equations and prose in scientific documents}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Tables}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Figures}{8}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Captions}{9}{subsubsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.4}Uncertainty}{10}{subsection.3.4}%
+\contentsline {paragraph}{Which uncertainty?}{10}{section*.1}%
+\contentsline {paragraph}{What is uncertain?}{10}{section*.2}%
+\contentsline {paragraph}{Prefer the word `error'}{10}{section*.3}%
+\contentsline {paragraph}{Measured values are estimates; values of uncertainty are calculated}{10}{section*.4}%
+\contentsline {paragraph}{Level of Confidence}{11}{section*.5}%
+\contentsline {paragraph}{Coverage factor and degrees of freedom}{12}{section*.6}%
+\contentsline {paragraph}{The colloquial meaning of uncertainty}{12}{section*.7}%
+\contentsline {paragraph}{The purpose of measurement}{12}{section*.8}%
+\contentsline {subsection}{\numberline {3.5}The Abstract}{13}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Metrological reports}{15}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Printing and binding}{15}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Report covers}{15}{subsection.4.2}%
+\contentsline {paragraph}{Issuing body and traceability statement}{16}{section*.9}%
+\contentsline {subsection}{\numberline {4.3}Front page}{16}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Header and footer on subsequent pages}{16}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Second page}{17}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Signature page}{17}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Report structure}{17}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Re-issued reports}{19}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Fonts}{19}{subsection.4.9}%
+\contentsline {subsubsection}{\numberline {4.9.1}Microsoft Word}{19}{subsubsection.4.9.1}%
+\contentsline {subsubsection}{\numberline {4.9.2}Other text processors}{20}{subsubsection.4.9.2}%
+\contentsline {subsection}{\numberline {4.10}Out-of-scope results (IANZ and CIPM MRA CMCs)}{20}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Informal reporting of measurements}{20}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}Electronic reports}{21}{subsection.4.12}%
+\contentsline {subsubsection}{\numberline {4.12.1}How to add an MSL report cover in Word}{22}{subsubsection.4.12.1}%
+\contentsline {subsubsection}{\numberline {4.12.2}Signing an electronic report}{23}{subsubsection.4.12.2}%
+\contentsline {subsection}{\numberline {4.13}Checking the integrity of a report file}{24}{subsection.4.13}%
+\contentsline {section}{\numberline {5}Important technical documents published by MSL}{26}{section.5}%
+\contentsline {subsection}{\numberline {5.1}The FAIR principles}{26}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Guidelines}{27}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Technical reports}{27}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Technical Guides}{28}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Copyright and licensing}{31}{section.6}%
+\contentsline {section}{\numberline {A}References}{32}{appendix.A}%
+\contentsfinish 
