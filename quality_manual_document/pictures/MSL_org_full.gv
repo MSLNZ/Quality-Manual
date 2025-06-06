@@ -62,9 +62,9 @@ digraph {
 		B4 [style=invis];
         MQC [
             label="{Quality Council |" 
-            +   "Peter McDowall\l"
             +   "Adam Dunford\l"
             +   "Ben Sherson\l"
+            +   "Rebecca Hawke\l"
             +   "}" 
         ];
 		
@@ -194,7 +194,6 @@ digraph {
         
         S_temperature_humidity [label = "{Temperature & Humidity|  "
         +   "Peter Saunders\l"
-        +	"Jeremy Lovell-Smith\l"
         +	"Hamish Edgar\l"
         +	"Ben Sherson\l"
         +   "Stefaan Janssens\l"

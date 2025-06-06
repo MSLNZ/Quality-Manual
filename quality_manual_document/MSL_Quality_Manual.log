@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.5.3)  6 JUN 2025 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.5.3)  6 JUN 2025 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -953,11 +953,11 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 
 pdfTeX warning: pdflatex.exe (file ./pictures/MSL_org_full.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<pictures/MSL_org_full.pdf, id=517, 540.0175pt x 674.52pt>
+<pictures/MSL_org_full.pdf, id=517, 540.0175pt x 663.47874pt>
 File: pictures/MSL_org_full.pdf Graphic file (type pdf)
 <use pictures/MSL_org_full.pdf>
 Package pdftex.def Info: pictures/MSL_org_full.pdf  used on input line 91.
-(pdftex.def)             Requested size: 458.5187pt x 572.73746pt.
+(pdftex.def)             Requested size: 458.5187pt x 563.36227pt.
 
 Overfull \hbox (41.68582pt too wide) in paragraph at lines 91--92
  [] 
@@ -1133,7 +1133,7 @@ lic/stix/stix-mathrm.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/fonts/
 type1/urw/helvetic/uhvb8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on MSL_Quality_Manual.pdf (68 pages, 1134360 bytes).
+Output written on MSL_Quality_Manual.pdf (68 pages, 1134209 bytes).
 PDF statistics:
  1090 PDF objects out of 1200 (max. 8388607)
  243 named destinations out of 1000 (max. 500000)
