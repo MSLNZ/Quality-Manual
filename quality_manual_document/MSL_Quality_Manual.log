@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.5.3)  9 JUN 2025 14:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.5.3)  9 JUN 2025 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1111,9 +1111,6 @@ mtt/m/n/10 https : / / www . bipm . org / en / cipm-[]mra /
 ) [64
 
 ] (MSL_Quality_Manual.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `MSL_Quality_Manual.out' has not changed.
 (rerunfilecheck)             Checksum: CCE45BC0E66BDF4E33679047ABC40539;18115.
  ) 
@@ -1133,7 +1130,7 @@ lic/stix/stix-mathrm.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/fonts/
 type1/urw/helvetic/uhvb8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on MSL_Quality_Manual.pdf (69 pages, 1135645 bytes).
+Output written on MSL_Quality_Manual.pdf (69 pages, 1135534 bytes).
 PDF statistics:
  1094 PDF objects out of 1200 (max. 8388607)
  244 named destinations out of 1000 (max. 500000)
