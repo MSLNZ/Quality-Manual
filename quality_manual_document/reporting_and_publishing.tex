@@ -298,8 +298,9 @@ Any change of information in the reissued report shall be clearly identified and
 
 \item Electronic copies in the central file, and the corresponding MD5 checksum in the checksum tool, should be cancelled:
 \begin{itemize}
-\item Within the SharePoint Quality Management System site, move the calibration report from the ''valid'' folder to the ''cancelled'' folder.
-\item Within the checksum tool, change the status of the MD5 checksum of the originally issued report from ''valid'' to ''cancelled''.
+\item Within the SharePoint Quality Management System site, without modifying the file, check out the calibration report and then check back in.  This will prompt for a comment to be added to the version history.  Type 'Report CANCELLED'.
+\item Within the SharePoint Quality Management System site, move the calibration report from the valid folder to the cancelled folder.
+\item Within the checksum tool, change the status of the MD5 checksum of the originally issued report from valid to cancelled.
 \end{itemize}
 
 \item Produce a corrected report using the original report number.  Retain the original issue dates throughout, but add, after each issue date, the words `reissued on [new issue date]', e.g. `Report No. Pressure/1997/155, 11 August 1997, reissued on 10 February 2000'.\\
@@ -310,19 +311,11 @@ Any change of information in the report must be clearly identified and, where ap
 
 \item Issue the corrected report.  To do so, follow section 6.1.7 above, with the exception that 
 \begin{itemize}
-\item the filename format should instead have the reissue number appended.  For example, the first reissue of the report will take the format Pressure_155_1997_reissue_1.pdf, the second Pressure_155_1997_reissue_2.pdf and so on.
-\item the Chief Metrologist sets the ''Reissued'' flag to ''True''
+\item the filename format should instead have the reissue number appended. For example, the first reissue of the report will take the format Pressure\_155\_1997\_reissue\_1.pdf, the second Pressure\_155\_1997\_reissue\_2.pdf and so on.
+\item the Chief Metrologist sets the Reissued flag to True
 \end{itemize}
 The reissued report must remain in the active folder unless it is cancelled at some future date.
 
-
-\item File copies of the signed corrected original in the central file and the section file. 
-\begin{itemize}
-\item The name of the central file copy should not be changed (i.e., the new copy of the report replaces the cancelled original). 
-\item Add a note to the AODocs version history to indicate a reissued report.
-\item Upon upload of the final signed reissued report to AODocs, the Chief Metrologist, or delegate, shall add the latest MD5 to both the version notes and the Checksum property. Usually the Checksum property will already populated with the MD5 for the prior issued report. This shall be overwritten.
-\item Set the AODocs 'Re-issued' property to TRUE.
-\end{itemize}
 \end{enumerate}
 
 \paragraph{Note} In general, changes to the central file should only be carried out by an MSL administrator or the Quality Manager. The procedure for signing electronic reports is an exception to this rule. 

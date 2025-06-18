@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.5.3)  18 JUN 2025 13:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.5.3)  18 JUN 2025 13:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1090,18 +1090,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
-[35 <./pictures/Step8_pic3.png>] [36] [37] [38] [39]
+[35 <./pictures/Step8_pic3.png>] [36]
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+[37] [38] [39]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.12497pt on input line 443.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 443.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 5.69998pt on input line 443.
- [40] [41] [42] [43]
-[44] [45]) [46] (../quality_manual_document/Goods_control.tex [47
+ [40] [41] [42] [43] [44] [45]) [46]
+(../quality_manual_document/Goods_control.tex [47
 
-] [48])
-[49] (../quality_manual_document/Audits_and_reviews.tex [50
+] [48]) [49]
+(../quality_manual_document/Audits_and_reviews.tex [50
 
 ] [51]) [52]
 (../quality_manual_document/Requests_and_contracts.tex [53
@@ -1138,7 +1143,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--51
  []
 
 [57] [58]) [59] (../quality_manual_document/Project_management.tex
-<pictures/science_review.png, id=929, 867.24pt x 490.83376pt>
+<pictures/science_review.png, id=927, 867.24pt x 490.83376pt>
 File: pictures/science_review.png Graphic file (type png)
 <use pictures/science_review.png>
 Package pdftex.def Info: pictures/science_review.png  used on input line 25.
@@ -1173,8 +1178,8 @@ Package rerunfilecheck Info: File `MSL_Quality_Manual.out' has not changed.
 (rerunfilecheck)             Checksum: CCE45BC0E66BDF4E33679047ABC40539;18115.
  ) 
 Here is how much of TeX's memory you used:
- 22309 strings out of 476334
- 405190 string characters out of 5787028
+ 22307 strings out of 476334
+ 405176 string characters out of 5787028
  1867382 words of memory out of 5000000
  41846 multiletter control sequences out of 15000+600000
  595907 words of font info for 290 fonts, out of 8000000 for 9000
@@ -1188,9 +1193,9 @@ lic/stix/stix-mathrm.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/fonts/
 type1/urw/helvetic/uhvb8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on MSL_Quality_Manual.pdf (70 pages, 1494607 bytes).
+Output written on MSL_Quality_Manual.pdf (70 pages, 1494355 bytes).
 PDF statistics:
- 1115 PDF objects out of 1200 (max. 8388607)
- 249 named destinations out of 1000 (max. 500000)
+ 1113 PDF objects out of 1200 (max. 8388607)
+ 247 named destinations out of 1000 (max. 500000)
  54583 words of extra memory for PDF output out of 61914 (max. 10000000)
 
