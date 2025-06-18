@@ -77,26 +77,10 @@ For most calibration work, the MSL report format clearly identifies the item(s) 
 
 \subsubsection{Issuing Paper Reports and Summary Data}
 
-Only one printed report shall be signed and sent to the client. 
-
-A scanned copy of this signed report shall be filed in the central file system ( see~\S\ref{ss:central_file_system} ). 
-
-An electronic copy of the document used to create the report shall be retained in the section file system ( see~\S\ref{ss:section_file_systems} ). 
-   
-The client may be supplied with a copy of the scanned PDF version of the signed report, if requested.
-
-A laminated card of the table of corrections may be supplied to the client, if required.  This card will show: the name of the instrument, the serial number of the instrument, the MSL report number and the correction table data.  The card will go through the same checking process as described above.
-
-Clients may request calibration information in electronic format, such as an Excel spreadsheet. Such information may be provided, but only after the report has been issued. The electronic data must be checked with the same care given to written reports. Moreover, it should be made clear to the client that the written report remains the authoritative document. 
-
-Every effort should be made to ensure that the items calibrated or tested will be returned to the client at the same time as the report. If the report is delayed, the client should be informed. If it is known in advance that the report will be issued after return of the client's items, the client should be advised before the work begins.
-
 
 \subsubsection{Issuing Electronic Reports and Summary Data}
 \label{sss:issuing_electronic_reports}
 \begin{itemize}
-
-\item Ensure that a report in electronic format is acceptable to the client.
 
 \item The electronic report file shall be signed (~see procedure in \S\ref{sss:electronic_signatures}~) and a record of this signing process shall be saved in the central file system (~see~\S\ref{ss:central_file_system}~). 
 
@@ -265,32 +249,7 @@ In order to reissue the report, the instrument or artefact may need to be recall
 Any change of information in the reissued report shall be clearly identified and, where appropriate, the reason for change shall be given.
 
 \paragraph{To withdraw paper reports}
-\begin{enumerate}
-\item Contact the client and ask for the return of the original report and also that any copies be destroyed. 
 
-\item On receipt of the original report, stamp all pages ``{\color{red}CANCELLED}” and initial. 
-
-\item Where paper photocopies are held by MSL, all pages should be stamped ``{\color{red}CANCELLED}” and initialled.
-
-\item Electronic copies in the central file, and in the section file, should be cancelled:
-\begin{itemize}
-\item For a PDF file, add the text “{\color{red}CANCELLED}” to each page (in red text, with bold, large, font size – there are PDF reader programmes that can do this). 
-\item For the central file copy, the name of the file should not be changed. Rather, the cancelled file should be saved with the same name and a note added about the cancellation in the AODocs version history of the document. 
-\end{itemize}
-
-\item Produce a corrected report using the original report number.  Retain the original issue dates throughout, but add, after each issue date, the words `reissued on [new issue date]', e.g. `Report No. Pressure/1997/155, 11 August 1997, reissued on 10 February 2000'.
-
-\item Any change of information in the report must be clearly identified and, where appropriate, the reason for the change should be included in the report (~some advice on formatting is given in \cite[\S\ref*{GRP-ss:reissued_reports}]{MSL_Reporting_Guidelines}~).
-
-\item Make copies of the signed corrected original and file in the central file and the section file. 
-\begin{itemize}
-\item The name of the central file copy should not be changed (i.e., the new copy of the report replaces the cancelled original). 
-\item A note should be added in the AODocs version history to indicate a reissued report.
-\item If the reissued report is of electronic format instead of paper, upload the final signed reissued report to AODocs. The Chief Metrologist, or delegate, shall add the MD5 to both the version notes and the Checksum property.
-\item Set the AODocs 'Re-issued' property to TRUE.
-\end{itemize}
-\item Reissue the corrected report and the cancelled original report to the client.
-\end{enumerate}
 
 \paragraph{To withdraw electronic reports}
 \begin{enumerate}
@@ -336,28 +295,6 @@ There is no need to record the replacement of the report in the central file sys
 
 
 \paragraph{Paper reports}
-The new report must be identified as a replacement and have a new report issue date (i.e. to ensure that any original is unique). The replacement must be signed and copies stored in the central file and section job file. 
-\begin{itemize}
-\item The first replacement of a lost report should be labelled ``Replacement of Report \ldots". 
-\begin{itemize}
-\item Retain the original issue dates throughout but add the words `reissued on (new issue date)', e.g.: ``Replacement of Report No. Pressure/1997/155, 11 August 1997, reissued on 10 February 2000".
-\item Any subsequent replacements should be labelled ``Second Replacement of Report \ldots", etc.
-\end{itemize}
-
-\item Where an original signatory is not available, a person appointed to carry out the test and calibration work, or checking, in the designated field may sign the report per persona (p.p.).  The name of the original signatory must remain on the report.
-
-\item Reissue the report to the client.
-
-\item File copies of the report in the central file and the section file.
-\begin{itemize}
-\item The name of the central file copy should not be changed (i.e., the new copy of the report replaces the original). 
-\item Add a note to indicate a replaced report in the AODocs version history.
-\item If the reissued report to the client is of electronic format instead of paper, the Chief Metrologist, or delegate, shall add the MD5 to both the version notes and the Checksum property.
-\item Set the AODocs 'Re-issued' property to TRUE.
-\end{itemize}
-\end{itemize}
-
-Note, the client, on request, may be supplied with a copy of an original paper report, in which case the copy is not considered ``reissued". However, the client should be advised that the copy is not authoritative and, for example, may not be acceptable in court.
 
 \subsubsection{Replacing a report issued with an incorrect report number}
 
