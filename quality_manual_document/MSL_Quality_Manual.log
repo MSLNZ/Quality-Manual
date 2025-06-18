@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.5.3)  18 JUN 2025 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.5.3)  18 JUN 2025 13:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1092,11 +1092,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
 [35 <./pictures/Step8_pic3.png>] [36] [37] [38] [39]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.12497pt on input line 442.
+(Font)              scaled to size 7.12497pt on input line 443.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 442.
+(Font)              scaled to size 7.59998pt on input line 443.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 442.
+(Font)              scaled to size 5.69998pt on input line 443.
  [40] [41] [42] [43]
 [44] [45]) [46] (../quality_manual_document/Goods_control.tex [47
 
@@ -1169,9 +1169,6 @@ mtt/m/n/10 https : / / www . bipm . org / en / cipm-[]mra /
 ) [65
 
 ] (MSL_Quality_Manual.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `MSL_Quality_Manual.out' has not changed.
 (rerunfilecheck)             Checksum: CCE45BC0E66BDF4E33679047ABC40539;18115.
  ) 
@@ -1191,7 +1188,7 @@ lic/stix/stix-mathrm.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/fonts/
 type1/urw/helvetic/uhvb8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on MSL_Quality_Manual.pdf (70 pages, 1494423 bytes).
+Output written on MSL_Quality_Manual.pdf (70 pages, 1494607 bytes).
 PDF statistics:
  1115 PDF objects out of 1200 (max. 8388607)
  249 named destinations out of 1000 (max. 500000)

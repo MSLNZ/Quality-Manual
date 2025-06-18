@@ -296,17 +296,25 @@ Any change of information in the reissued report shall be clearly identified and
 \begin{enumerate}
 \item Contact the client and ask that any copies be destroyed. 
 
-\item Electronic copies in the central file, and in the section file, should be cancelled:
+\item Electronic copies in the central file, and the corresponding MD5 checksum in the checksum tool, should be cancelled:
 \begin{itemize}
-\item For a PDF file, add the text “{\color{red}CANCELLED}” to each page (in red text, with bold, large, font size – there are PDF reader programmes that can do this). 
-\item For the central file copy, the name of the file should not be changed. Rather, the cancelled file should be saved with the same name and a note added about the cancellation in the AODocs version history of the document. 
+\item Within the SharePoint Quality Management System site, move the calibration report from the ''valid'' folder to the ''cancelled'' folder.
+\item Within the checksum tool, change the status of the MD5 checksum of the originally issued report from ''valid'' to ''cancelled''.
 \end{itemize}
 
-\item Produce a corrected report using the original report number.  Retain the original issue dates throughout, but add, after each issue date, the words `reissued on [new issue date]', e.g. `Report No. Pressure/1997/155, 11 August 1997, reissued on 10 February 2000'.
+\item Produce a corrected report using the original report number.  Retain the original issue dates throughout, but add, after each issue date, the words `reissued on [new issue date]', e.g. `Report No. Pressure/1997/155, 11 August 1997, reissued on 10 February 2000'.\\
 
-\item Any change of information in the report must be clearly identified and, where appropriate, the reason for the change should be included in the report (~some advice on formatting is given in \cite[\S\ref*{GRP-ss:reissued_reports}]{MSL_Reporting_Guidelines}~).
+For subsequent reissues of the same report, the words `second reissue on [new issue date]', `third reissue on [new issue date]' and so on.  For example, the second reissue of the above report could become`Report No. Pressure/1997/155, 11 August 1997, second reissue on 1 January 2001'
 
-\item Reissue the corrected report to the client with the new MD5 checksum. Send a copy of the cancelled original report to the client. 
+Any change of information in the report must be clearly identified and, where appropriate, the reason for the change should be included in the report (~some advice on formatting is given in \cite[\S\ref*{GRP-ss:reissued_reports}]{MSL_Reporting_Guidelines}~).
+
+\item Issue the corrected report.  To do so, follow section 6.1.7 above, with the exception that 
+\begin{itemize}
+\item the filename format should instead have the reissue number appended.  For example, the first reissue of the report will take the format Pressure_155_1997_reissue_1.pdf, the second Pressure_155_1997_reissue_2.pdf and so on.
+\item the Chief Metrologist sets the ''Reissued'' flag to ''True''
+\end{itemize}
+The reissued report must remain in the active folder unless it is cancelled at some future date.
+
 
 \item File copies of the signed corrected original in the central file and the section file. 
 \begin{itemize}
