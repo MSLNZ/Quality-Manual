@@ -74,37 +74,36 @@
 \contentsline {paragraph}{To withdraw electronic reports}{35}{section*.25}%
 \contentsline {paragraph}{Note}{36}{section*.26}%
 \contentsline {paragraph}{Finally}{36}{section*.27}%
-\contentsline {subsubsection}{\numberline {6.1.8}Replacing a report at the client's request}{36}{subsubsection.6.1.8}%
-\contentsline {paragraph}{Electronic reports}{36}{section*.28}%
+\contentsline {subsubsection}{\numberline {6.1.8}Replacing a report at the client's request}{37}{subsubsection.6.1.8}%
 \contentsline {subsubsection}{\numberline {6.1.9}Replacing a report issued with an incorrect report number}{37}{subsubsection.6.1.9}%
 \contentsline {subsection}{\numberline {6.2}MSL Publications policy}{37}{subsection.6.2}%
 \contentsline {subsubsection}{\numberline {6.2.1}Responsibilities}{38}{subsubsection.6.2.1}%
 \contentsline {subsubsection}{\numberline {6.2.2}MSL publications repository}{39}{subsubsection.6.2.2}%
 \contentsline {subsubsection}{\numberline {6.2.3}Publications clearance form}{39}{subsubsection.6.2.3}%
-\contentsline {subsubsection}{\numberline {6.2.4}Publication led by another organisation}{39}{subsubsection.6.2.4}%
+\contentsline {subsubsection}{\numberline {6.2.4}Publication led by another organisation}{40}{subsubsection.6.2.4}%
 \contentsline {subsection}{\numberline {6.3}Guidelines for authors and reviewers}{40}{subsection.6.3}%
 \contentsline {subsubsection}{\numberline {6.3.1}Check lists}{40}{subsubsection.6.3.1}%
-\contentsline {paragraph}{Scientific papers (journals and conference papers)}{40}{section*.29}%
-\contentsline {paragraph}{Trade journals}{41}{section*.30}%
-\contentsline {paragraph}{Callaghan Innovation technical reports}{41}{section*.31}%
-\contentsline {paragraph}{Technical Guides}{41}{section*.32}%
-\contentsline {paragraph}{Training course slides and notes}{42}{section*.33}%
-\contentsline {paragraph}{Posters and presentations}{42}{section*.34}%
-\contentsline {paragraph}{Articles for the MSL website}{43}{section*.35}%
+\contentsline {paragraph}{Scientific papers (journals and conference papers)}{40}{section*.28}%
+\contentsline {paragraph}{Trade journals}{41}{section*.29}%
+\contentsline {paragraph}{Callaghan Innovation technical reports}{41}{section*.30}%
+\contentsline {paragraph}{Technical Guides}{41}{section*.31}%
+\contentsline {paragraph}{Training course slides and notes}{42}{section*.32}%
+\contentsline {paragraph}{Posters and presentations}{42}{section*.33}%
+\contentsline {paragraph}{Articles for the MSL website}{43}{section*.34}%
 \contentsline {subsubsection}{\numberline {6.3.2}MSL consultancy reports}{43}{subsubsection.6.3.2}%
 \contentsline {subsubsection}{\numberline {6.3.3}Reporting on international measurement comparisons}{43}{subsubsection.6.3.3}%
 \contentsline {subsubsection}{\numberline {6.3.4}Acknowledgement of national standards funding}{44}{subsubsection.6.3.4}%
 \contentsline {section}{\numberline {7}Inwards and outwards goods control}{45}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Inwards goods procedure}{45}{subsection.7.1}%
 \contentsline {subsubsection}{\numberline {7.1.1}Documentation}{45}{subsubsection.7.1.1}%
-\contentsline {paragraph}{Goods Log Book}{45}{section*.36}%
-\contentsline {paragraph}{Goods Control Form}{45}{section*.37}%
-\contentsline {paragraph}{Goods control label}{45}{section*.38}%
+\contentsline {paragraph}{Goods Log Book}{45}{section*.35}%
+\contentsline {paragraph}{Goods Control Form}{45}{section*.36}%
+\contentsline {paragraph}{Goods control label}{45}{section*.37}%
 \contentsline {subsubsection}{\numberline {7.1.2}Client goods}{45}{subsubsection.7.1.2}%
 \contentsline {subsection}{\numberline {7.2}Outwards goods procedure}{46}{subsection.7.2}%
 \contentsline {subsubsection}{\numberline {7.2.1}Documentation}{46}{subsubsection.7.2.1}%
-\contentsline {paragraph}{Goods Log Book}{46}{section*.39}%
-\contentsline {paragraph}{Goods Control Form}{46}{section*.40}%
+\contentsline {paragraph}{Goods Log Book}{46}{section*.38}%
+\contentsline {paragraph}{Goods Control Form}{46}{section*.39}%
 \contentsline {subsubsection}{\numberline {7.2.2}Packaging}{46}{subsubsection.7.2.2}%
 \contentsline {subsubsection}{\numberline {7.2.3}Dispatch}{47}{subsubsection.7.2.3}%
 \contentsline {subsubsection}{\numberline {7.2.4}Goods on loan from MSL}{47}{subsubsection.7.2.4}%
