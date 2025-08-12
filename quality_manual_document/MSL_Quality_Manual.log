@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.5.3)  12 AUG 2025 05:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.5.3)  12 AUG 2025 06:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1107,9 +1107,9 @@ File: pictures/Step8_pic2.png Graphic file (type png)
 Package pdftex.def Info: pictures/Step8_pic2.png  used on input line 216.
 (pdftex.def)             Requested size: 63.21135pt x 107.92853pt.
 
-Overfull \hbox (33.22409pt too wide) in paragraph at lines 222--223
-[]\T1/cmtt/m/n/10 <section name>_<section file number>_<year>_file<file number>
-.<extension> 
+Overfull \hbox (43.72153pt too wide) in paragraph at lines 222--223
+[]\T1/cmtt/m/n/10 <section name>_<section report number>_<year>_file<file numbe
+r>.<extension> 
  []
 
 [34 <./pictures/Step6_pic1.png> <./pictures/Step8_pic1.png> <./pictures/Step8_p
@@ -1213,9 +1213,6 @@ mtt/m/n/10 https : / / www . bipm . org / en / cipm-[]mra /
 ) [63
 
 ] (MSL_Quality_Manual.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `MSL_Quality_Manual.out' has not changed.
 (rerunfilecheck)             Checksum: 011ACBBC6F21ABD936DBFBB2A2430A06;17841.
  ) 
@@ -1235,7 +1232,7 @@ lic/stix/stix-mathrm.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/fonts/
 type1/urw/helvetic/uhvb8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on MSL_Quality_Manual.pdf (68 pages, 1487203 bytes).
+Output written on MSL_Quality_Manual.pdf (68 pages, 1487263 bytes).
 PDF statistics:
  1081 PDF objects out of 1200 (max. 8388607)
  226 named destinations out of 1000 (max. 500000)
