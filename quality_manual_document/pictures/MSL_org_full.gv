@@ -27,7 +27,7 @@ digraph {
         // Top row
         B1 [style=invis];
 		//B3 [style=invis];
-        D [label="{Director |Annette Koo}"];
+        D [label="{Director |Peter McDowall}"];
         B2 [style=invis]; 
 		//B4 [style=invis];
         
@@ -42,7 +42,7 @@ digraph {
          //   +   "}" 
         //];
 		
-		CM [label="{Chief Metrologist|Annette Koo}" ];
+		CM [label="{Chief Metrologist|Peter McDowall}" ];
          
         SSC[
 			label="{Science Support\n& Administration|"
@@ -64,7 +64,7 @@ digraph {
             label="{Quality Council |" 
             +   "Adam Dunford\l"
             +   "Ben Sherson\l"
-            +   "Rebecca Hawke\l"
+            +   "Cheng Yang\l"
             +   "}" 
         ];
 		
@@ -125,7 +125,7 @@ digraph {
 
         TeamMassTemperature[ 
             label="{Team Leader|"
-            +   "Peter McDowall\n"
+            +   "Ana Rakonjac\n"
             +   "}" 
         ];
 
@@ -208,6 +208,12 @@ digraph {
         +	"Johan Grand (shared L)\l"
         +   "}"
         ];
+
+        S_digital [label = "{Digital|"
+        +	"Blair Hall\l"
+        +	"Joseph Borbely\l"
+        +   "}"
+        ];
         
 //        S_rf [label = "{Radio Frequency|"
 //        +	"Blair Hall\l"
@@ -234,6 +240,7 @@ digraph {
 	
 	TeamLengthLight -> S_length;
 	S_length  ->  S_photometry_radiometry [arrowsize=0] ;
+	S_photometry_radiometry  ->  S_digital [arrowsize=0] ;
 	
 	//SSC -> TeamMassPressure  [style=invis];
     
