@@ -1,0 +1,23 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}The GUM}{1}{section.1}%
+\contentsline {paragraph}{Bibliographic reference}{1}{section*.1}%
+\contentsline {paragraph}{GUM reference for calibration reports}{1}{section*.2}%
+\contentsline {subsection}{\numberline {1.1}GUM Supplements}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Multidimensional measurands}{2}{subsubsection.1.1.1}%
+\contentsline {section}{\numberline {2}Reporting expanded uncertainty}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Rounding expanded uncertainty}{3}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Changing units}{3}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Unphysical limits and expanded uncertainty}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Fixed-digit indications}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Rounding}{5}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Single readings}{5}{subsubsection.3.1.1}%
+\contentsline {paragraph}{Why report more digits than the instrument can display?}{5}{section*.3}%
+\contentsline {subsubsection}{\numberline {3.1.2}Multiple readings}{6}{subsubsection.3.1.2}%
+\contentsline {section}{\numberline {4}Uncertainty style}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Background}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Recommendations}{7}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Only the measured value is an estimate}{7}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Use the term `expanded uncertainty'}{8}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}The level of confidence is assumed known}{8}{subsubsection.4.2.3}%
+\contentsline {section}{\numberline {A}References}{9}{appendix.A}%
+\contentsfinish 
