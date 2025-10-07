@@ -17,13 +17,14 @@
 \contentsline {paragraph}{Measured values are estimates; values of uncertainty are calculated}{10}{section*.4}%
 \contentsline {paragraph}{Level of Confidence}{11}{section*.5}%
 \contentsline {paragraph}{Coverage factor and degrees of freedom}{12}{section*.6}%
-\contentsline {paragraph}{The colloquial meaning of uncertainty}{12}{section*.7}%
-\contentsline {paragraph}{The purpose of measurement}{12}{section*.8}%
-\contentsline {subsection}{\numberline {3.5}The Abstract}{13}{subsection.3.5}%
+\contentsline {paragraph}{Calculated expanded uncertanties less than those on the IANZ Scope of Accreditation and/or BIPM CMC Database}{12}{section*.7}%
+\contentsline {paragraph}{The colloquial meaning of uncertainty}{12}{section*.8}%
+\contentsline {paragraph}{The purpose of measurement}{13}{section*.9}%
+\contentsline {subsection}{\numberline {3.5}The Abstract}{14}{subsection.3.5}%
 \contentsline {section}{\numberline {4}Metrological reports}{15}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Printing and binding}{15}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Report covers}{15}{subsection.4.2}%
-\contentsline {paragraph}{Issuing body and traceability statement}{16}{section*.9}%
+\contentsline {paragraph}{Issuing body and traceability statement}{16}{section*.10}%
 \contentsline {subsection}{\numberline {4.3}Front page}{16}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Header and footer on subsequent pages}{16}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}Second page}{17}{subsection.4.5}%
@@ -34,8 +35,8 @@
 \contentsline {subsubsection}{\numberline {4.9.1}Microsoft Word}{19}{subsubsection.4.9.1}%
 \contentsline {subsubsection}{\numberline {4.9.2}Other text processors}{20}{subsubsection.4.9.2}%
 \contentsline {subsection}{\numberline {4.10}Out-of-scope results (IANZ and CIPM MRA CMCs)}{20}{subsection.4.10}%
-\contentsline {subsection}{\numberline {4.11}Informal reporting of measurements}{20}{subsection.4.11}%
-\contentsline {subsection}{\numberline {4.12}Electronic reports}{21}{subsection.4.12}%
+\contentsline {subsection}{\numberline {4.11}Informal reporting of measurements}{21}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}Electronic reports}{22}{subsection.4.12}%
 \contentsline {subsubsection}{\numberline {4.12.1}How to add an MSL report cover in Word}{22}{subsubsection.4.12.1}%
 \contentsline {subsubsection}{\numberline {4.12.2}Signing an electronic report}{23}{subsubsection.4.12.2}%
 \contentsline {subsection}{\numberline {4.13}Checking the integrity of a report file}{24}{subsection.4.13}%
