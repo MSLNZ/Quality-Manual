@@ -21,7 +21,7 @@
 \setTitle[MSL Quality Manual]{Quality Manual}
 
 \begin{document}
-% ----- Place apage showing the signed Quality Policy Statement
+% ----- Insert the signed Quality Policy Statement
 \addcontentsline{toc}{section}{Quality policy statement}
 \section*{Quality policy statement}
 \label{ss:quality_policy_statement}
@@ -50,8 +50,7 @@ This signed statement is stored in the central files system.
 \input{\qmPath/Calendar}\clearpage
 \input{\qmPath/Cross_reference_17025}\clearpage
 
-% ----- Label for the very last page, so that we can do "page x of N"
-\input{\qmPath/References}	% Don't create a blank last page 
-\label{LastPage}~
+% ----- Creates the very last page, so no need for \clearpage
+\input{\qmPath/References}	
 
 \end{document}

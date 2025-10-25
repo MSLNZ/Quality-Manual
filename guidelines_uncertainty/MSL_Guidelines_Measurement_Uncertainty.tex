@@ -19,21 +19,16 @@
 \externaldocument[GMR-]{../guidelines_management_review/MSL_Guidelines_Management_Review}
 
 \setTitle[Measurement Uncertainty]{Measurement Uncertainty Guidelines}{}
-\setSubTitle[A supplement to the MSL Quality Manual]
+\setSubTitle
 
 \begin{document}
 
 % ----- These files contain the document content
+% Use input because \include creates a blank last page 
 \input{\guPath/GUM}\clearpage
 \input{\guPath/expanded_uncertainty}\clearpage
 \input{\guPath/rounding}\clearpage
 \input{\guPath/uncertainty_style}\clearpage
-
-\appendix	% Changes the style of the headings for sections
-% \input{abbreviations}clearpage
-
-% ----- Label for the very last page, so that we can do "page x of N"
-\input{\guPath/references}	% Use input because \include creates a blank last page 
-\label{LastPage}~
+\input{\guPath/references}	
 
 \end{document}

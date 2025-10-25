@@ -15,17 +15,14 @@
 \externaldocument[QM-]{../quality_manual_document/MSL_Quality_Manual}
 
 \setTitle[Proficiency testing]{Guidelines on Proficiency Testing}
-\setSubTitle[A supplement to the MSL Quality Manual]
+\setSubTitle
 
 \begin{document}
 
 % ----- These files contain the document content
 \input{\gptPath/general}\clearpage
 
-\appendix	% Changes the style of the headings for sections
-
-% ----- Label for the very last page, so that we can do "page x of N"
-\input{references}	% Use input because \include creates a blank last page 
-\label{LastPage}~
+% ----- Creates the very last page, so no need for \clearpage
+\input{references}	
 
 \end{document}

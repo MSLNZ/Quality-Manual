@@ -18,7 +18,7 @@
 \newcommand{\grpPath}{../guidelines_reporting_publishing}
 
 \setTitle[Reporting and Publishing]{Guidelines on Reporting and Publishing}
-\setSubTitle[A supplement to the MSL Quality Manual]
+\setSubTitle
 
 \begin{document}
 
@@ -28,11 +28,7 @@
 \input{\grpPath/FAIR_publication}\clearpage
 \input{\grpPath/copyright_and_licensing}\clearpage
 
-\appendix	% Changes the style of the headings for sections
-% \include{abbreviations}
-
-% ----- Label for the very last page, so that we can do "page x of N"
-\input{references}	% Don't create a blank last page 
-\label{LastPage}~
+% ----- Creates the very last page, so no need for \clearpage
+\input{references}	
 
 \end{document}
