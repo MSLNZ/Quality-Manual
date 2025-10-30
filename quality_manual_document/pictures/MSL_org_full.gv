@@ -26,27 +26,51 @@ digraph {
             
         // Top row
         B1 [style=invis];
-        D [label="{Director |Annette Koo}"];
+		//B3 [style=invis];
+        D [label="{Director |Peter McDowall}"];
         B2 [style=invis]; 
+		//B4 [style=invis];
         
-        {rank=same; B2, D, B1 ; }
+        {rank=same; B1, D, B2 ; }
         
         // Second row
-        QM [label="{Quality Manager|Neil Swift}" ];   
-        SSC[label="{Science Support\n& Administration|Callaghan Innovation pool staff}" ];    
-        CM [label="{Chief Metrologist|Annette Koo}" ];
+		//MQC [
+        //    label="{Quality Council |" 
+        //    +   "Annette Koo\l"
+        //    +   "Tom Stewart\l"
+        //    +   "Yin Hsien Fung\l"
+         //   +   "}" 
+        //];
+		
+		CM [label="{Chief Metrologist|Peter McDowall}" ];
+         
+        SSC[
+			label="{Science Support\n& Administration|"
+			+	"Lisa Castle\l"
+			+	"CI pool staff\l"
+			+	"}"
+		];    
         
-        {rank=same; QM, SSC, CM; }
+		QM [label="{Quality Manager|Neil Swift}" ];
+		
+        //];        
+		
+        {rank=same; CM, SSC, QM; }
 
         // Third row
-//        MQC [style=invis];
-//            label="{Quality Council |" 
-//            +   "Annette Koo\l"
-//            +   "Tom Stewart\l"
-//            +   "Yin Hsien Fung\l"
-//            +   "}" 
-//        ];
-
+		B3 [style=invis];
+		B4 [style=invis];
+        MQC [
+            label="{Quality Council |" 
+            +   "Adam Dunford\l"
+            +   "Ben Sherson\l"
+            +   "Cheng Yang\l"
+            +   "}" 
+        ];
+		
+		{rank=same; B3, B4, MQC; }
+		
+//style=invis
 //        B3[ style=invis];
         
 //        CM_signatories [ style=invis];
@@ -60,12 +84,23 @@ digraph {
         
 //        {rank=same; MQC, B3, CM_signatories; }
 
-        B2 -> CM  [style=invis];
+        B1 -> CM  [style=invis];
         D -> SSC   [style=invis];  
-        B1 -> QM [style=invis];
+        B2 -> QM [style=invis];
+		
+        CM -> B3  [style=invis];
+        SSC -> B4   [style=invis];  		
+		QM -> MQC [style=invis];
+		
+		
+        //B1 -> CM  [style=invis];
+        //D -> SSC   [style=invis];  
+        //B2 -> QM [style=invis];
+		//QM -> MQC [style=invis];
+		
 //        B2 -> CM -> CM_signatories [style=invis];
-//        D -> SSC -> B3  [style=invis];  
-//        B1 -> QM -> MQC  [style=invis];
+  //      D -> SSC -> B3  [style=invis];  
+    //    B1 -> QM -> MQC  [style=invis];
     }
     
     subgraph cluster_3 { 
@@ -82,11 +117,18 @@ digraph {
             width=1.8           /* inches */
         ]; 
 
-        TeamLengthMass[ 
-            label="{Team Manager|"
-            +   "Mesh Pillay\n"
+        TeamLengthLight[ 
+            label="{Team Leader|"
+            +   "Chris Young\n"
             +   "}" 
         ];
+
+        TeamMassTemperature[ 
+            label="{Team Leader|"
+            +   "Ana Rakonjac\n"
+            +   "}" 
+        ];
+
 
 //        TeamTemperatureLight[ style=invis];
         
@@ -98,13 +140,13 @@ digraph {
   //      ]; 
 
         TeamElectricalTime[ 
-            label="{Team Manager|"
-            +   "Matthias Vest\n"
+            label="{Team Leader|"
+            +   "Tom Stewart\n"
             +   "}" 
         ];
         
         //{rank=same; TeamLengthMass, TeamTemperatureLight, TeamElectricalTime; }
-	{rank=same; TeamLengthMass, TeamElectricalTime; }
+	{rank=same; TeamMassTemperature, TeamElectricalTime, TeamLengthLight; }
         S_length [label = "{ Length| " 
         +   "Lucy Forde\l"
         +   "Chris Young\l"
@@ -140,7 +182,7 @@ digraph {
         +	"Francois Shindo\l"
         +	"Yang Yenn Tan\l"
         +	"Joseph Borbely\l"
-        +       "Ellie Molloy\l"
+        +   "Ellie Molloy (shared T & H)\l"
 	+	"Blair Hall\l"
         +   "}"
         ];
@@ -152,11 +194,11 @@ digraph {
         
         S_temperature_humidity [label = "{Temperature & Humidity|  "
         +   "Peter Saunders\l"
-        +	"Jeremy Lovell-Smith\l"
         +	"Hamish Edgar\l"
         +	"Ben Sherson\l"
         +   "Stefaan Janssens\l"
         +   "Ana Rakonjac\l"
+		+   "Ellie Molloy (shared Light)\l"
         +   "}"
         ];
 
@@ -164,6 +206,12 @@ digraph {
         +	"Adam Dunford\l"
         +	"Cheng Yang (shared E)\l"
         +	"Johan Grand (shared L)\l"
+        +   "}"
+        ];
+
+        S_digital [label = "{Digital|"
+        +	"Blair Hall\l"
+        +	"Joseph Borbely\l"
         +   "}"
         ];
         
@@ -179,18 +227,30 @@ digraph {
 //        {rank=same; S_mass_pressure, S_rf; }
         
     } 
-    CM -> TeamElectricalTime [style=invis];
-    //SSC -> TeamTemperatureLight [style=invis];
-    QM -> TeamLengthMass  [style=invis];
-    TeamElectricalTime -> S_electrical ; 
-    S_electrical -> S_time_frequency [arrowsize=0] ; 
-	S_time_frequency -> S_temperature_humidity [arrowsize=0];
+    B3 -> TeamElectricalTime [style=invis];
+    B4 -> TeamMassTemperature [style=invis];
+    MQC -> TeamLengthLight  [style=invis];
+    
+	TeamElectricalTime -> S_electrical ;
+	S_electrical -> S_time_frequency [arrowsize=0] ; 
+	
+	TeamMassTemperature -> S_mass_pressure ;
+	S_mass_pressure  ->  S_temperature_humidity[arrowsize=0] ;
+	
+	
+	TeamLengthLight -> S_length;
+	S_length  ->  S_photometry_radiometry [arrowsize=0] ;
+	S_photometry_radiometry  ->  S_digital [arrowsize=0] ;
+	
+	//SSC -> TeamMassPressure  [style=invis];
+    
+	//S_time_frequency -> S_temperature_humidity [arrowsize=0];
 //    S_electrical -> S_time_frequency ->  S_temperature_humidity; 
 //    TeamTemperatureLight
   //    TeamTemperatureLight -> S_photometry_radiometry ;
   //    S_photometry_radiometry ->  S_temperature_humidity[arrowsize=0] ;
-      TeamLengthMass -> S_length ;
-    S_length  ->  S_mass_pressure [arrowsize=0] ;
-    S_mass_pressure  ->  S_photometry_radiometry [arrowsize=0];
+      //TeamLengthMass -> S_length ;
+    //S_length  ->  S_mass_pressure [arrowsize=0] ;
+    //S_mass_pressure  ->  S_photometry_radiometry [arrowsize=0];
 //    S_length  ->  S_mass_pressure -> S_photometry_radiometry[arrowsize=0] ;
 }
