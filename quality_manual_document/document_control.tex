@@ -13,6 +13,8 @@ The central file system is the \proposed{'BPA-MSL Quality Management System' Sha
 	\textcolor[rgb]{ 1,  1,  1}{\textbf{Name}} & 
 	\textcolor[rgb]{ 1,  1,  1}{\textbf{Contains}} \\
 
+\textbf{\proposed{Quality Manager Inbox}} & \proposed{A folder structure containing documents submitted to the Quality Manager for processing.  Examples include validation cover sheets and applications for new technical competencies.  Once fully processed, files are moved from this location to the relevant long term storage location within the QMS.} \\
+
 \textbf{APMP Reporting} & A folder structure containing section presentations and reports to the annual APMP meetings. \\
 
 \textbf{Calibration reports} & A folder containing copies of issued calibration and test reports. \\
@@ -45,9 +47,9 @@ The central file system is the \proposed{'BPA-MSL Quality Management System' Sha
 
 \textbf{Quality Manual} & A folder containing this document, a number of guidance documents that supplement this manual, and some forms used by the QMS. \\
 
-\textbf{Risks and Opportunities} & This folder contains a deprecated spreadsheet. Risks and Opportunities are now stored in JIRA, see section 10.1 of this Quality Manual. \\
-
 \textbf{\proposed{Report Cover Templates}} & \proposed{A folder containing subfolders of past and present report cover templates.} \\
+
+\textbf{Risks and Opportunities} & This folder contains a deprecated spreadsheet. Risks and Opportunities are now stored in JIRA, see section 10.1 of this Quality Manual. \\
 
 \textbf{Signing Delegations} & A folder containing a spreadsheet with a list of the people with delegated authority to sign for the Chief Metrologist and for the Quality Manager \\
 
@@ -133,8 +135,11 @@ A software register will uniquely identify the software used with each technical
 
 \subsubsection{Staff training records}
 \label{sss:training_records}
-A Training Record file will be maintained for each Member of the section, including contracted personnel. The file will record professional development activities and events, including relevant authorisations, approval of technical competencies (worker, checker, etc), educational and professional qualifications, training, skills and other experience. 
-Training records must be available during audits and assessments. 
+\proposedbox{A 'MSL Training Record' file will be maintained for each Member of the section, including contracted personnel.  The file will record professional development activities and events, including relevant authorisations, educational and professional qualifications, training, skills and other experience.
+
+To apply for a new technical competency, an 'Application for new technical procedure competency(ies)' form shall be submitted to the Quality Manager for review.  In some instances this form may be processed by the Chief Metrologist.
+
+The latest templates for these forms are available from the 'Forms1' subfolder of the 'Quality Manual' section of Central File System.  Both forms must be available during audits and assessments.}
 
 \subsubsection{Equipment registers}
 \label{sss:equipment_register}
@@ -173,7 +178,7 @@ Technical procedures primarily describe how to carry out technical tasks. They a
 
 Technical procedures need to be validated. They should contain a concise description of the relevant measurement science, sufficient for the purposes of reviewing the procedure for validation. References to relevant technical documents may be used if they are readily available. 
 
-Technical procedures are validated for a definite time period (no more than 5 years). The validation is on the authority of the Quality Manager, based on the recommendation of a validation team. 
+Technical procedures are validated for a defined time period (no more than 5 years). The validation is on the authority of the Quality Manager, based on the recommendation of a validation team. 
 
 \subsubsection{Technical procedure structure}
 \label{sss:technical_procedure_structure}
@@ -214,7 +219,7 @@ In general, an amended procedure must be re-validated. However, minor amendments
 
 A minor amendment is one that does not significantly change the method or its implementation, such as some additional explanation or detail.  When the authoritative version of the technical procedure is printed, handwritten amendments may be made.  When the authoritative version of the technical procedure is an electronic file, minor amendments may be made to the electronic file, as long as the procedure for making these amendments is documented.
 
-Changes might be made to one part of a procedure that do not impact on the validity of other parts. In such cases, the unaffected parts may continue to be used without re-validation. Nevertheless, the claim that parts remain valid must be reviewed, and the reasons for accepting the claim noted on the authoritative version of the procedure.
+Changes might \proposed{need to} be made to one part of a procedure that do not impact on the validity of other parts. In such cases, the unaffected parts may continue to be used without re-validation. Nevertheless, the claim that parts remain valid must be reviewed, and the reasons for accepting the claim noted on the authoritative version of the procedure.
 
 \subsubsection{Technical procedure validation (and revalidation)}
 \label{sss:tp_validation}
@@ -265,11 +270,11 @@ The Validated Procedure Register is a the spreadsheet 'Validated Procedure List.
 \item The Quality Manager will sign the cover sheet if satisfied with the review.
 \item One copy of the cover sheet will be filed, by the section, with the technical procedure. 
 \item Scanned copies of the cover sheet and change history will be uploaded to the Technical Procedure Records folder in \proposed{SharePoint}.
-\item The corresponding entry in the register will be updated (usually by the Section's usual Chief Metrologist delegate checker) and checked by the Quality Manager (who sets the ‘approve’ attribute of the item – this change is recorded by the \proposed{SharePoint} versioning system).
-\end{itemize} 
+\item \proposed{The corresponding entry in the register will be updated (usually by the Section's usual Chief Metrologist delegate checker) with the 'QM Approved' column corresponding to the relevant row set to 'pending'.  The changes will be checked by the Quality Manager who sets the relevant 'QM Approved' entries to 'Approved'.  Changes are tracked by the SharePoint versioning system.}
+\end{itemize}
 
 \subsubsection{Documentary standards}
 Sections will ensure that copies of documentary standards required to carry out technical procedures, or referenced in technical procedures, are up to date. 
 In general, the Callaghan Innovation Library should be consulted on how best to check for currency.
 
-For instance, British Standards may be borrowed on a long-term basis from the Library, which will ensure automatic notification of updates. This includes any ISO or IEC standards that have been adopted in the UK by BSI. However, for other types of documentary standards (e.g. ASTMs, API, AS/NZS, AS) there is no updating/alerting in place. 
+For instance, British Standards may be borrowed on a long-term basis from the Library, which will ensure automatic notification of updates. This includes any ISO or IEC standards that have been adopted in the UK by BSI. However, for other types of documentary standards (e.g. ASTMs, API, AS/NZS, AS) there is no updating/alerting in place.
