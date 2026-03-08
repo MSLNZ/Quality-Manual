@@ -151,6 +151,7 @@ digraph {
         +   "Lucy Forde\l"
         +   "Chris Young\l"
         +   "Lenice Evergreen\l"
+        +   "Charlotte Hayton\l"
         +	"Johan Grand (shared T&F)\l"
         +   "}"
         ];
@@ -161,6 +162,7 @@ digraph {
         +	"Yin Hsien Fung\l"
         +	"Rebecca Hawke\l" // Sutton-Hawke
         +	"Peter McDowall\l"
+        +	"Claude Meffan\l"
         +   "}"
         ];
 
@@ -181,9 +183,8 @@ digraph {
         +	"Neil Swift\l"
         +	"Francois Shindo\l"
         +	"Yang Yenn Tan\l"
-        +	"Joseph Borbely\l"
+        +	"Johannes Kaiser\l"
         +   "Ellie Molloy (shared T & H)\l"
-	+	"Blair Hall\l"
         +   "}"
         ];
         
