@@ -90,6 +90,7 @@ Every effort should be made to ensure that the items calibrated or tested will b
 
 \subsubsection{Issuing Electronic Reports}
 \label{sss:issuing_electronic_reports}
+\proposedbox{
 \begin{itemize}
 
 \item Ensure that a report in electronic format is acceptable to the client.
@@ -122,40 +123,88 @@ Technical information on how to produce a calibration report, with a suitable re
 The process required to create a record of signing for the quality system is as follows:
 
 \begin{enumerate}
-\item Create a PDF version of the report file. Note, the file name should be in the following format:
+\item The worker creates a PDF version of the report file,including an image if their signature on the final page. Note, the file name should be in the following format:
 \begin{quote}
 \texttt{"section name"\_"section file number"\_year}
 \end{quote}
-\item Upload the PDF file to the ``Calibration Reports'' class within the AODocs Quality Management System library. 
+\item Upload the PDF file to the ``Calibration Reports'' library within the SharePoint BPA-MSL Quality Management System site. 
 
-Create new Calibration Report: \\
-\\
-\includegraphics[scale=.9]{pictures/new_report} \\
-\\
-Select 'Attach' and navigate to the PDF.  Do NOT select 'Upload and convert' or 'Create'.
-\\
-\includegraphics[scale=.55]{pictures/new_report2} \\
-\item Fill in the metadata for the report. For example,
+Navigate to the ``Calibration Report'' library using the menu on the left hand side of the SharePoint site.
+
 \begin{center}
-\includegraphics[scale=.75]{pictures/metadata_signed_report}
+\includegraphics[scale=.45]{pictures/sharepoint_reports_1}
 \end{center}
-\item The first person can now `sign' the report by inserting an image of their signature using PDF reader software (~see \cite[\S\ref*{GRP-ss:electronic_reports}]{MSL_Reporting_Guidelines}~). In AODocs, this can be done by the signatory either downloading the PDF, signing and then uploading to the same file name, OR by using the AODocs Universal File Opener (UFO) browser extension.  The UFO is the more efficient solution with guidance available through the AODocs MSL Quality Management System home page.
+
+Either drag and drop the pdf of a calibration report into the library or select the ``Create or upload'' button on the top right area of the library.\\
+
+\begin{center}
+\includegraphics[scale=.21]{pictures/sharepoint_reports_2}
+\end{center}
+
+If you used the ``Create or upload'' button, use the dialogue boxes that come up to navigate to and select the correct file to upload.
+
+The file will now appear in the library similar to the example shown below.  The warnings show that manadatory metadata is missing.\\
+
+
+\begin{center}
+\includegraphics[scale=.28]{pictures/sharepoint_reports_3}
+\end{center}
+
+\item Metadata is added by navigating through the below shown menus.
+
+\begin{center}
+\includegraphics[scale=.35]{pictures/sharepoint_reports_4}
+\end{center}
+
+The mandatory metadata fields are shown in red text below.  
+
+\begin{center}
+\includegraphics[scale=.38]{pictures/sharepoint_reports_5}
+\end{center}
+
+See below for an example of the expected metadata.  Note the Checksum field is not mandatory at this stage.  That is something that will be added later by the Chief Metrologist, or Chief Metrologist delegate, checker.
+
+\begin{center}
+\includegraphics[scale=.38]{pictures/sharepoint_reports_6}
+\end{center}
+
+Once all metadata has been filled in, click the cross at the top right to close and save the changes.
+
+\item Check in the document by navigating through the below menu structure.
+
+\begin{center}
+\includegraphics[scale=.35]{pictures/sharepoint_reports_7}
+\end{center}
+
+In the dialogue window that appears, add a comment saying who it has been uploaded and signed by.
+
+\begin{center}
+\includegraphics[scale=.5]{pictures/sharepoint_reports_8}
+\end{center}
 
 Note,
 \begin{itemize}
-\item the file name must not be changed (AODocs maintains a version history based on file name)
+\item the file name must not be changed (SharePoint maintains a version history based on file name)
 \item it is not necessary to initial each page (as is done with paper reports)
 \item for technical reasons, the document must be opened with a PDF reader running on a local machine (it is not possible to sign and re-store the document directly from a browser)
 \end{itemize}
 
-\item The second person can now `sign', following the process above.
-\item Chief Metrologist, or delegate, can `sign'. 
+\item The Checker can now `sign', by first checking out the document.  They may then either
+\begin{itemize}
+\item download the file, add their signature, save and upload as a new version of the same file, or 
+\item click the 3 dots to the right hand side of the file name and navigating to \textgreater Open \textgreater Open in app. When the local pdf app opens, add the signature, save and close the check back in.
+Usually the default save location will be the relevant SharePoint location but the save location of the file must be checked to make sure the file has been added to the correct SharePoint location.
+\end{itemize}
+
+
+
+\item The Chief Metrologist, or delegate, can `sign' in the same way as the Checker. This will usually be done by downloading the file, adding their signature and uploading.
 
 Before uploading the final version, signed by everyone, an MD5 checksum must be calculated (~see \cite[\S\ref*{GRP-ss:file_integrity_md5}]{MSL_Reporting_Guidelines}~). 
 
 The MD5 checksum must be saved in the 'Checksum' property and as a note in the version history. 
 
-\item If corrections to the report are necessary during the signing process, the faulty version can be annotated with comments, highlighted sections, etc (using a PDF reader), and uploaded to AODocs. Doing so maintains a full record of the signing/issuing process. 
+\item If corrections to the report are necessary during the signing process, the faulty version can be annotated with comments, highlighted sections, etc (using a PDF reader), and uploaded to SharePoint. Doing so maintains a full record of the signing/issuing process. 
 
 Once corrected, the new report file must be signed again by everyone.
 \end{enumerate}
@@ -163,9 +212,9 @@ Once corrected, the new report file must be signed again by everyone.
 This process generates a version history similar to the one below. All intermediate versions can be reviewed by clicking on the links at the left. Note the checksum in the comment associated with the final version.
 
 \begin{center}
-\includegraphics[scale=.45]{pictures/version_history_report}
+\includegraphics[scale=.50]{pictures/sharepoint_reports_9}
 \end{center}
-
+}%
 \subsubsection{Withdrawal due to a reporting or measurement error}
 \label{sss:reissue_report}
 If any significant error is found in the most recent report on an instrument or artefact, within five years of first issue, the report must be withdrawn.``Significant'' would include a significant error of measurement or data processing, incorrect values, dates, serial numbers, etc, but not simple spelling or typing errors unless these could be misinterpreted.
@@ -185,7 +234,7 @@ Any change of information in the reissued report shall be clearly identified and
 \item Electronic copies in the central file, and in the section file, should be cancelled:
 \begin{itemize}
 \item For a PDF file, add the text “{\color{red}CANCELLED}” to each page (in red text, with bold, large, font size – there are PDF reader programmes that can do this). 
-\item For the central file copy, the name of the file should not be changed. Rather, the cancelled file should be saved with the same name and a note added about the cancellation in the AODocs version history of the document. 
+\item For the central file copy, the name of the file should not be changed. Rather, the cancelled file should be saved with the same name and a note added about the cancellation in the SharePoint version history of the document. 
 \end{itemize}
 
 \item Produce a corrected report using the original report number.  Retain the original issue dates throughout, but add, after each issue date, the words `reissued on [new issue date]', e.g. `Report No. Pressure/1997/155, 11 August 1997, reissued on 10 February 2000'.
@@ -195,9 +244,9 @@ Any change of information in the reissued report shall be clearly identified and
 \item Make copies of the signed corrected original and file in the central file and the section file. 
 \begin{itemize}
 \item The name of the central file copy should not be changed (i.e., the new copy of the report replaces the cancelled original). 
-\item A note should be added in the AODocs version history to indicate a reissued report.
-\item If the reissued report is of electronic format instead of paper, upload the final signed reissued report to AODocs. The Chief Metrologist, or delegate, shall add the MD5 to both the version notes and the Checksum property.
-\item Set the AODocs 'Re-issued' property to TRUE.
+\item A note should be added in the SharePoint version history to indicate a reissued report.
+\item If the reissued report is of electronic format instead of paper, upload the final signed reissued report to SharePoint. The Chief Metrologist, or delegate, shall add the MD5 to both the version notes and the Checksum property.
+\item Set the SharePoint 'Re-issued' property to TRUE.
 \end{itemize}
 \item Reissue the corrected report and the cancelled original report to the client.
 \end{enumerate}
@@ -209,7 +258,7 @@ Any change of information in the reissued report shall be clearly identified and
 \item Electronic copies in the central file, and in the section file, should be cancelled:
 \begin{itemize}
 \item For a PDF file, add the text “{\color{red}CANCELLED}” to each page (in red text, with bold, large, font size – there are PDF reader programmes that can do this). 
-\item For the central file copy, the name of the file should not be changed. Rather, the cancelled file should be saved with the same name and a note added about the cancellation in the AODocs version history of the document. 
+\item For the central file copy, the name of the file should not be changed. Rather, the cancelled file should be saved with the same name and a note added about the cancellation in the SharePoint version history of the document. 
 \end{itemize}
 
 \item Produce a corrected report using the original report number.  Retain the original issue dates throughout, but add, after each issue date, the words `reissued on [new issue date]', e.g. `Report No. Pressure/1997/155, 11 August 1997, reissued on 10 February 2000'.
@@ -221,9 +270,9 @@ Any change of information in the reissued report shall be clearly identified and
 \item File copies of the signed corrected original in the central file and the section file. 
 \begin{itemize}
 \item The name of the central file copy should not be changed (i.e., the new copy of the report replaces the cancelled original). 
-\item Add a note to the AODocs version history to indicate a reissued report.
-\item Upon upload of the final signed reissued report to AODocs, the Chief Metrologist, or delegate, shall add the latest MD5 to both the version notes and the Checksum property. Usually the Checksum property will already populated with the MD5 for the prior issued report. This shall be overwritten.
-\item Set the AODocs 'Re-issued' property to TRUE.
+\item Add a note to the SharePoint version history to indicate a reissued report.
+\item Upon upload of the final signed reissued report to SharePoint, the Chief Metrologist, or delegate, shall add the latest MD5 to both the version notes and the Checksum property. Usually the Checksum property will already populated with the MD5 for the prior issued report. This shall be overwritten.
+\item Set the SharePoint 'Re-issued' property to TRUE.
 \end{itemize}
 \end{enumerate}
 
@@ -260,9 +309,9 @@ The new report must be identified as a replacement and have a new report issue d
 \item File copies of the report in the central file and the section file.
 \begin{itemize}
 \item The name of the central file copy should not be changed (i.e., the new copy of the report replaces the original). 
-\item Add a note to indicate a replaced report in the AODocs version history.
+\item Add a note to indicate a replaced report in the SharePoint version history.
 \item If the reissued report to the client is of electronic format instead of paper, the Chief Metrologist, or delegate, shall add the MD5 to both the version notes and the Checksum property.
-\item Set the AODocs 'Re-issued' property to TRUE.
+\item Set the SharePoint 'Re-issued' property to TRUE.
 \end{itemize}
 \end{itemize}
 
@@ -289,7 +338,7 @@ Follow the first steps of the procedure in \S\ref{sss:reissue_report} for re-iss
 \item Electronic copies in the central file, and in the section file, should be cancelled:
 \begin{itemize}
 \item For a PDF file, add “{\color{red}CANCELLED}” to each page (in red text, with bold, large, font size – there are PDF reader programmes that can do this). 
-\item Do not change the file name in the central file. Rather, the cancelled file should be saved with the same name and a note added to the AODocs version history of the document about the cancellation. 
+\item Do not change the file name in the central file. Rather, the cancelled file should be saved with the same name and a note added to the SharePoint version history of the document about the cancellation. 
 \end{itemize}
 \end{enumerate}
 
@@ -309,9 +358,9 @@ Report No.\ Humidity/2020/428, 3 March 2020\\
 
 \item Copies of the report must be stored in the central file and the section file.
 \begin{itemize}
-\item The name of the central file copy should be the new file name. (The old file name may be changed on AODocs without breaking the version history. Seek help from the Quality Manager or site administrator to do this before uploading the new version of the file.) 
+\item The name of the central file copy should be the new file name. (The old file name may be changed on SharePoint without breaking the version history. Seek help from the Quality Manager or site administrator to do this before uploading the new version of the file.) 
 \item The central file metadata tag `reissued' should be set.
-\item Add a note to the AODocs version history to indicate a replaced report.
+\item Add a note to the SharePoint version history to indicate a replaced report.
 \end{itemize}
 \item Reissue the report.
 
