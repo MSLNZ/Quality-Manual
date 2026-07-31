@@ -1,0 +1,25 @@
+\DocumentMetadata{
+    pdfversion=1.7,
+    pdfstandard=A-3b
+}
+
+\documentclass{MSLQualityManual}
+
+% Path used to input the component files
+\newcommand{\gcbPath}{../guidelines_client_call_backs}
+
+% Allows this supplement to refer to labelled sections in the Quality Manual
+\externaldocument[QM-]{../quality_manual_document/MSL_Quality_Manual}
+
+\setTitle[Client call-backs]{Client Call-Back Guidelines}
+\setSubTitle
+
+\begin{document}
+
+% Main document content
+\input{\gcbPath/general}\clearpage
+
+% References should be the final content
+\input{\gcbPath/references}
+
+\end{document}
