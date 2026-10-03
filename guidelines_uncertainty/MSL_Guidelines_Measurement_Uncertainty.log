@@ -1,26 +1,26 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.23)  31 OCT 2025 10:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.30)  4 OCT 2026 00:41
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **./MSL_Guidelines_Measurement_Uncertainty.tex
 (MSL_Guidelines_Measurement_Uncertainty.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+L3 programming layer <2025-10-09>
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/latex-lab\documentmet
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/latex-lab\documentmet
 adata-support.ltx
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
 se\pdfmanagement-testphase.sty
 Package: pdfmanagement-testphase 2025-08-05 v0.96v LaTeX PDF management bundle
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/tagpdf\tagpdf-base.st
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/tagpdf\tagpdf-base.st
 y
 Package: tagpdf-base 2025-10-02 v0.99v part of tagpdf - provide base, no-op ver
 sions of the user commands 
 \c@g__tag_MCID_abs_int=\count275
 \c@g__tag_struct_abs_int=\count276
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
 se\pdfmanagement.ltx
 File: pdfmanagement.ltx 2025-08-05 v0.96v PDF management code
 \g__pdfmanagement_EmbeddedFiles_int=\count277
@@ -28,12 +28,12 @@ File: pdfmanagement.ltx 2025-08-05 v0.96v PDF management code
 \g_pdffile_embed_pdfa_int=\count279
 \g_pdffile_embed_nonpdfa_int=\count280
 )))
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
 dftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count281
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
 se\l3backend-testphase-pdftex.def
 File: l3backend-testphase-pdftex.def 2025-08-05 v0.96s LaTeX PDF management bun
 dle backend support:PDFoutput(pdfTeX)
@@ -43,7 +43,7 @@ dle backend support:PDFoutput(pdfTeX)
 \g__pdf_backend_name_int=\count283
 \g__pdf_backend_page_int=\count284
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
 se\pdfmanagement-firstaid.sty
 Package: pdfmanagement-firstaid 2025-08-05 v0.96v LaTeX PDF management bundle /
  firstaid-patches
@@ -51,11 +51,11 @@ Package: pdfmanagement-firstaid 2025-08-05 v0.96v LaTeX PDF management bundle /
 Package pdfmanagement Info: loading pdfmanagement firstaid code for pgf
 
 )
-(C:/localtex\tex/latex/LaTeX-QMS\MSLQualityManual.cls
+(C:/Users/n.swift/Documents/User LaTeX\tex/LaTeX/LaTeX-QMS\MSLQualityManual.cls
 Document Class: MSLQualityManual 2025/10/27 v1.0 MSLQualityManual class
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
 File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count285
@@ -70,17 +70,17 @@ File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/isodate\isodate.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/isodate\isodate.sty
 Package: isodate 2010/01/03 v2.30 Print dates with different formats (HH)
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count293
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/isodate\english.idf
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/isodate\english.idf
 File: english.idf 2010/01/03 v2.30 Language definitions for isodate package (HH
 )
 
@@ -94,58 +94,62 @@ Define commands for English date format
 \c@iso@@slash=\count299
 \c@iso@@minus=\count300
 \c@iso@@dot=\count301
-) (C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/10/01 v25.13 The multilingual framework for LuaLaTeX, pdfLa
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/10/22 v25.14 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count302
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2045.
+ne 2050.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2047.
+ne 2052.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2049.
+e 2054.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2050.
+e 2055.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2051.
+on input line 2056.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2053.
+on input line 2058.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2078.
+on input line 2083.
 \U@D=\dimen149
 \l@unhyphenated=\language79
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count303
+
+Package babel Warning: Configuration files are deprecated, as
+(babel)                they can break document portability.
+(babel)                Reported on input line 4172.
+
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\UKengli
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\bab
+el-ukenglish.tex)
+Package babel Info: Importing font and identification data for UKenglish
+(babel)             from babel-en-GB.ini. Reported on input line 4295.
+
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\UKengli
 sh.ldf
 Language: UKenglish 2017/06/06 v3.3r English support from the babel system
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english
 .ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
-
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\bab
-el-ukenglish.tex
-Package babel Info: Importing font and identification data for UKenglish
-(babel)             from babel-en-GB.ini. Reported on input line 11.
-)
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
@@ -153,16 +157,16 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 )))
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 ))
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\stix2.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\stix2.sty
 Package: stix2 2021/01/14 v2.0.2-latex STIX Two fonts support package
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 75.
 )
@@ -270,11 +274,11 @@ LaTeX Info: Redefining \cdots on input line 1521.
 LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 1977.
 LaTeX Info: Redefining \not on input line 2141.
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.s
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.s
 ty
 Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count304
 )
@@ -291,7 +295,7 @@ LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count306
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-p
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-p
 dftex.def
 File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
 
@@ -301,18 +305,18 @@ LaTeX Info: Redefining \lslig on input line 944.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.c
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.c
 fg
 File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count307
@@ -328,12 +332,12 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks22
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
 ))
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip52
 \enit@outerparindent=\dimen159
@@ -342,23 +346,23 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@count@id=\count310
 \enitdp@description=\count311
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.s
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.s
 ty
 Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (H
 MM)
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemode
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemode
 rn.sty
 Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
 \c@lastpagecount=\count312
 ) 
-)) (C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+)) (C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip53
@@ -377,7 +381,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthR=\skip66
 \@temptokenb=\toks24
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box57
 \beforetitleunit=\skip67
@@ -389,10 +393,10 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidthlast=\dimen163
 \titlewidthfirst=\dimen164
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
 Package: titletoc 2025/01/04 v2.17 TOC entries
 \ttl@leftsep=\dimen165
-) (C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+) (C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
 \cftparskip=\skip69
@@ -429,7 +433,7 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cfttabindent=\skip98
 \cfttabnumwidth=\skip99
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.s
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.s
 ty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
@@ -438,7 +442,7 @@ Package tocbibind Info: The document has section divisions on input line 50.
 Package tocbibind Note: Using section or other style headings.
 
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen166
 \lightrulewidth=\dimen167
@@ -458,9 +462,9 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count318
 \@thisrulewidth=\dimen178
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen179
 \ar@mcellbox=\box58
@@ -470,28 +474,28 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \backup@length=\skip101
 \ar@cellbox=\box59
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
 se\color-ltx.sty
 Package: color-ltx 2025-08-05 v0.96v Standard LaTeX Color (patched for l3color,
  part of pdfmanagement-testphase, original version 2022/01/06 v1.3d) (DPC)
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
 g
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 165.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
 ef
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
 x))
 \everycr=\toks27
 \minrowclearance=\skip102
 \rownum=\count319
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
 \LTleft=\skip103
 \LTright=\skip104
@@ -510,24 +514,24 @@ Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
 \c@LT@chunks=\count324
 \LT@p@ftn=\toks28
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen182
 \c@nlinenum=\count325
 \TeXr@lab=\toks29
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
 .cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
@@ -542,24 +546,24 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 \rot@float@box=\box65
 \rot@mess@toks=\toks30
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip109
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks31
 \ex@=\dimen185
 ))
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen186
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count327
@@ -607,7 +611,7 @@ LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
 Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup12
 \symboldletters=\mathgroup13
@@ -615,7 +619,7 @@ Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldlargesymbols=\mathgroup15
 Package bm Info: No bold for \LS1/stix2/b/n, using \pmb.
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count339
 \l__siunitx_number_exponent_fixed_int=\count340
@@ -632,21 +636,21 @@ Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
 \l__siunitx_angle_unit_box=\box69
 \l__siunitx_compound_count_int=\count349
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/translations\translat
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/translations\translat
 ions.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcm
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcm
 ds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr
 .sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -667,19 +671,19 @@ Package pdftexcmds Info: \pdfdraftmode found.
 \l__siunitx_unit_position_int=\count351
 \l__siunitx_unit_total_int=\count352
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\xr-hyper.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\xr-hyper.sty
 Package: xr-hyper 2025-07-12 v7.01o eXternal References (DPC)
-) (C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
 g
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 LaTeX Info: Redefining \color on input line 762.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
 x)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
@@ -691,11 +695,11 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
 se\xcolor-patches-tmp-ltx.sty
 Package: xcolor-patches-tmp-ltx 2025-08-05 v0.96v patch xcolor for l3color
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
 \UL@box=\box76
 \UL@hyphenbox=\box77
 \UL@skip=\skip112
@@ -707,7 +711,7 @@ Package: xcolor-patches-tmp-ltx 2025-08-05 v0.96v patch xcolor for l3color
 Package: ulem 2019/11/18
 \ULdepth=\dimen257
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip113
 \fb@frw=\dimen258
@@ -715,53 +719,76 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen260
 \FrameSep=\dimen261
 ))
-Package xr Info: IMPORTING LABELS FROM ../guidelines_reporting_publishing/MSL_G
-uidelines_Reporting_Publishing.aux on input line 19.
-Package xr Info: IMPORTING LABELS FROM ../guidelines_management_review/MSL_Guid
-elines_Management_Review.aux on input line 20.
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.s
+ty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+))
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip114
+\RaggedLeftLeftskip=\skip115
+\RaggedRightLeftskip=\skip116
+\CenteringRightskip=\skip117
+\RaggedLeftRightskip=\skip118
+\RaggedRightRightskip=\skip119
+\CenteringParfillskip=\skip120
+\RaggedLeftParfillskip=\skip121
+\RaggedRightParfillskip=\skip122
+\JustifyingParfillskip=\skip123
+\CenteringParindent=\skip124
+\RaggedLeftParindent=\skip125
+\RaggedRightParindent=\skip126
+\JustifyingParindent=\skip127
+)
+Package xr Info: IMPORTING LABELS FROM ../guidelines_reporting_publishing/MSL_G
+uidelines_Reporting_Publishing.aux on input line 26.
+Package xr Info: IMPORTING LABELS FROM ../guidelines_management_review/MSL_Guid
+elines_Management_Review.aux on input line 27.
+ (C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ))
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.s
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.s
 ty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefi
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefi
 nekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape
 .sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gett
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gett
 itlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
 ty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count354
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc
 .sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
@@ -770,16 +797,16 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 \Hy@linkcounter=\count355
 \Hy@pagecounter=\count356
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count357
- (C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+ (C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -797,10 +824,10 @@ Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count358
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen263
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintca
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintca
 lc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
@@ -820,20 +847,20 @@ Package hyperref Info: PDF/A mode ON on input line 6106.
 )
 Package hyperref Info: Driver (custom): hgeneric-testphase.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
 se\hgeneric-testphase.def
 File: hgeneric-testphase.def 2025-08-05 v0.96v generic Hyperref driver for the 
 LaTeX PDF management bundle
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/pdfmanagement-testpha
 se\hyperref-colorschemes.def)
 LaTeX Info: Redefining \href on input line 274.
 LaTeX Info: Redefining \url on input line 360.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.d
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.d
 ef
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
@@ -845,63 +872,63 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 \g__hyp_linknestlevel_int=\count364
 \HyAnn@Count=\count365
 \Fld@listcount=\count366
-\Hy@SectionHShift=\skip114
+\Hy@SectionHShift=\skip128
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 24
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 31
 .
- (C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+ (C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 24.
+(Font)              scaled to size 10.40245pt on input line 31.
  (MSL_Guidelines_Measurement_Uncertainty.aux)
 \openout1 = `MSL_Guidelines_Measurement_Uncertainty.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for LS1/stix2/m/n on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for LS1/stix2/m/n on input line 31.
 LaTeX Font Info:    Trying to load font information for LS1+stix2 on input line
- 24.
+ 31.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2.
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2.
 fd
 File: ls1stix2.fd 2018/04/02 v2.0.0-latex stix2 LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for LS2/stix2/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for LS2/stix2/m/n on input line 31.
 LaTeX Font Info:    Trying to load font information for LS2+stix2 on input line
- 24.
+ 31.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls2stix2.
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls2stix2.
 fd
 File: ls2stix2.fd 2018/04/02 v2.0.0-latex stix2 LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 isodate: babel.sty has been loaded
-LaTeX Info: Redefining \microtypecontext on input line 24.
-Package microtype Info: Applying patch `item' on input line 24.
-Package microtype Info: Applying patch `toc' on input line 24.
-Package microtype Info: Applying patch `eqnum' on input line 24.
-Package microtype Info: Applying patch `footnote' on input line 24.
-Package microtype Info: Applying patch `verbatim' on input line 24.
-LaTeX Info: Redefining \microtypesetup on input line 24.
+LaTeX Info: Redefining \microtypecontext on input line 31.
+Package microtype Info: Applying patch `item' on input line 31.
+Package microtype Info: Applying patch `toc' on input line 31.
+Package microtype Info: Applying patch `eqnum' on input line 31.
+Package microtype Info: Applying patch `footnote' on input line 31.
+Package microtype Info: Applying patch `verbatim' on input line 31.
+LaTeX Info: Redefining \microtypesetup on input line 31.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -951,7 +978,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
 mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count367
@@ -966,63 +993,63 @@ mkii
 \makeMPintoPDFobject=\count372
 \everyMPtoPDFconversion=\toks38
 )
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
 -base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
 .cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Command `\dddot' is already robust on input line 24.
-LaTeX Info: Command `\ddddot' is already robust on input line 24.
+LaTeX Info: Command `\dddot' is already robust on input line 31.
+LaTeX Info: Command `\ddddot' is already robust on input line 31.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tr
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tr
 anslations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 24.
+(Font)              scaled to size 13.67995pt on input line 31.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 13.67995pt on input line 24.
+(Font)              scaled to size 13.67995pt on input line 31.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 24.
+(Font)              scaled to size 16.41594pt on input line 31.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 24.
+(Font)              scaled to size 16.41594pt on input line 31.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 24.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 13.67995pt on input line 24.
+(Font)              scaled to size 13.67995pt on input line 31.
 
 
 [1
 
-{C:/Users/At work/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/At
- work/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+{C:/Users/n.swift/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/n.
+swift/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 24.
+(Font)              scaled to size 13.67995pt on input line 31.
 
 (MSL_Guidelines_Measurement_Uncertainty.toc
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 10.40245pt on input line 3.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 LaTeX Font Info:    Trying to load font information for LS1+stix2scr on input l
 ine 3.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2s
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2s
 cr.fd
 File: ls1stix2scr.fd 2018/04/02 v2.0.0-latex stix2 script LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS2+stix2ex on input li
 ne 3.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls2stix2e
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls2stix2e
 x.fd
 File: ls2stix2ex.fd 2018/04/02 v2.0.0-latex stix2 extentions LS2 font definitio
 ns
@@ -1030,7 +1057,7 @@ ns
 LaTeX Font Info:    Trying to load font information for LS1+stix2frak on input 
 line 3.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2f
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2f
 rak.fd
 File: ls1stix2frak.fd 2018/04/02 v2.0.0-latex stix2 fraktur LS1 font definition
 s
@@ -1038,7 +1065,7 @@ s
 LaTeX Font Info:    Trying to load font information for LS1+stix2bb on input li
 ne 3.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2b
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2b
 b.fd
 File: ls1stix2bb.fd 2018/04/02 v2.0.0-latex stix2 blackboard LS1 font definitio
 ns
@@ -1046,7 +1073,7 @@ ns
 LaTeX Font Info:    Trying to load font information for LS2+stix2cal on input l
 ine 3.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls2stix2c
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls2stix2c
 al.fd
 File: ls2stix2cal.fd 2018/04/02 v2.0.0-latex stix2 calligraphic LS2 font defini
 tions
@@ -1054,7 +1081,7 @@ tions
 LaTeX Font Info:    Trying to load font information for LS1+stix2sf on input li
 ne 3.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2s
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2s
 f.fd
 File: ls1stix2sf.fd 2018/04/02 v2.0.0-latex stix2 sans-serif LS1 font definitio
 ns
@@ -1062,7 +1089,7 @@ ns
 LaTeX Font Info:    Trying to load font information for LS2+stix2tt on input li
 ne 3.
 
-(C:\Users\At work\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls2stix2t
+(C:\Users\n.swift\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls2stix2t
 t.fd
 File: ls2stix2tt.fd 2018/04/02 v2.0.0-latex stix2 typewriter LS2 font definitio
 ns
@@ -1091,7 +1118,7 @@ LaTeX Font Warning: Font shape `LS2/stix2ex/b/n' in size <6> not available
 [1
 
 ]
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 31.
 
 
 LaTeX DocumentMetadata Warning: The language has not been set in
@@ -1099,14 +1126,20 @@ LaTeX DocumentMetadata Warning: The language has not been set in
 (DocumentMetadata)              Setting it to 'en' as fallback.
 
 <<sRGB.icc>> (../guidelines_uncertainty/GUM.tex
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 3.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 17.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 17.
+
+Overfull \hbox (20.38887pt too wide) in paragraph at lines 20--23
+\T1/phv/m/sl/10.95 (-20) ment data --- Guide to the ex-pres-sion of un-cer-tain
+ty in meas-ure-ment\T1/phv/m/n/10.95 (-20) , JCGM 100:2008,
+ []
+
 
 
 
@@ -1114,36 +1147,45 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \scan_stop: 
-l.27 \subsection{GUM Supplements}
-                                  [1
+l.40 \begin{landscape}
+                       [1
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 27.
+(Font)              scaled to size 9.49997pt on input line 42.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 27.
-)
+(Font)              scaled to size 9.49997pt on input line 58.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 77.
+ [2
 
-[2] (../guidelines_uncertainty/expanded_uncertainty.tex
 
-[3
+] [3]
 
-{C:/Users/At work/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix2-type1/sti
-x2-mathrm.enc}])
+[4]) (../guidelines_uncertainty/expanded_uncertainty.tex
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 2.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 2.
 
-[4] (../guidelines_uncertainty/rounding.tex
 
 [5
 
-{C:/Users/At work/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix2-type1/sti
-x2-mathit.enc}{C:/Users/At work/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/s
+
+{C:/Users/n.swift/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix2-type1/sti
+x2-mathrm.enc}])
+
+[6] (../guidelines_uncertainty/rounding.tex
+
+[7
+
+{C:/Users/n.swift/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix2-type1/sti
+x2-mathit.enc}{C:/Users/n.swift/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/s
 tix2-type1/stix2-mathex.enc}])
 
-[6] (../guidelines_uncertainty/uncertainty_style.tex
+[8] (../guidelines_uncertainty/uncertainty_style.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 17.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 17.
 
 
 LaTeX Font Warning: Font shape `LS2/stix2ex/b/n' in size <9> not available
@@ -1159,40 +1201,40 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 5.69998pt on input line 17.
 
 
-[7
+[9
 
 ])
 
-[8] (../guidelines_uncertainty/references.tex)
+[10] (../guidelines_uncertainty/references.tex)
 
-[9
+[11
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (MSL_Guidelines_Measurement_Uncertainty.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+L3 programming layer <2025-10-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25702 strings out of 468080
- 495245 string characters out of 5424763
- 1061696 words of memory out of 5000000
- 53726 multiletter control sequences out of 15000+600000
- 715508 words of font info for 286 fonts, out of 8000000 for 9000
+ 25876 strings out of 468080
+ 499078 string characters out of 5424803
+ 1082518 words of memory out of 5000000
+ 53874 multiletter control sequences out of 15000+600000
+ 721307 words of font info for 296 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,12n,94p,1037b,1132s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\At work\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
-tt1095.pk><C:/Users/At work/AppData/Local/Programs/MiKTeX/fonts/type1/public/st
-ix2-type1/STIX2Math.pfb><C:/Users/At work/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/urw/helvetic/uhvb8a.pfb><C:/Users/At work/AppData/Local/Programs/MiKTeX/fo
-nts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/At work/AppData/Local/Programs/MiKT
+ 88i,12n,94p,1037b,1296s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\n.swift\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
+tt1095.pk><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/fonts/type1/public/st
+ix2-type1/STIX2Math.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/urw/helvetic/uhvb8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKTeX/fo
+nts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/n.swift/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on MSL_Guidelines_Measurement_Uncertainty.pdf (11 pages, 342789 
+Output written on MSL_Guidelines_Measurement_Uncertainty.pdf (13 pages, 340847 
 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 53925 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 62101 words of extra memory for PDF output out of 74296 (max. 10000000)
 
