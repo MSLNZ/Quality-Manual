@@ -58,7 +58,7 @@ digraph {
         {rank=same; CM, SSC, QM; }
 
         // Third row
-		B3 [style=invis];
+		B3 [label = "{" + "Data Steward" + "|" + "Neil Swift\l" + "Adam Dunford\l" + "}"];
 		B4 [style=invis];
         MQC [
             label="{Quality Council |" 
